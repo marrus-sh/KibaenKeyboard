@@ -1251,7 +1251,7 @@
 			<when state="Tilde" output="k̃"/>
 		</action>
 		<action id="Kʼ">
-			<when state="none" output="K"/>
+			<when state="none" output="Kʼ"/>
 			<when state="Caron" output="Ǩʼ"/>
 			<when state="Dot Above" output="K̇ʼ"/>
 			<when state="Tilde" output="K̃ʼ"/>

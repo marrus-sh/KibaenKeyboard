@@ -46,14 +46,16 @@ Of course, making this distinction is only important in text which might make us
 + At time of publication, not all characters output by this keyboard are formally in the Unicode Standard.
 The spurious characters are:
 
-	+ U+2E52, which is expected to be assigned as TIRONIAN SIGN CAPITAL ET in Unicode 13.0.
-	+ U+A7F1, which is expected to be assigned as LATIN SMALL LETTER MIDDLE SCOTS S in Unicode 13.0.
-	+ U+A7F2, which is hoped to be assigned as LATIN CAPITAL LETTER MIDDLE SCOTS S in Unicode 13.0.
+	+ U+A7F1, which is hoped to be assigned as LATIN SMALL LETTER MIDDLE SCOTS S in a future Unicode version.
+	+ U+A7F2, which is hoped to be assigned as LATIN CAPITAL LETTER MIDDLE SCOTS S in a future Unicode version.
 
 Be cautious when typing these characters prior to their formal addition.
 They are included here as mere placeholders.
 
 ## Changelog
+
++ **1.1:**
+Bugfix for capital KRA.
 
 + **1.0:**
 Initial release.
