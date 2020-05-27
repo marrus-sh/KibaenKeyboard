@@ -3,15 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>org.sil.ukelele.keyboardlayout.kibaenkeyboard</string>
+	<string>org.sil.ukelele.keyboardlayout.kibbenkeyboard</string>
 	<key>CFBundleName</key>
-	<string>Kibaen</string>
+	<string>Kibben</string>
 	<key>CFBundleVersion</key>
-	<string>1.1</string>
-	<key>KLInfo_Kibaen</key>
+	<string>2.0</string>
+	<key>KLInfo_Kibben</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.kibaenkeyboard.kibaen</string>
+		<string>org.sil.ukelele.keyboardlayout.kibbenkeyboard.kibben</string>
 		<key>TISIntendedLanguage</key>
 		<string>en</string>
 	</dict>

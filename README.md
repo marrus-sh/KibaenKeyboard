@@ -1,6 +1,6 @@
-# Kibæn Keyboard for macOS
+# Kibben Keyboard for macOS
 
-This repository contains a handwritten macOS Keyboard Bundle for the input of English text, featuring a large number of niche and archaïc characters.
+This repository contains a handwritten macOS Keyboard Bundle for the input of English text using the [Kibben Orthography](https://go.KIBI.family/Documents/kibben.xhtml).
 
 ## Installation
 
@@ -8,51 +8,40 @@ This repository contains a handwritten macOS Keyboard Bundle for the input of En
 
 02. In Finder, click `Go > Go to Folder…` and type `~/Library`, then press Return to navigate to your user library folder.
 
-03. Create the `Keyboard Layouts` directory if it doesn't already exist in this folder.
+03. Create the `Keyboard Layouts` directory if it doesn't already exist in this location.
 
-04. Drag `Kibaen.bundle` (from this repository) into the `Keyboard Layouts` folder.
+04. Drag `Kibben.bundle` (from this repository) into the `Keyboard Layouts` folder.
 
 ## Usage
 
 Open System Preferences, click on Keyboard, and then Input Sources.
 Use the + button to add a new input source.
-The Kibæn keyboard will be available under the English category.
+The Kibben keyboard will be available (as “Kybn”) under the English category.
 
 ## Notes
 
-+ The keyboard is the same as a typical US keyboard layout when the Option key is not held down.
++ Caps Lock switches the keyboard into Runic input.
+Additional runic characters are located at the beginning and end of the number row.
 
-+ Dead keys are located in the top row, assigned to the backtick and the digits `1–8` when the Option (but not Shift) key is held down.
-These apply a variëty of diacritics: `` ` ``→`` ` ``; `1`→`˜`; `2`→`˚`; `3`→`´`; `4`→`ˇ`; `5`→`¨`; `6`→`^`; `7`→`¸`; `8`→`˙`.
-Diacritics can be combined, although not all combinations are possible and not every diacritic can be applied to every letter.
++ The keyboard is the same as a typical US keyboard layout when Caps Lock is active and the Option key is held down.
 
-+ To output a standalone accent, type the corresponding dead key and press space.
-The accent produced by the tilde dead key will be `˜`, not `~`.
++ The two dead keys are located at Shift+`5` (for diæresis) and Shift+`6` (for dot).
+To output a standalone (spacing) diæresis or dot, type the corresponding dead key and press space.
 
-+ The “ring” dead key only actually produces a ring on a few characters (A and O).
-For all other characters, it is used to select an alternate form (for example, an insular variant) and can be treated like another level of Option/Alt.
++ Shift+Space produces a spacing combining low line for beginning sentences.
 
 + Option+Space produces a nonbreaking thin space, for use when padding punctuation (for example, in the French tradition).
+A nonbreaking space is also automatically inserted with certain punctuation characters for convenience.
 Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
-Option+`,` produces a (breaking) enspace, and Option+`.` produces a (breaking) emspace.
-
-+ The letters KRA `ĸ` and LONG S `ſ` have uppercase forms of `Kʼ` and `Sʼ`, respectively.
-This is an ordinary Latin `K` and `S` followed by a MODIFIER LETTER APOSTROPHE.
-When using a MODIFIER LETTER APOSTROPHE for other means (for example, normal English contractions), you *should* insert a U+034F COMBINING GRAPHEME JOINER between the two characters whenever the MODIFIER LETTER APOSTROPHE follows a `K` or `S` (possibly with diacritics), to keep these usages separate.
-For example, “Sʼmores” should be written as `S`\<CGJ>`ʼmores`, to prevent the `Sʼ` from collating as LONG S.
-Of course, making this distinction is only important in text which might make use of an uppercase LONG S or KRA.
-
-+ At time of publication, not all characters output by this keyboard are formally in the Unicode Standard.
-The spurious characters are:
-
-	+ U+A7F1, which is hoped to be assigned as LATIN SMALL LETTER MIDDLE SCOTS S in a future Unicode version.
-	+ U+A7F2, which is hoped to be assigned as LATIN CAPITAL LETTER MIDDLE SCOTS S in a future Unicode version.
-
-Be cautious when typing these characters prior to their formal addition.
-They are included here as mere placeholders.
 
 ## Changelog
+
++ **2.0:**
+Rename to “Kibben”/“Kybn”.
+Basically an entirely new keyboard layout, with full support for the Kibben character set, including runes.
+The vast majority of diacritic support has been dropped, as have most alternate or historical glyphs.
+The former can typically be accessed through the macOS press­‑and­‑hold system, and the latter are unlikely to see enough use to justify a position in the keyboard.
 
 + **1.1:**
 Bugfix for capital KRA.
