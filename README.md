@@ -37,11 +37,14 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **2.1:**
+Provides remaining ASCII characters in the non‐capslocked keyboard and moves around some characters for easier access.
+
 + **2.0:**
 Rename to “Kibben”/“Kybn”.
 Basically an entirely new keyboard layout, with full support for the Kibben character set, including runes.
 The vast majority of diacritic support has been dropped, as have most alternate or historical glyphs.
-The former can typically be accessed through the macOS press­‑and­‑hold system, and the latter are unlikely to see enough use to justify a position in the keyboard.
+The former can typically be accessed through the macOS press‐and‐hold system, and the latter are unlikely to see enough use to justify a position in the keyboard.
 
 + **1.1:**
 Bugfix for capital KRA.
