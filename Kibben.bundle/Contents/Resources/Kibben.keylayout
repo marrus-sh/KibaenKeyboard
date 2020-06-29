@@ -291,9 +291,9 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" action="l"/>
 			<key code="38" action="j"/>
-			<key code="39" output=" »"/>
+			<key code="39" output="»"/>
 			<key code="40" action="k"/>
-			<key code="41" output="« "/>
+			<key code="41" output="«"/>
 			<key code="42" output="—"/>
 			<key code="43" output=","/>
 			<key code="44" output="‐"/>
@@ -397,15 +397,15 @@
 			<key code="38" action="J"/>
 			<key code="39" output=" "/>
 			<key code="40" action="K"/>
-			<key code="41" output="― "/>
+			<key code="41" output="―"/>
 			<key code="42" output="/"/>
 			<key code="43" output=";"/>
-			<key code="44" output="="/>
+			<key code="44" output="–"/>
 			<key code="45" action="N"/>
 			<key code="46" action="M"/>
 			<key code="47" output=":"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=" ̲"/>
+			<key code="49" output=" "/>
 			<key code="50" output="′"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
@@ -490,18 +490,18 @@
 			<key code="27" output="="/>
 			<key code="28" output="{"/>
 			<key code="29" output="⸡"/>
-			<key code="30" output="⸍"/>
+			<key code="30" action="Acute"/>
 			<key code="31" output="ː"/>
 			<key code="32" action="ø"/>
-			<key code="33" output="⸌"/>
-			<key code="34" action="ı"/>
+			<key code="33" action="Grave"/>
+			<key code="34" output="ᴈ"/>
 			<key code="35" output="ˈ"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="◊"/>
+			<key code="37" output="ɪ"/>
 			<key code="38" action="ȝ"/>
-			<key code="39" output=" ›"/>
-			<key code="40" output="ɪ"/>
-			<key code="41" output="‹ "/>
+			<key code="39" output="›"/>
+			<key code="40" output="ɛ"/>
+			<key code="41" output="‹"/>
 			<key code="42" output="⸺"/>
 			<key code="43" output="?"/>
 			<key code="44" action="~"/>
@@ -556,16 +556,16 @@
 			<key code="3" output="$"/>
 			<key code="4" action="Ƕ"/>
 			<key code="5" output="☞"/>
-			<key code="6" output="`"/>
+			<key code="6" action="ȷ"/>
 			<key code="7" action="Θ"/>
-			<key code="8" output="©"/>
+			<key code="8" output="_"/>
 			<key code="9" output="^"/>
 			<key code="11" output="☜"/>
 			<key code="12" action="Ƣ"/>
 			<key code="13" action="Ꜵ"/>
 			<key code="14" action="Œ"/>
-			<key code="15" output="®"/>
-			<key code="16" output="\"/>
+			<key code="15" output="\"/>
+			<key code="16" action="ı"/>
 			<key code="17" action="Þ"/>
 			<key code="18" output="⹋"/>
 			<key code="19" output="§"/>
@@ -580,18 +580,18 @@
 			<key code="28" output="⟨"/>
 			<key code="29" output="⸣"/>
 			<key code="30" output="&#x003E;"/>
-			<key code="31" output="&#x0022;"/>
+			<key code="31" output="-"/>
 			<key code="32" action="Ø"/>
 			<key code="33" output="&#x003C;"/>
-			<key code="34" action="ȷ"/>
-			<key code="35" output="&#x0027;"/>
+			<key code="34" output="→"/>
+			<key code="35" output="ˌ"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="-"/>
+			<key code="37" output="◊"/>
 			<key code="38" action="Ȝ"/>
-			<key code="39" output="→"/>
-			<key code="40" output="_"/>
-			<key code="41" output="←"/>
-			<key code="42" output="⫽"/>
+			<key code="39" output="&#x0022;"/>
+			<key code="40" output="←"/>
+			<key code="41" output="&#x0027;"/>
+			<key code="42" output="☓"/>
 			<key code="43" output="⁓"/>
 			<key code="44" output="‒"/>
 			<key code="45" action="Ŋ"/>
@@ -677,9 +677,9 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="ᛚ"/>
 			<key code="38" output="ᛇ"/>
-			<key code="39" output=" »"/>
+			<key code="39" output="»"/>
 			<key code="40" output="ᛣ"/>
-			<key code="41" output="« "/>
+			<key code="41" output="«"/>
 			<key code="42" output="—"/>
 			<key code="43" output=","/>
 			<key code="44" output="‐"/>
@@ -783,7 +783,7 @@
 			<key code="38" output="ȝ"/>
 			<key code="39" output=" "/>
 			<key code="40" output="k"/>
-			<key code="41" output="― "/>
+			<key code="41" output="―"/>
 			<key code="42" output="/"/>
 			<key code="43" output="?"/>
 			<key code="44" action="~"/>
@@ -868,47 +868,77 @@
 		</keyMap>
 	</keyMapSet>
 	<actions>
+		<action id="Acute">
+			<when state="none" next="Acute"/>
+			<when state="Diaeresis" next="Diaeresis Acute"/>
+		</action>
 		<action id="Diaeresis Action">
 			<when state="none" next="Diaeresis"/>
+			<when state="Acute" next="Diaeresis Acute"/>
 			<when state="Dot Above" next="Diaeresis Dot"/>
+			<when state="Grave" next="Diaeresis Grave"/>
 		</action>
 		<action id="Dot Above Action">
 			<when state="none" next="Dot Above"/>
 			<when state="Diaeresis" next="Diaeresis Dot"/>
 		</action>
+		<action id="Grave">
+			<when state="none" next="Grave"/>
+			<when state="Diaeresis" next="Diaeresis Grave"/>
+		</action>
 		<action id=" ">
 			<when state="none" output=" "/>
+			<when state="Acute" output="´"/>
 			<when state="Diaeresis" output="¨"/>
+			<when state="Diaeresis Acute" output="΅"/>
 			<when state="Diaeresis Dot" output="¨̇"/>
+			<when state="Diaeresis Grave" output="῭"/>
 			<when state="Dot Above" output="˙"/>
+			<when state="Grave" output="`"/>
 		</action>
 		<action id="~">
-			<when state="none" output=" "/>
+			<when state="none" output="~"/>
 			<when state="Dot Above" output="⸞"/>
 		</action>
 		<action id="A">
 			<when state="none" output="A"/>
+			<when state="Acute" output="Á"/>
 			<when state="Diaeresis" output="Ä"/>
+			<when state="Diaeresis Acute" output="Ä́"/>
 			<when state="Diaeresis Dot" output="Ä̇"/>
+			<when state="Diaeresis Grave" output="Ä̀"/>
 			<when state="Dot Above" output="Ȧ"/>
+			<when state="Grave" output="À"/>
 		</action>
 		<action id="a">
 			<when state="none" output="a"/>
+			<when state="Acute" output="á"/>
 			<when state="Diaeresis" output="ä"/>
+			<when state="Diaeresis Acute" output="ä́"/>
 			<when state="Diaeresis Dot" output="ä̇"/>
+			<when state="Diaeresis Grave" output="ä̀"/>
 			<when state="Dot Above" output="ȧ"/>
+			<when state="Grave" output="à"/>
 		</action>
 		<action id="Ꜵ">
 			<when state="none" output="Ꜵ"/>
+			<when state="Acute" output="Ꜵ́"/>
 			<when state="Diaeresis" output="Ꜵ̈"/>
+			<when state="Diaeresis Acute" output="Ꜵ̈́"/>
 			<when state="Diaeresis Dot" output="Ꜵ̈̇"/>
+			<when state="Diaeresis Grave" output="Ꜵ̈̀"/>
 			<when state="Dot Above" output="Ꜵ̇"/>
+			<when state="Grave" output="Ꜵ̀"/>
 		</action>
 		<action id="ꜵ">
 			<when state="none" output="ꜵ"/>
+			<when state="Acute" output="ꜵ́"/>
 			<when state="Diaeresis" output="ꜵ̈"/>
+			<when state="Diaeresis Acute" output="ꜵ̈́"/>
 			<when state="Diaeresis Dot" output="ꜵ̈̇"/>
+			<when state="Diaeresis Grave" output="ꜵ̈̀"/>
 			<when state="Dot Above" output="ꜵ̇"/>
+			<when state="Grave" output="ꜵ̀"/>
 		</action>
 		<action id="B">
 			<when state="none" output="B"/>
@@ -944,27 +974,43 @@
 		</action>
 		<action id="E">
 			<when state="none" output="E"/>
+			<when state="Acute" output="É"/>
 			<when state="Diaeresis" output="Ë"/>
+			<when state="Diaeresis Acute" output="Ë́"/>
 			<when state="Diaeresis Dot" output="Ë̇"/>
+			<when state="Diaeresis Grave" output="Ë̀"/>
 			<when state="Dot Above" output="Ė"/>
+			<when state="Grave" output="È"/>
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
+			<when state="Acute" output="é"/>
 			<when state="Diaeresis" output="ë"/>
+			<when state="Diaeresis Acute" output="ë́"/>
 			<when state="Diaeresis Dot" output="ë̇"/>
+			<when state="Diaeresis Grave" output="ë̀"/>
 			<when state="Dot Above" output="ė"/>
+			<when state="Grave" output="è"/>
 		</action>
 		<action id="Œ">
 			<when state="none" output="Œ"/>
+			<when state="Acute" output="Œ́"/>
 			<when state="Diaeresis" output="Œ̈"/>
+			<when state="Diaeresis Acute" output="Œ̈́"/>
 			<when state="Diaeresis Dot" output="Œ̈̇"/>
+			<when state="Diaeresis Grave" output="Œ̈̀"/>
 			<when state="Dot Above" output="Œ̇"/>
+			<when state="Grave" output="Œ̀"/>
 		</action>
 		<action id="œ">
 			<when state="none" output="œ"/>
+			<when state="Acute" output="œ́"/>
 			<when state="Diaeresis" output="œ̈"/>
+			<when state="Diaeresis Acute" output="œ̈́"/>
 			<when state="Diaeresis Dot" output="œ̈̇"/>
+			<when state="Diaeresis Grave" output="œ̈̀"/>
 			<when state="Dot Above" output="œ̇"/>
+			<when state="Grave" output="œ̀"/>
 		</action>
 		<action id="F">
 			<when state="none" output="F"/>
@@ -984,15 +1030,23 @@
 		</action>
 		<action id="Ȝ">
 			<when state="none" output="Ȝ"/>
+			<when state="Acute" output="Ȝ́"/>
 			<when state="Diaeresis" output="Ȝ̈"/>
+			<when state="Diaeresis Acute" output="Ȝ̈́"/>
 			<when state="Diaeresis Dot" output="Ȝ̈̇"/>
+			<when state="Diaeresis Grave" output="Ȝ̈̀"/>
 			<when state="Dot Above" output="Ȝ̇"/>
+			<when state="Grave" output="Ȝ̀"/>
 		</action>
 		<action id="ȝ">
 			<when state="none" output="ȝ"/>
+			<when state="Acute" output="ȝ́"/>
 			<when state="Diaeresis" output="ȝ̈"/>
+			<when state="Diaeresis Acute" output="ȝ̈́"/>
 			<when state="Diaeresis Dot" output="ȝ̈̇"/>
+			<when state="Diaeresis Grave" output="ȝ̈̀"/>
 			<when state="Dot Above" output="ȝ̇"/>
+			<when state="Grave" output="ȝ̀"/>
 		</action>
 		<action id="H">
 			<when state="none" output="H"/>
@@ -1012,47 +1066,79 @@
 		</action>
 		<action id="I">
 			<when state="none" output="I"/>
+			<when state="Acute" output="Í"/>
 			<when state="Diaeresis" output="Ï"/>
+			<when state="Diaeresis Acute" output="Ḯ"/>
 			<when state="Diaeresis Dot" output="Ï̇"/>
+			<when state="Diaeresis Grave" output="Ï̀"/>
 			<when state="Dot Above" output="İ"/>
+			<when state="Grave" output="Ì"/>
 		</action>
 		<action id="i">
 			<when state="none" output="i"/>
+			<when state="Acute" output="í"/>
 			<when state="Diaeresis" output="ï"/>
+			<when state="Diaeresis Acute" output="ḯ"/>
+			<when state="Diaeresis Grave" output="ï̀"/>
+			<when state="Grave" output="ì"/>
 		</action>
 		<action id="ı">
 			<when state="none" output="ı"/>
+			<when state="Acute" output="ı́"/>
 			<when state="Diaeresis" output="ı̈"/>
+			<when state="Diaeresis Acute" output="ı̈́"/>
 			<when state="Diaeresis Dot" output="ı̈̇"/>
+			<when state="Diaeresis Grave" output="ı̈̀"/>
 			<when state="Dot Above" output="ı̇"/>
+			<when state="Grave" output="ı̀"/>
 		</action>
 		<action id="Æ">
 			<when state="none" output="Æ"/>
+			<when state="Acute" output="Ǽ"/>
 			<when state="Diaeresis" output="Æ̈"/>
+			<when state="Diaeresis Acute" output="Æ̈́"/>
 			<when state="Diaeresis Dot" output="Æ̈̇"/>
+			<when state="Diaeresis Grave" output="Æ̈̀"/>
 			<when state="Dot Above" output="Æ̇"/>
+			<when state="Grave" output="Æ̀"/>
 		</action>
 		<action id="æ">
 			<when state="none" output="æ"/>
+			<when state="Acute" output="ǽ"/>
 			<when state="Diaeresis" output="æ̈"/>
+			<when state="Diaeresis Acute" output="æ̈́"/>
 			<when state="Diaeresis Dot" output="æ̈̇"/>
+			<when state="Diaeresis Grave" output="æ̈̀"/>
 			<when state="Dot Above" output="æ̇"/>
+			<when state="Grave" output="æ̀"/>
 		</action>
 		<action id="J">
 			<when state="none" output="J"/>
+			<when state="Acute" output="J́"/>
 			<when state="Diaeresis" output="J̈"/>
+			<when state="Diaeresis Acute" output="J̈́"/>
 			<when state="Diaeresis Dot" output="J̈̇"/>
+			<when state="Diaeresis Grave" output="J̈̀"/>
 			<when state="Dot Above" output="J̇"/>
+			<when state="Grave" output="J̀"/>
 		</action>
 		<action id="j">
 			<when state="none" output="j"/>
+			<when state="Acute" output="j́"/>
+			<when state="Diaeresis Acute" output="j̈́"/>
 			<when state="Diaeresis" output="j̈"/>
+			<when state="Diaeresis Grave" output="j̈̀"/>
+			<when state="Grave" output="j̀"/>
 		</action>
 		<action id="ȷ">
 			<when state="none" output="ȷ"/>
+			<when state="Acute" output="ȷ́"/>
 			<when state="Diaeresis" output="ȷ̈"/>
+			<when state="Diaeresis Acute" output="ȷ̈́"/>
 			<when state="Diaeresis Dot" output="ȷ̈̇"/>
+			<when state="Diaeresis Grave" output="ȷ̈̀"/>
 			<when state="Dot Above" output="ȷ̇"/>
+			<when state="Grave" output="ȷ̀"/>
 		</action>
 		<action id="K">
 			<when state="none" output="K"/>
@@ -1064,75 +1150,123 @@
 		</action>
 		<action id="L">
 			<when state="none" output="L"/>
+			<when state="Acute" output="Ĺ"/>
 			<when state="Diaeresis" output="L̈"/>
+			<when state="Diaeresis Acute" output="L̈́"/>
 			<when state="Diaeresis Dot" output="L̈̇"/>
+			<when state="Diaeresis Grave" output="L̈̀"/>
 			<when state="Dot Above" output="L̇"/>
+			<when state="Grave" output="L̀"/>
 		</action>
 		<action id="l">
 			<when state="none" output="l"/>
+			<when state="Acute" output="ĺ"/>
 			<when state="Diaeresis" output="l̈"/>
+			<when state="Diaeresis Acute" output="l̈́"/>
 			<when state="Diaeresis Dot" output="l̈̇"/>
+			<when state="Diaeresis Grave" output="l̈̀"/>
 			<when state="Dot Above" output="l̇"/>
+			<when state="Grave" output="l̀"/>
 		</action>
 		<action id="M">
 			<when state="none" output="M"/>
+			<when state="Acute" output="Ḿ"/>
 			<when state="Diaeresis" output="M̈"/>
+			<when state="Diaeresis Acute" output="M̈́"/>
 			<when state="Diaeresis Dot" output="M̈̇"/>
+			<when state="Diaeresis Grave" output="M̈̀"/>
 			<when state="Dot Above" output="Ṁ"/>
+			<when state="Grave" output="M̀"/>
 		</action>
 		<action id="m">
 			<when state="none" output="m"/>
-			<when state="Diaeresis" output="m̈"/>
+			<when state="Acute" output="ḿ"/>
+			<when state="Diaeresis" output="m̈́"/>
+			<when state="Diaeresis Acute" output="m̈"/>
 			<when state="Diaeresis Dot" output="m̈̇"/>
+			<when state="Diaeresis Grave" output="m̈̀"/>
 			<when state="Dot Above" output="ṁ"/>
+			<when state="Grave" output="m̀"/>
 		</action>
 		<action id="N">
 			<when state="none" output="N"/>
+			<when state="Acute" output="Ń"/>
 			<when state="Diaeresis" output="N̈"/>
+			<when state="Diaeresis Acute" output="N̈́"/>
 			<when state="Diaeresis Dot" output="N̈̇"/>
+			<when state="Diaeresis Grave" output="N̈̀"/>
 			<when state="Dot Above" output="Ṅ"/>
+			<when state="Grave" output="Ǹ"/>
 		</action>
 		<action id="n">
 			<when state="none" output="n"/>
+			<when state="Acute" output="ń"/>
 			<when state="Diaeresis" output="n̈"/>
+			<when state="Diaeresis Acute" output="n̈́"/>
 			<when state="Diaeresis Dot" output="n̈̇"/>
+			<when state="Diaeresis Grave" output="n̈̀"/>
 			<when state="Dot Above" output="ṅ"/>
+			<when state="Grave" output="ǹ"/>
 		</action>
 		<action id="Ŋ">
 			<when state="none" output="Ŋ"/>
+			<when state="Acute" output="Ŋ́"/>
 			<when state="Diaeresis" output="Ŋ̈"/>
+			<when state="Diaeresis Acute" output="Ŋ̈́"/>
 			<when state="Diaeresis Dot" output="Ŋ̈̇"/>
+			<when state="Diaeresis Grave" output="Ŋ̈̀"/>
 			<when state="Dot Above" output="Ŋ̇"/>
+			<when state="Grave" output="Ŋ̀"/>
 		</action>
 		<action id="ŋ">
 			<when state="none" output="ŋ"/>
+			<when state="Acute" output="ŋ́"/>
 			<when state="Diaeresis" output="ŋ̈"/>
+			<when state="Diaeresis Acute" output="ŋ̈́"/>
 			<when state="Diaeresis Dot" output="ŋ̈̇"/>
+			<when state="Diaeresis Grave" output="ŋ̈̀"/>
 			<when state="Dot Above" output="ŋ̇"/>
+			<when state="Grave" output="ŋ̀"/>
 		</action>
 		<action id="O">
 			<when state="none" output="O"/>
+			<when state="Acute" output="Ó"/>
 			<when state="Diaeresis" output="Ö"/>
+			<when state="Diaeresis Acute" output="Ö́"/>
 			<when state="Diaeresis Dot" output="Ö̇"/>
+			<when state="Diaeresis Grave" output="Ö̀"/>
 			<when state="Dot Above" output="Ȯ"/>
+			<when state="Grave" output="Ò"/>
 		</action>
 		<action id="o">
 			<when state="none" output="o"/>
+			<when state="Acute" output="ó"/>
 			<when state="Diaeresis" output="ö"/>
+			<when state="Diaeresis Acute" output="ö́"/>
 			<when state="Diaeresis Dot" output="ö̇"/>
+			<when state="Diaeresis Grave" output="ö̀"/>
 			<when state="Dot Above" output="ȯ"/>
+			<when state="Grave" output="ò"/>
 		</action>
 		<action id="Ø">
 			<when state="none" output="Ø"/>
+			<when state="Acute" output="Ǿ"/>
 			<when state="Diaeresis" output="Ø̈"/>
+			<when state="Diaeresis Acute" output="Ø̈́"/>
 			<when state="Diaeresis Dot" output="Ø̈̇"/>
+			<when state="Diaeresis Grave" output="Ø̈̀"/>
 			<when state="Dot Above" output="Ø̇"/>
+			<when state="Grave" output="Ø̀"/>
 		</action>
 		<action id="ø">
 			<when state="none" output="ø"/>
+			<when state="Acute" output="ǿ"/>
 			<when state="Diaeresis" output="ø̈"/>
+			<when state="Diaeresis Acute" output="ø̈́"/>
 			<when state="Diaeresis Dot" output="ø̈̇"/>
+			<when state="Diaeresis Grave" output="ø̈̀"/>
 			<when state="Dot Above" output="ø̇"/>
+			<when state="Grave" output="ø̀"/>
 		</action>
 		<action id="P">
 			<when state="none" output="P"/>
@@ -1160,15 +1294,23 @@
 		</action>
 		<action id="R">
 			<when state="none" output="R"/>
+			<when state="Acute" output="Ŕ"/>
 			<when state="Diaeresis" output="R̈"/>
+			<when state="Diaeresis Acute" output="R̈́"/>
 			<when state="Diaeresis Dot" output="R̈̇"/>
+			<when state="Diaeresis Grave" output="R̈̀"/>
 			<when state="Dot Above" output="Ṙ"/>
+			<when state="Grave" output="R̀"/>
 		</action>
 		<action id="r">
 			<when state="none" output="r"/>
+			<when state="Acute" output="ŕ"/>
 			<when state="Diaeresis" output="r̈"/>
+			<when state="Diaeresis Acute" output="r̈́"/>
 			<when state="Diaeresis Dot" output="r̈̇"/>
+			<when state="Diaeresis Grave" output="r̈̀"/>
 			<when state="Dot Above" output="ṙ"/>
+			<when state="Grave" output="r̀"/>
 		</action>
 		<action id="S">
 			<when state="none" output="S"/>
@@ -1212,15 +1354,23 @@
 		</action>
 		<action id="U">
 			<when state="none" output="U"/>
+			<when state="Acute" output="Ú"/>
 			<when state="Diaeresis" output="Ü"/>
+			<when state="Diaeresis Acute" output="Ǘ"/>
 			<when state="Diaeresis Dot" output="Ü̇"/>
+			<when state="Diaeresis Grave" output="Ǜ"/>
 			<when state="Dot Above" output="U̇"/>
+			<when state="Grave" output="Ù"/>
 		</action>
 		<action id="u">
 			<when state="none" output="u"/>
+			<when state="Acute" output="ú"/>
 			<when state="Diaeresis" output="ü"/>
+			<when state="Diaeresis Acute" output="ǘ"/>
 			<when state="Diaeresis Dot" output="ü̇"/>
+			<when state="Diaeresis Grave" output="ǜ"/>
 			<when state="Dot Above" output="u̇"/>
+			<when state="Grave" output="ù"/>
 		</action>
 		<action id="V">
 			<when state="none" output="V"/>
@@ -1232,15 +1382,23 @@
 		</action>
 		<action id="W">
 			<when state="none" output="W"/>
+			<when state="Acute" output="Ẃ"/>
 			<when state="Diaeresis" output="Ẅ"/>
+			<when state="Diaeresis Acute" output="Ẅ́"/>
 			<when state="Diaeresis Dot" output="Ẅ̇"/>
+			<when state="Diaeresis Grave" output="Ẅ̀"/>
 			<when state="Dot Above" output="Ẇ"/>
+			<when state="Grave" output="Ẁ"/>
 		</action>
 		<action id="w">
 			<when state="none" output="w"/>
+			<when state="Acute" output="ẃ"/>
 			<when state="Diaeresis" output="ẅ"/>
+			<when state="Diaeresis Acute" output="ẅ́"/>
 			<when state="Diaeresis Dot" output="ẅ̇"/>
+			<when state="Diaeresis Grave" output="ẅ̀"/>
 			<when state="Dot Above" output="ẇ"/>
+			<when state="Grave" output="ẁ"/>
 		</action>
 		<action id="X">
 			<when state="none" output="X"/>
@@ -1252,15 +1410,23 @@
 		</action>
 		<action id="Y">
 			<when state="none" output="Y"/>
+			<when state="Acute" output="Ý"/>
 			<when state="Diaeresis" output="Ÿ"/>
+			<when state="Diaeresis Acute" output="Ÿ́"/>
 			<when state="Diaeresis Dot" output="Ÿ̇"/>
+			<when state="Diaeresis Grave" output="Ÿ̀"/>
 			<when state="Dot Above" output="Ẏ"/>
+			<when state="Grave" output="Ỳ"/>
 		</action>
 		<action id="y">
 			<when state="none" output="y"/>
+			<when state="Acute" output="ý"/>
 			<when state="Diaeresis" output="ÿ"/>
+			<when state="Diaeresis Acute" output="ÿ́"/>
 			<when state="Diaeresis Dot" output="ÿ̇"/>
+			<when state="Diaeresis Grave" output="ÿ̀"/>
 			<when state="Dot Above" output="ẏ"/>
+			<when state="Grave" output="ỳ"/>
 		</action>
 		<action id="Z">
 			<when state="none" output="Z"/>
@@ -1272,8 +1438,12 @@
 		</action>
 	</actions>
 	<terminators>
+		<when state="Acute" output="´"/>
 		<when state="Diaeresis" output="¨"/>
+		<when state="Diaeresis Acute" output="΅"/>
 		<when state="Diaeresis Dot" output="¨̇"/>
+		<when state="Diaeresis Grave" output="῭"/>
 		<when state="Dot Above" output="˙"/>
+		<when state="Grave" output="`"/>
 	</terminators>
 </keyboard>

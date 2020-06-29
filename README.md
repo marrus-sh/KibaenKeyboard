@@ -12,6 +12,8 @@ This repository contains a handwritten macOS Keyboard Bundle for the input of En
 
 04. Drag `Kibben.bundle` (from this repository) into the `Keyboard Layouts` folder.
 
+05. Restart your computer.
+
 ## Usage
 
 Open System Preferences, click on Keyboard, and then Input Sources.
@@ -25,17 +27,20 @@ Additional runic characters are located at the beginning and end of the number r
 
 + The keyboard is the same as a typical US keyboard layout when Caps Lock is active and the Option key is held down.
 
-+ The two dead keys are located at Shift+`5` (for diæresis) and Shift+`6` (for dot).
-To output a standalone (spacing) diæresis or dot, type the corresponding dead key and press space.
++ The four dead keys are located at Shift+`5` (for diæresis), Shift+`6` (for dot), Alt+`‘` (for grave), and Alt+`’` (for acute).
+To output a standalone (spacing) diacritics, type the corresponding dead key and press space.
 
-+ Shift+Space produces a spacing combining low line for beginning sentences.
-
-+ Option+Space produces a nonbreaking thin space, for use when padding punctuation (for example, in the French tradition).
-A nonbreaking space is also automatically inserted with certain punctuation characters for convenience.
++ Option+Space produces a nonbreaking thin space, for use when padding punctuation.
 Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
 
 ## Changelog
+
++ **2.2:**
+Fixes tilde behaviour.
+Adds missing Open E characters with a slight rearrangement of the keyboard.
+Removes automatic insertion of narrow spaces around punctuation.
+Replaces raised omission brackets with dead keys for grave and acute accents.
 
 + **2.1:**
 Provides remaining ASCII characters in the non‐capslocked keyboard and moves around some characters for easier access.
