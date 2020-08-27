@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<keyboard group="126" id="-6212" name="Kibben" maxout="3">
+<keyboard group="126" id="-6212" name="Kibben" maxout="7">
 	<layouts>
 		<layout first="0" last="17" mapSet="ANSI" modifiers="Modifiers"/>
 		<layout first="18" last="18" mapSet="JIS" modifiers="Modifiers"/>
@@ -276,12 +276,12 @@
 			<key code="21" output="4"/>
 			<key code="22" output="6"/>
 			<key code="23" output="5"/>
-			<key code="24" output="+"/>
+			<key code="24" output="0"/>
 			<key code="25" output="9"/>
 			<key code="26" output="7"/>
-			<key code="27" output="−"/>
+			<key code="27" output="↋"/>
 			<key code="28" output="8"/>
-			<key code="29" output="0"/>
+			<key code="29" output="↊"/>
 			<key code="30" output="’"/>
 			<key code="31" action="o"/>
 			<key code="32" action="u"/>
@@ -296,13 +296,13 @@
 			<key code="41" output="«"/>
 			<key code="42" output="—"/>
 			<key code="43" output=","/>
-			<key code="44" output="‐"/>
+			<key code="44" output="·"/>
 			<key code="45" action="n"/>
 			<key code="46" action="m"/>
 			<key code="47" output="."/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" action=" "/>
-			<key code="50" output="°"/>
+			<key code="49" action="Space_Action"/>
+			<key code="50" action="Grave_Action"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -374,18 +374,18 @@
 			<key code="15" action="R"/>
 			<key code="16" action="Y"/>
 			<key code="17" action="T"/>
-			<key code="18" output="†"/>
+			<key code="18" output="⁜"/>
 			<key code="19" output="@"/>
 			<key code="20" output="&#x0026;"/>
-			<key code="21" output="#"/>
-			<key code="22" action="Dot Above Action"/>
-			<key code="23" action="Diaeresis Action"/>
-			<key code="24" output="×"/>
-			<key code="25" output=")"/>
-			<key code="26" output="["/>
-			<key code="27" output="÷"/>
-			<key code="28" output="("/>
-			<key code="29" output="]"/>
+			<key code="21" output="√"/>
+			<key code="22" output="•"/>
+			<key code="23" output="∼"/>
+			<key code="24" output="\"/>
+			<key code="25" output="{"/>
+			<key code="26" output="◊"/>
+			<key code="27" output="⸡"/>
+			<key code="28" output="⸠"/>
+			<key code="29" output="}"/>
 			<key code="30" output="”"/>
 			<key code="31" action="O"/>
 			<key code="32" action="U"/>
@@ -398,15 +398,15 @@
 			<key code="39" output=" "/>
 			<key code="40" action="K"/>
 			<key code="41" output="―"/>
-			<key code="42" output="/"/>
-			<key code="43" output=";"/>
-			<key code="44" output="–"/>
+			<key code="42" output="⸺"/>
+			<key code="43" output="?"/>
+			<key code="44" action="Hyphen_Action"/>
 			<key code="45" action="N"/>
 			<key code="46" action="M"/>
-			<key code="47" output=":"/>
+			<key code="47" output="!"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="′"/>
+			<key code="50" action="Acute_Action"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -461,56 +461,56 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="4">
-			<key code="0" action="æ"/>
-			<key code="1" action="ꟈ"/>
+			<key code="0" action="ɑ"/>
+			<key code="1" action="ʃ"/>
 			<key code="2" action="ð"/>
-			<key code="3" output="ʃ"/>
-			<key code="4" action="ƕ"/>
-			<key code="5" output="ɑ"/>
-			<key code="6" output="ʒ"/>
-			<key code="7" action="θ"/>
-			<key code="8" output="ɔ"/>
-			<key code="9" output="ʌ"/>
-			<key code="11" output="ɒ"/>
-			<key code="12" action="ƣ"/>
-			<key code="13" action="ꜵ"/>
-			<key code="14" action="œ"/>
-			<key code="15" output="ə"/>
-			<key code="16" output="ʊ"/>
+			<key code="3" action="ƒ"/>
+			<key code="4" output="ʰ"/>
+			<key code="5" action="ŋ"/>
+			<key code="6" action="ʒ"/>
+			<key code="7" action="Bar_Action"/>
+			<key code="8" action="Tilde_Action"/>
+			<key code="9" action="Circumflex_Action"/>
+			<key code="11" action="Ring_Action"/>
+			<key code="12" action="ɔ"/>
+			<key code="13" action="ʌ"/>
+			<key code="14" action="ɛ"/>
+			<key code="15" action="ɾ"/>
+			<key code="16" action="ɪ"/>
 			<key code="17" action="þ"/>
-			<key code="18" output="‡"/>
+			<key code="18" output="†"/>
 			<key code="19" output="¶"/>
 			<key code="20" output="|"/>
-			<key code="21" output="⁜"/>
-			<key code="22" output="·"/>
-			<key code="23" output="*"/>
-			<key code="24" output="∧"/>
-			<key code="25" output="}"/>
-			<key code="26" output="⸠"/>
-			<key code="27" output="="/>
-			<key code="28" output="{"/>
-			<key code="29" output="⸡"/>
-			<key code="30" action="Acute"/>
-			<key code="31" output="ː"/>
-			<key code="32" action="ø"/>
-			<key code="33" action="Grave"/>
-			<key code="34" output="ᴈ"/>
-			<key code="35" output="ˈ"/>
+			<key code="21" output="+"/>
+			<key code="22" output="*"/>
+			<key code="23" output="−"/>
+			<key code="24" output="∅"/>
+			<key code="25" output="("/>
+			<key code="26" output="#"/>
+			<key code="27" output="]"/>
+			<key code="28" output="["/>
+			<key code="29" output=")"/>
+			<key code="30" action="Dot_Action"/>
+			<key code="31" action="ø"/>
+			<key code="32" action="ʊ"/>
+			<key code="33" action="Diaeresis_Action"/>
+			<key code="34" action="ı"/>
+			<key code="35" action="θ"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="ɪ"/>
-			<key code="38" action="ȝ"/>
+			<key code="37" action="ɫ"/>
+			<key code="38" action="ȷ"/>
 			<key code="39" output="›"/>
-			<key code="40" output="ɛ"/>
+			<key code="40" output="ː"/>
 			<key code="41" output="‹"/>
-			<key code="42" output="⸺"/>
-			<key code="43" output="?"/>
-			<key code="44" action="~"/>
-			<key code="45" action="ŋ"/>
-			<key code="46" output="ʍ"/>
-			<key code="47" output="!"/>
+			<key code="42" output="%"/>
+			<key code="43" output=";"/>
+			<key code="44" action="Tilde_Dash_Action"/>
+			<key code="45" action="Hook_Action"/>
+			<key code="46" output="͡"/>
+			<key code="47" output=":"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="″"/>
+			<key code="50" action="Macron_Action"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -550,56 +550,56 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="5">
-			<key code="0" action="Æ"/>
-			<key code="1" action="Ꟈ"/>
+			<key code="0" action="ɒ"/>
+			<key code="1" output="$"/>
 			<key code="2" action="Ð"/>
-			<key code="3" output="$"/>
-			<key code="4" action="Ƕ"/>
-			<key code="5" output="☞"/>
-			<key code="6" action="ȷ"/>
-			<key code="7" action="Θ"/>
-			<key code="8" output="_"/>
-			<key code="9" output="^"/>
-			<key code="11" output="☜"/>
-			<key code="12" action="Ƣ"/>
-			<key code="13" action="Ꜵ"/>
-			<key code="14" action="Œ"/>
-			<key code="15" output="\"/>
-			<key code="16" action="ı"/>
+			<key code="3" action="Ƒ"/>
+			<key code="4" output="☞"/>
+			<key code="5" output="Ŋ"/>
+			<key code="6" output="_"/>
+			<key code="7" action="Bar_Action"/>
+			<key code="8" action="Cedilla_Action"/>
+			<key code="9" action="Caron_Action"/>
+			<key code="11" action="Underring_Action"/>
+			<key code="12" action="æ"/>
+			<key code="13" action="ʍ"/>
+			<key code="14" action="ᴈ"/>
+			<key code="15" action="ə"/>
+			<key code="16" output="→"/>
 			<key code="17" action="Þ"/>
-			<key code="18" output="⹋"/>
+			<key code="18" output="‡"/>
 			<key code="19" output="§"/>
 			<key code="20" output="‖"/>
-			<key code="21" output="※"/>
-			<key code="22" output="№"/>
-			<key code="23" output="⁂"/>
-			<key code="24" output="⏑"/>
-			<key code="25" output="⟩"/>
-			<key code="26" output="⸢"/>
-			<key code="27" output="∼"/>
-			<key code="28" output="⟨"/>
-			<key code="29" output="⸣"/>
-			<key code="30" output="&#x003E;"/>
-			<key code="31" output="-"/>
-			<key code="32" action="Ø"/>
-			<key code="33" output="&#x003C;"/>
-			<key code="34" output="→"/>
-			<key code="35" output="ˌ"/>
+			<key code="21" output="×"/>
+			<key code="22" output="⁺"/>
+			<key code="23" output="÷"/>
+			<key code="24" output="⦰"/>
+			<key code="25" output="⟨"/>
+			<key code="26" output="£"/>
+			<key code="27" output="⸣"/>
+			<key code="28" output="⸢"/>
+			<key code="29" output="⟩"/>
+			<key code="30" output="&#x0027;"/>
+			<key code="31" action="Ø"/>
+			<key code="32" output="°"/>
+			<key code="33" output="&#x0022;"/>
+			<key code="34" output="′"/>
+			<key code="35" output="ʔ"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="◊"/>
-			<key code="38" action="Ȝ"/>
-			<key code="39" output="&#x0022;"/>
-			<key code="40" output="←"/>
-			<key code="41" output="&#x0027;"/>
-			<key code="42" output="☓"/>
-			<key code="43" output="⁓"/>
-			<key code="44" output="‒"/>
-			<key code="45" action="Ŋ"/>
-			<key code="46" output="%"/>
-			<key code="47" output="…"/>
+			<key code="37" output="⪤"/>
+			<key code="38" output="″"/>
+			<key code="39" output="&#x003E;"/>
+			<key code="40" output="="/>
+			<key code="41" output="&#x003C;"/>
+			<key code="42" output="/"/>
+			<key code="43" output="-"/>
+			<key code="44" output="⁓"/>
+			<key code="45" action="Ogonek_Action"/>
+			<key code="46" output="͜"/>
+			<key code="47" output="–"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="‴"/>
+			<key code="50" action="Breve_Action"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -656,23 +656,23 @@
 			<key code="15" output="ᚱ"/>
 			<key code="16" output="ᛁ"/>
 			<key code="17" output="ᛏ"/>
-			<key code="18" output="ᛝ"/>
+			<key code="18" output="ᚢ"/>
 			<key code="19" output="ᚩ"/>
-			<key code="20" output="ᛟ"/>
-			<key code="21" output="᛭"/>
-			<key code="22" output="᛫"/>
-			<key code="23" output="᛬"/>
-			<key code="24" output="ᚦ"/>
-			<key code="25" output=")"/>
-			<key code="26" output="["/>
-			<key code="27" output="ᛠ"/>
-			<key code="28" output="("/>
-			<key code="29" output="]"/>
+			<key code="20" output="ᛠ"/>
+			<key code="21" output="ᚦ"/>
+			<key code="22" output="᛬"/>
+			<key code="23" output="᛭"/>
+			<key code="24" output="ᛥ"/>
+			<key code="25" output="("/>
+			<key code="26" output="᛫"/>
+			<key code="27" output="]"/>
+			<key code="28" output="["/>
+			<key code="29" output=")"/>
 			<key code="30" output="’"/>
 			<key code="31" output="ᚪ"/>
-			<key code="32" output="ᚢ"/>
+			<key code="32" output="ᛡ"/>
 			<key code="33" output="‘"/>
-			<key code="34" output="ᛡ"/>
+			<key code="34" output="ᛟ"/>
 			<key code="35" output="ᛈ"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="ᛚ"/>
@@ -688,7 +688,7 @@
 			<key code="47" output="."/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="ᛥ"/>
+			<key code="50" output="ᛝ"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -743,7 +743,7 @@
 			<key code="126" output="&#x001E;"/>
 		</keyMap>
 		<keyMap index="7">
-			<key code="0" output="æ"/>
+			<key code="0" output="a"/>
 			<key code="1" output="s"/>
 			<key code="2" output="d"/>
 			<key code="3" output="f"/>
@@ -760,39 +760,39 @@
 			<key code="15" output="r"/>
 			<key code="16" output="y"/>
 			<key code="17" output="t"/>
-			<key code="18" output="ŋ"/>
-			<key code="19" output="ꜵ"/>
-			<key code="20" output="œ"/>
-			<key code="21" output=";"/>
-			<key code="22" output="·"/>
-			<key code="23" output=":"/>
-			<key code="24" output="þ"/>
-			<key code="25" output="⟩"/>
-			<key code="26" output="⸢"/>
-			<key code="27" output="ð"/>
-			<key code="28" output="⟨"/>
-			<key code="29" output="⸣"/>
+			<key code="18" output="ø"/>
+			<key code="19" output="å"/>
+			<key code="20" output="ð"/>
+			<key code="21" output="þ"/>
+			<key code="22" output=":"/>
+			<key code="23" output=";"/>
+			<key code="24" output="ƒ"/>
+			<key code="25" output="⟨"/>
+			<key code="26" output="·"/>
+			<key code="27" output="⸣"/>
+			<key code="28" output="⸢"/>
+			<key code="29" output="⟩"/>
 			<key code="30" output="”"/>
 			<key code="31" output="o"/>
-			<key code="32" output="ø"/>
+			<key code="32" output="u"/>
 			<key code="33" output="“"/>
-			<key code="34" output="ƕ"/>
+			<key code="34" output="i"/>
 			<key code="35" output="p"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="l"/>
-			<key code="38" output="ȝ"/>
+			<key code="38" output="j"/>
 			<key code="39" output=" "/>
 			<key code="40" output="k"/>
 			<key code="41" output="―"/>
 			<key code="42" output="/"/>
 			<key code="43" output="?"/>
-			<key code="44" action="~"/>
+			<key code="44" output="~"/>
 			<key code="45" output="n"/>
 			<key code="46" output="m"/>
 			<key code="47" output="!"/>
 			<key code="48" output="&#x0009;"/>
-			<key code="49" output=" ̲"/>
-			<key code="50" output="ꟈ"/>
+			<key code="49" output=" "/>
+			<key code="50" output="ŋ"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="53" output="&#x001B;"/>
 			<key code="64" output="&#x0010;"/>
@@ -868,582 +868,2960 @@
 		</keyMap>
 	</keyMapSet>
 	<actions>
-		<action id="Acute">
+		<action id="Breve_Action">
+			<when state="none" next="Breve"/>
+			<when state="Diaeresis" next="Diaeresis_Breve"/>
+			<when state="Diaeresis_Dot" next="Diaeresis_Dot_Breve"/>
+			<when state="Diaeresis_Macron" next="Diaeresis_Macron_Breve"/>
+			<when state="Dot" next="Dot_Breve"/>
+			<when state="Macron" next="Macron_Breve"/>
+			<when state="Ogonek" next="Ogonek_Breve"/>
+			<when state="Ogonek_Diaeresis" next="Ogonek_Diaeresis_Breve"/>
+			<when state="Ogonek_Diaeresis_Dot" next="Ogonek_Diaeresis_Dot_Breve"/>
+			<when state="Ogonek_Diaeresis_Macron" next="Ogonek_Diaeresis_Macron_Breve"/>
+			<when state="Ogonek_Dot" next="Ogonek_Dot_Breve"/>
+			<when state="Ogonek_Macron" next="Ogonek_Macron_Breve"/>
+			<when state="Ring" next="Ring_Breve"/>
+			<when state="Ring_Diaeresis" next="Ring_Diaeresis_Breve"/>
+			<when state="Ring_Diaeresis_Dot" next="Ring_Diaeresis_Dot_Breve"/>
+			<when state="Ring_Diaeresis_Macron" next="Ring_Diaeresis_Macron_Breve"/>
+			<when state="Ring_Dot" next="Ring_Dot_Breve"/>
+			<when state="Ring_Macron" next="Ring_Macron_Breve"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Breve"/>
+			<when state="Ring_Ogonek_Diaeresis" next="Ring_Ogonek_Diaeresis_Breve"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" next="Ring_Ogonek_Diaeresis_Dot_Breve"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" next="Ring_Ogonek_Diaeresis_Macron_Breve"/>
+			<when state="Ring_Ogonek_Dot" next="Ring_Ogonek_Dot_Breve"/>
+			<when state="Ring_Ogonek_Macron" next="Ring_Ogonek_Macron_Breve"/>
+		</action>
+		<action id="Acute_Action">
 			<when state="none" next="Acute"/>
-			<when state="Diaeresis" next="Diaeresis Acute"/>
+			<when state="Diaeresis" next="Diaeresis_Acute"/>
+			<when state="Diaeresis_Dot" next="Diaeresis_Dot_Acute"/>
+			<when state="Diaeresis_Macron" next="Diaeresis_Macron_Acute"/>
+			<when state="Diaeresis_Tilde" next="Diaeresis_Tilde_Acute"/>
+			<when state="Dot" next="Dot_Acute"/>
+			<when state="Macron" next="Macron_Acute"/>
+			<when state="Ogonek" next="Ogonek_Acute"/>
+			<when state="Ogonek_Diaeresis" next="Ogonek_Diaeresis_Acute"/>
+			<when state="Ogonek_Diaeresis_Dot" next="Ogonek_Diaeresis_Dot_Acute"/>
+			<when state="Ogonek_Diaeresis_Macron" next="Ogonek_Diaeresis_Macron_Acute"/>
+			<when state="Ogonek_Dot" next="Ogonek_Dot_Acute"/>
+			<when state="Ogonek_Macron" next="Ogonek_Macron_Acute"/>
+			<when state="Ring" next="Ring_Acute"/>
+			<when state="Ring_Diaeresis" next="Ring_Diaeresis_Acute"/>
+			<when state="Ring_Diaeresis_Dot" next="Ring_Diaeresis_Dot_Acute"/>
+			<when state="Ring_Diaeresis_Macron" next="Ring_Diaeresis_Macron_Acute"/>
+			<when state="Ring_Dot" next="Ring_Dot_Acute"/>
+			<when state="Ring_Macron" next="Ring_Macron_Acute"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Acute"/>
+			<when state="Ring_Ogonek_Diaeresis" next="Ring_Ogonek_Diaeresis_Acute"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" next="Ring_Ogonek_Diaeresis_Dot_Acute"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" next="Ring_Ogonek_Diaeresis_Macron_Acute"/>
+			<when state="Ring_Ogonek_Dot" next="Ring_Ogonek_Dot_Acute"/>
+			<when state="Ring_Ogonek_Macron" next="Ring_Ogonek_Macron_Acute"/>
+			<when state="Tilde" next="Tilde_Acute"/>
 		</action>
-		<action id="Diaeresis Action">
-			<when state="none" next="Diaeresis"/>
-			<when state="Acute" next="Diaeresis Acute"/>
-			<when state="Dot Above" next="Diaeresis Dot"/>
-			<when state="Grave" next="Diaeresis Grave"/>
-		</action>
-		<action id="Dot Above Action">
-			<when state="none" next="Dot Above"/>
-			<when state="Diaeresis" next="Diaeresis Dot"/>
-		</action>
-		<action id="Grave">
+		<action id="Grave_Action">
 			<when state="none" next="Grave"/>
-			<when state="Diaeresis" next="Diaeresis Grave"/>
+			<when state="Diaeresis" next="Diaeresis_Grave"/>
+			<when state="Diaeresis_Tilde" next="Diaeresis_Tilde_Grave"/>
+			<when state="Ogonek" next="Ogonek_Grave"/>
+			<when state="Ring" next="Ring_Grave"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Grave"/>
+			<when state="Tilde" next="Tilde_Grave"/>
 		</action>
-		<action id=" ">
+		<action id="Circumflex_Action">
+			<when state="none" next="Circumflex"/>
+			<when state="Diaeresis" next="Diaeresis_Circumflex"/>
+			<when state="Diaeresis_Tilde" next="Diaeresis_Tilde_Circumflex"/>
+			<when state="Ogonek" next="Ogonek_Circumflex"/>
+			<when state="Ring" next="Ring_Circumflex"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Circumflex"/>
+			<when state="Tilde" next="Tilde_Circumflex"/>
+		</action>
+		<action id="Caron_Action">
+			<when state="none" next="Caron"/>
+			<when state="Diaeresis" next="Diaeresis_Caron"/>
+			<when state="Diaeresis_Tilde" next="Diaeresis_Tilde_Caron"/>
+			<when state="Ogonek" next="Ogonek_Caron"/>
+			<when state="Ring" next="Ring_Caron"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Caron"/>
+			<when state="Tilde" next="Tilde_Caron"/>
+		</action>
+		<action id="Macron_Action">
+			<when state="none" next="Macron"/>
+			<when state="Diaeresis" next="Diaeresis_Macron"/>
+			<when state="Diaeresis_Tilde" next="Diaeresis_Tilde_Macron"/>
+			<when state="Ogonek" next="Ogonek_Macron"/>
+			<when state="Ogonek_Diaeresis" next="Ogonek_Diaeresis_Macron"/>
+			<when state="Ring" next="Ring_Macron"/>
+			<when state="Ring_Diaeresis" next="Ring_Diaeresis_Macron"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Macron"/>
+			<when state="Ring_Ogonek_Diaeresis" next="Ring_Ogonek_Diaeresis_Macron"/>
+			<when state="Tilde" next="Tilde_Macron"/>
+		</action>
+		<action id="Dot_Action">
+			<when state="none" next="Dot"/>
+			<when state="Diaeresis" next="Diaeresis_Dot"/>
+			<when state="Ogonek" next="Ogonek_Dot"/>
+			<when state="Ogonek_Diaeresis" next="Ogonek_Diaeresis_Dot"/>
+			<when state="Ring" next="Ring_Dot"/>
+			<when state="Ring_Diaeresis" next="Ring_Diaeresis_Dot"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Dot"/>
+			<when state="Ring_Ogonek_Diaeresis" next="Ring_Ogonek_Diaeresis_Dot"/>
+		</action>
+		<action id="Bar_Action">
+			<when state="none" next="Bar"/>
+			<when state="Cedilla" next="Cedilla_Bar"/>
+			<when state="Ring" next="Ring_Bar"/>
+			<when state="Tilde" next="Tilde_Bar"/>
+			<when state="Tilde_Ring" next="Tilde_Ring_Bar"/>
+			<when state="Tilde_Underring" next="Tilde_Underring_Bar"/>
+			<when state="Underring" next="Underring_Bar"/>
+		</action>
+		<action id="Underbar_Action">
+			<when state="none" next="Underbar"/>
+			<when state="Cedilla" next="Cedilla_Underbar"/>
+			<when state="Ring" next="Ring_Underbar"/>
+			<when state="Tilde" next="Tilde_Underbar"/>
+			<when state="Tilde_Ring" next="Tilde_Ring_Underbar"/>
+			<when state="Tilde_Underring" next="Tilde_Underring_Underbar"/>
+			<when state="Underring" next="Underring_Underbar"/>
+		</action>
+		<action id="Ring_Action">
+			<when state="none" next="Ring"/>
+			<when state="Tilde" next="Tilde_Ring"/>
+		</action>
+		<action id="Underring_Action">
+			<when state="none" next="Underring"/>
+			<when state="Tilde" next="Tilde_Underring"/>
+		</action>
+		<action id="Tilde_Action">
+			<when state="none" next="Tilde"/>
+			<when state="Diaeresis" next="Diaeresis_Tilde"/>
+		</action>
+		<action id="Diaeresis_Action">
+			<when state="none" next="Diaeresis"/>
+			<when state="Ogonek" next="Ogonek_Diaeresis"/>
+			<when state="Ring" next="Ring_Diaeresis"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Diaeresis"/>
+		</action>
+		<action id="Hook_Action">
+			<when state="none" next="Hook"/>
+			<when state="Ogonek" next="Ogonek_Hook"/>
+			<when state="Ring" next="Ring_Hook"/>
+			<when state="Ring_Ogonek" next="Ring_Ogonek_Hook"/>
+		</action>
+		<action id="Ogonek_Action">
+			<when state="none" next="Ogonek"/>
+			<when state="Ring" next="Ring_Ogonek"/>
+		</action>
+		<action id="Cedilla_Action">
+			<when state="none" next="Cedilla"/>
+		</action>
+		<action id="Space_Action">
 			<when state="none" output=" "/>
 			<when state="Acute" output="´"/>
+			<when state="Bar" output="ˈ"/>
+			<when state="Breve" output="˘"/>
+			<when state="Caron" output="ˇ"/>
+			<when state="Cedilla" output="¸"/>
+			<when state="Cedilla_Bar" output="¸̍"/>
+			<when state="Cedilla_Underbar" output="¸̩"/>
+			<when state="Circumflex" output="^"/>
 			<when state="Diaeresis" output="¨"/>
-			<when state="Diaeresis Acute" output="΅"/>
-			<when state="Diaeresis Dot" output="¨̇"/>
-			<when state="Diaeresis Grave" output="῭"/>
-			<when state="Dot Above" output="˙"/>
+			<when state="Diaeresis_Acute" output="΅"/>
+			<when state="Diaeresis_Breve" output="¨̆"/>
+			<when state="Diaeresis_Caron" output="¨̌"/>
+			<when state="Diaeresis_Circumflex" output="¨̂"/>
+			<when state="Diaeresis_Dot" output="¨̇"/>
+			<when state="Diaeresis_Dot_Acute" output="¨̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="¨̇̆"/>
+			<when state="Diaeresis_Grave" output="῭"/>
+			<when state="Diaeresis_Macron" output="¨̄"/>
+			<when state="Diaeresis_Macron_Acute" output="¨̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="¨̄̆"/>
+			<when state="Diaeresis_Tilde" output="¨̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="¨̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="¨̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="¨̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="¨̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="¨̃̄"/>
+			<when state="Dot" output="˙"/>
+			<when state="Dot_Acute" output="˙́"/>
+			<when state="Dot_Breve" output="˙̆"/>
 			<when state="Grave" output="`"/>
+			<when state="Hook" output=" ᷎"/>
+			<when state="Macron" output="¯"/>
+			<when state="Macron_Acute" output="¯́"/>
+			<when state="Macron_Breve" output="¯̆"/>
+			<when state="Ogonek" output="˛"/>
+			<when state="Ogonek_Acute" output="˛́"/>
+			<when state="Ogonek_Breve" output="˛̆"/>
+			<when state="Ogonek_Caron" output="˛̌"/>
+			<when state="Ogonek_Circumflex" output="˛̂"/>
+			<when state="Ogonek_Diaeresis" output="˛̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="˛̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="˛̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="˛̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="˛̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="˛̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="˛̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="˛̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="˛̈̄̆"/>
+			<when state="Ogonek_Dot" output="˛̇"/>
+			<when state="Ogonek_Dot_Acute" output="˛̇́"/>
+			<when state="Ogonek_Dot_Breve" output="˛̇̆"/>
+			<when state="Ogonek_Grave" output="˛̀"/>
+			<when state="Ogonek_Hook" output="˛᷎"/>
+			<when state="Ogonek_Macron" output="˛̄"/>
+			<when state="Ogonek_Macron_Acute" output="˛̄́"/>
+			<when state="Ogonek_Macron_Breve" output="˛̄̆"/>
+			<when state="Ring" output="˚"/>
+			<when state="Ring_Acute" output="˚́"/>
+			<when state="Ring_Bar" output="˚̍"/>
+			<when state="Ring_Breve" output="˚̆"/>
+			<when state="Ring_Caron" output="˚̌"/>
+			<when state="Ring_Circumflex" output="˚̂"/>
+			<when state="Ring_Diaeresis" output="˚̈"/>
+			<when state="Ring_Diaeresis_Acute" output="˚̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="˚̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="˚̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="˚̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="˚̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="˚̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="˚̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="˚̈̄̆"/>
+			<when state="Ring_Dot" output="˚̇"/>
+			<when state="Ring_Dot_Acute" output="˚̇́"/>
+			<when state="Ring_Dot_Breve" output="˚̇̆"/>
+			<when state="Ring_Grave" output="˚̀"/>
+			<when state="Ring_Hook" output="˚͏᷎"/>
+			<when state="Ring_Macron" output="˚̄"/>
+			<when state="Ring_Macron_Acute" output="˚̄́"/>
+			<when state="Ring_Macron_Breve" output="˚̄̆"/>
+			<when state="Ring_Ogonek" output="˚͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="˚͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="˚͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="˚͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="˚͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="˚͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="˚͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="˚͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="˚͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="˚͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="˚͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="˚͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="˚͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="˚͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="˚͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="˚͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="˚͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="˚͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="˚͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="˚͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="˚͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="˚͏̨̄̆"/>
+			<when state="Ring_Underbar" output="˚͏̩"/>
+			<when state="Tilde" output="˜"/>
+			<when state="Tilde_Acute" output="˜́"/>
+			<when state="Tilde_Caron" output="˜̌"/>
+			<when state="Tilde_Circumflex" output="˜̂"/>
+			<when state="Tilde_Bar" output="˜̍"/>
+			<when state="Tilde_Grave" output="˜̀"/>
+			<when state="Tilde_Macron" output="˜̄"/>
+			<when state="Tilde_Ring" output="˜̊"/>
+			<when state="Tilde_Ring_Bar" output="˜̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="˜̊͏̩"/>
+			<when state="Tilde_Underbar" output="˜͏̩"/>
+			<when state="Tilde_Underring" output="˜͏̥"/>
+			<when state="Tilde_Underring_Bar" output="˜͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="˜͏̥̩"/>
+			<when state="Underbar" output="ˌ"/>
+			<when state="Underring" output="˳"/>
+			<when state="Underring_Bar" output="˳̍"/>
+			<when state="Underring_Underbar" output="˳̩"/>
 		</action>
-		<action id="~">
+		<action id="Tilde_Dash_Action">
 			<when state="none" output="~"/>
-			<when state="Dot Above" output="⸞"/>
+			<when state="Dot" output="⸞"/>
+			<when state="Ring" output="⸛"/>
+		</action>
+		<action id="Hyphen_Action">
+			<when state="none" output="‐"/>
+			<when state="Diaeresis" output="⸚"/>
 		</action>
 		<action id="A">
 			<when state="none" output="A"/>
 			<when state="Acute" output="Á"/>
+			<when state="Breve" output="Ă"/>
+			<when state="Caron" output="Ǎ"/>
+			<when state="Circumflex" output="Â"/>
 			<when state="Diaeresis" output="Ä"/>
-			<when state="Diaeresis Acute" output="Ä́"/>
-			<when state="Diaeresis Dot" output="Ä̇"/>
-			<when state="Diaeresis Grave" output="Ä̀"/>
-			<when state="Dot Above" output="Ȧ"/>
+			<when state="Diaeresis_Acute" output="Ä́"/>
+			<when state="Diaeresis_Breve" output="Ä̆"/>
+			<when state="Diaeresis_Caron" output="Ä"/>
+			<when state="Diaeresis_Circumflex" output="Ä̂"/>
+			<when state="Diaeresis_Dot" output="Ä̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ä̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ä̇̆"/>
+			<when state="Diaeresis_Grave" output="Ä̀"/>
+			<when state="Diaeresis_Macron" output="Ǟ"/>
+			<when state="Diaeresis_Macron_Acute" output="Ǟ́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ǟ̆"/>
+			<when state="Diaeresis_Tilde" output="Ä̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ä̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ä̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ä̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ä̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ä̃̄"/>
+			<when state="Dot" output="Ȧ"/>
+			<when state="Dot_Acute" output="Ȧ́"/>
+			<when state="Dot_Breve" output="Ȧ̆"/>
 			<when state="Grave" output="À"/>
+			<when state="Hook" output="A᷎"/>
+			<when state="Macron" output="Ā"/>
+			<when state="Macron_Acute" output="Ā́"/>
+			<when state="Macron_Breve" output="Ā̆"/>
+			<when state="Ogonek" output="Ą"/>
+			<when state="Ogonek_Acute" output="Ą́"/>
+			<when state="Ogonek_Breve" output="Ą̆"/>
+			<when state="Ogonek_Caron" output="Ą̌"/>
+			<when state="Ogonek_Circumflex" output="Ą̂"/>
+			<when state="Ogonek_Diaeresis" output="Ą̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ą̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ą̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ą̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ą̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ą̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ą̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ą̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ą̈̄̆"/>
+			<when state="Ogonek_Dot" output="Ą̇"/>
+			<when state="Ogonek_Dot_Acute" output="Ą̇́"/>
+			<when state="Ogonek_Dot_Breve" output="Ą̇̆"/>
+			<when state="Ogonek_Grave" output="Ą̀"/>
+			<when state="Ogonek_Hook" output="Ą᷎"/>
+			<when state="Ogonek_Macron" output="Ą̄"/>
+			<when state="Ogonek_Macron_Acute" output="Ą̄́"/>
+			<when state="Ogonek_Macron_Breve" output="Ą̄̆"/>
+			<when state="Ring" output="Å"/>
+			<when state="Ring_Acute" output="Ǻ"/>
+			<when state="Ring_Breve" output="Å̆"/>
+			<when state="Ring_Caron" output="Å̌"/>
+			<when state="Ring_Circumflex" output="Å̂"/>
+			<when state="Ring_Diaeresis" output="Å̈"/>
+			<when state="Ring_Diaeresis_Acute" output="Å̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="Å̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="Å̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="Å̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="Å̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="Å̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="Å̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="Å̈̄̆"/>
+			<when state="Ring_Dot" output="Å̇"/>
+			<when state="Ring_Dot_Acute" output="Å̇́"/>
+			<when state="Ring_Dot_Breve" output="Å̇̆"/>
+			<when state="Ring_Grave" output="Å̀"/>
+			<when state="Ring_Hook" output="Å͏᷎"/>
+			<when state="Ring_Macron" output="Å̄"/>
+			<when state="Ring_Macron_Acute" output="Å̄́"/>
+			<when state="Ring_Macron_Breve" output="Å̄̆"/>
+			<when state="Ring_Ogonek" output="Å͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="Å͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="Å͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="Å͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="Å͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="Å͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="Å͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="Å͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="Å͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="Å͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="Å͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="Å͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="Å͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="Å͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="Å͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="Å͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="Å͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="Å͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="Å͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="Å͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="Å͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="Å͏̨̄̆"/>
+			<when state="Tilde" output="Ã"/>
+			<when state="Tilde_Acute" output="Ã́"/>
+			<when state="Tilde_Caron" output="Ã̌"/>
+			<when state="Tilde_Circumflex" output="Ã̂"/>
+			<when state="Tilde_Grave" output="Ã̀"/>
+			<when state="Tilde_Macron" output="Ã̄"/>
 		</action>
 		<action id="a">
 			<when state="none" output="a"/>
 			<when state="Acute" output="á"/>
+			<when state="Breve" output="ă"/>
+			<when state="Caron" output="ǎ"/>
+			<when state="Circumflex" output="â"/>
 			<when state="Diaeresis" output="ä"/>
-			<when state="Diaeresis Acute" output="ä́"/>
-			<when state="Diaeresis Dot" output="ä̇"/>
-			<when state="Diaeresis Grave" output="ä̀"/>
-			<when state="Dot Above" output="ȧ"/>
+			<when state="Diaeresis_Acute" output="ä́"/>
+			<when state="Diaeresis_Breve" output="ä̆"/>
+			<when state="Diaeresis_Caron" output="ä"/>
+			<when state="Diaeresis_Circumflex" output="ä̂"/>
+			<when state="Diaeresis_Dot" output="ä̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ä̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ä̇̆"/>
+			<when state="Diaeresis_Grave" output="ä̀"/>
+			<when state="Diaeresis_Macron" output="ǟ"/>
+			<when state="Diaeresis_Macron_Acute" output="ǟ́"/>
+			<when state="Diaeresis_Macron_Breve" output="ǟ̆"/>
+			<when state="Diaeresis_Tilde" output="ä̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ä̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ä̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ä̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ä̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ä̃̄"/>
+			<when state="Dot" output="ȧ"/>
+			<when state="Dot_Acute" output="ȧ́"/>
+			<when state="Dot_Breve" output="ȧ̆"/>
 			<when state="Grave" output="à"/>
-		</action>
-		<action id="Ꜵ">
-			<when state="none" output="Ꜵ"/>
-			<when state="Acute" output="Ꜵ́"/>
-			<when state="Diaeresis" output="Ꜵ̈"/>
-			<when state="Diaeresis Acute" output="Ꜵ̈́"/>
-			<when state="Diaeresis Dot" output="Ꜵ̈̇"/>
-			<when state="Diaeresis Grave" output="Ꜵ̈̀"/>
-			<when state="Dot Above" output="Ꜵ̇"/>
-			<when state="Grave" output="Ꜵ̀"/>
-		</action>
-		<action id="ꜵ">
-			<when state="none" output="ꜵ"/>
-			<when state="Acute" output="ꜵ́"/>
-			<when state="Diaeresis" output="ꜵ̈"/>
-			<when state="Diaeresis Acute" output="ꜵ̈́"/>
-			<when state="Diaeresis Dot" output="ꜵ̈̇"/>
-			<when state="Diaeresis Grave" output="ꜵ̈̀"/>
-			<when state="Dot Above" output="ꜵ̇"/>
-			<when state="Grave" output="ꜵ̀"/>
+			<when state="Hook" output="a᷎"/>
+			<when state="Macron" output="ā"/>
+			<when state="Macron_Acute" output="ā́"/>
+			<when state="Macron_Breve" output="ā̆"/>
+			<when state="Ogonek" output="ą"/>
+			<when state="Ogonek_Acute" output="ą́"/>
+			<when state="Ogonek_Breve" output="ą̆"/>
+			<when state="Ogonek_Caron" output="ą̌"/>
+			<when state="Ogonek_Circumflex" output="ą̂"/>
+			<when state="Ogonek_Diaeresis" output="ą̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ą̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ą̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ą̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ą̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ą̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ą̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ą̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ą̈̄̆"/>
+			<when state="Ogonek_Dot" output="ą̇"/>
+			<when state="Ogonek_Dot_Acute" output="ą̇́"/>
+			<when state="Ogonek_Dot_Breve" output="ą̇̆"/>
+			<when state="Ogonek_Grave" output="ą̀"/>
+			<when state="Ogonek_Hook" output="ą᷎"/>
+			<when state="Ogonek_Macron" output="ą̄"/>
+			<when state="Ogonek_Macron_Acute" output="ą̄́"/>
+			<when state="Ogonek_Macron_Breve" output="ą̄̆"/>
+			<when state="Ring" output="å"/>
+			<when state="Ring_Acute" output="ǻ"/>
+			<when state="Ring_Breve" output="å̆"/>
+			<when state="Ring_Caron" output="å̌"/>
+			<when state="Ring_Circumflex" output="å̂"/>
+			<when state="Ring_Diaeresis" output="å̈"/>
+			<when state="Ring_Diaeresis_Acute" output="å̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="å̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="å̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="å̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="å̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="å̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="å̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="å̈̄̆"/>
+			<when state="Ring_Dot" output="å̇"/>
+			<when state="Ring_Dot_Acute" output="å̇́"/>
+			<when state="Ring_Dot_Breve" output="å̇̆"/>
+			<when state="Ring_Grave" output="å̀"/>
+			<when state="Ring_Hook" output="å͏᷎"/>
+			<when state="Ring_Macron" output="å̄"/>
+			<when state="Ring_Macron_Acute" output="å̄́"/>
+			<when state="Ring_Macron_Breve" output="å̄̆"/>
+			<when state="Ring_Ogonek" output="å͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="å͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="å͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="å͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="å͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="å͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="å͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="å͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="å͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="å͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="å͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="å͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="å͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="å͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="å͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="å͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="å͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="å͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="å͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="å͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="å͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="å͏̨̄̆"/>
+			<when state="Tilde" output="ã"/>
+			<when state="Tilde_Acute" output="ã́"/>
+			<when state="Tilde_Caron" output="ã̌"/>
+			<when state="Tilde_Circumflex" output="ã̂"/>
+			<when state="Tilde_Grave" output="ã̀"/>
+			<when state="Tilde_Macron" output="ã̄"/>
 		</action>
 		<action id="B">
 			<when state="none" output="B"/>
-			<when state="Dot Above" output="Ḃ"/>
+			<when state="Bar" output="B̍"/>
+			<when state="Caron" output="B̌"/>
+			<when state="Cedilla" output="B̧"/>
+			<when state="Dot" output="Ḃ"/>
+			<when state="Tilde" output="B̃"/>
+			<when state="Tilde_Bar" output="B̃̍"/>
+			<when state="Tilde_Underbar" output="B̃͏̩"/>
+			<when state="Underbar" output="B̩"/>
 		</action>
 		<action id="b">
 			<when state="none" output="b"/>
-			<when state="Dot Above" output="ḃ"/>
+			<when state="Bar" output="b̍"/>
+			<when state="Caron" output="b̌"/>
+			<when state="Cedilla" output="b̧"/>
+			<when state="Dot" output="ḃ"/>
+			<when state="Tilde" output="b̃"/>
+			<when state="Tilde_Bar" output="b̃̍"/>
+			<when state="Tilde_Underbar" output="b̃͏̩"/>
+			<when state="Underbar" output="b̩"/>
 		</action>
 		<action id="C">
 			<when state="none" output="C"/>
-			<when state="Dot Above" output="Ċ"/>
+			<when state="Bar" output="C̍"/>
+			<when state="Caron" output="Č"/>
+			<when state="Cedilla" output="Ç"/>
+			<when state="Cedilla_Bar" output="Ç̍"/>
+			<when state="Cedilla_Underbar" output="Ç̩"/>
+			<when state="Dot" output="Ċ"/>
+			<when state="Tilde" output="C̃"/>
+			<when state="Tilde_Bar" output="C̃̍"/>
+			<when state="Tilde_Underbar" output="C̃͏̩"/>
+			<when state="Underbar" output="C̩"/>
 		</action>
 		<action id="c">
 			<when state="none" output="c"/>
-			<when state="Dot Above" output="ċ"/>
+			<when state="Bar" output="c̍"/>
+			<when state="Caron" output="č"/>
+			<when state="Cedilla" output="ç"/>
+			<when state="Cedilla_Bar" output="ç̍"/>
+			<when state="Cedilla_Underbar" output="ç̩"/>
+			<when state="Dot" output="ċ"/>
+			<when state="Tilde" output="c̃"/>
+			<when state="Tilde_Bar" output="c̃̍"/>
+			<when state="Tilde_Underbar" output="c̃͏̩"/>
+			<when state="Underbar" output="c̩"/>
 		</action>
 		<action id="D">
 			<when state="none" output="D"/>
-			<when state="Dot Above" output="Ḋ"/>
+			<when state="Bar" output="D̍"/>
+			<when state="Caron" output="Ď"/>
+			<when state="Cedilla" output="Ḑ"/>
+			<when state="Dot" output="Ḋ"/>
+			<when state="Tilde" output="D̃"/>
+			<when state="Tilde_Bar" output="D̃̍"/>
+			<when state="Tilde_Underbar" output="D̃͏̩"/>
+			<when state="Underbar" output="D̩"/>
 		</action>
 		<action id="d">
 			<when state="none" output="d"/>
-			<when state="Dot Above" output="ḋ"/>
+			<when state="Bar" output="d̍"/>
+			<when state="Caron" output="ď"/>
+			<when state="Cedilla" output="ḑ"/>
+			<when state="Dot" output="ḋ"/>
+			<when state="Tilde" output="d̃"/>
+			<when state="Tilde_Bar" output="d̃̍"/>
+			<when state="Tilde_Underbar" output="d̃͏̩"/>
+			<when state="Underbar" output="d̩"/>
 		</action>
 		<action id="Ð">
 			<when state="none" output="Ð"/>
-			<when state="Dot Above" output="Ð̇"/>
+			<when state="Bar" output="Ð̍"/>
+			<when state="Caron" output="Ð̌"/>
+			<when state="Cedilla" output="Ð̧"/>
+			<when state="Dot" output="Ð̇"/>
+			<when state="Tilde" output="Ð̃"/>
+			<when state="Tilde_Bar" output="Ð̃̍"/>
+			<when state="Tilde_Underbar" output="Ð̃͏̩"/>
+			<when state="Underbar" output="Ð̩"/>
 		</action>
 		<action id="ð">
 			<when state="none" output="ð"/>
-			<when state="Dot Above" output="ð̇"/>
+			<when state="Bar" output="ð̍"/>
+			<when state="Caron" output="ð̌"/>
+			<when state="Cedilla" output="ð̧"/>
+			<when state="Dot" output="ð̇"/>
+			<when state="Tilde" output="ð̃"/>
+			<when state="Tilde_Bar" output="ð̃̍"/>
+			<when state="Tilde_Underbar" output="ð̃͏̩"/>
+			<when state="Underbar" output="ð̩"/>
 		</action>
 		<action id="E">
 			<when state="none" output="E"/>
 			<when state="Acute" output="É"/>
+			<when state="Breve" output="Ĕ"/>
+			<when state="Caron" output="Ě"/>
+			<when state="Circumflex" output="Ê"/>
 			<when state="Diaeresis" output="Ë"/>
-			<when state="Diaeresis Acute" output="Ë́"/>
-			<when state="Diaeresis Dot" output="Ë̇"/>
-			<when state="Diaeresis Grave" output="Ë̀"/>
-			<when state="Dot Above" output="Ė"/>
+			<when state="Diaeresis_Acute" output="Ë́"/>
+			<when state="Diaeresis_Breve" output="Ë̆"/>
+			<when state="Diaeresis_Caron" output="Ë"/>
+			<when state="Diaeresis_Circumflex" output="Ë̂"/>
+			<when state="Diaeresis_Dot" output="Ë̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ë̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ë̇̆"/>
+			<when state="Diaeresis_Grave" output="Ë̀"/>
+			<when state="Diaeresis_Macron" output="Ë̄"/>
+			<when state="Diaeresis_Macron_Acute" output="Ë̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ë̄̆"/>
+			<when state="Diaeresis_Tilde" output="Ë̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ë̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ë̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ë̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ë̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ë̃̄"/>
+			<when state="Dot" output="Ė"/>
+			<when state="Dot_Acute" output="Ė́"/>
+			<when state="Dot_Breve" output="Ė̆"/>
 			<when state="Grave" output="È"/>
+			<when state="Hook" output="E᷎"/>
+			<when state="Macron" output="Ē"/>
+			<when state="Macron_Acute" output="Ḗ"/>
+			<when state="Macron_Breve" output="Ē̆"/>
+			<when state="Ogonek" output="Ę"/>
+			<when state="Ogonek_Acute" output="Ę́"/>
+			<when state="Ogonek_Breve" output="Ę̆"/>
+			<when state="Ogonek_Caron" output="Ę̌"/>
+			<when state="Ogonek_Circumflex" output="Ę̂"/>
+			<when state="Ogonek_Diaeresis" output="Ę̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ę̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ę̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ę̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ę̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ę̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ę̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ę̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ę̈̄̆"/>
+			<when state="Ogonek_Dot" output="Ę̇"/>
+			<when state="Ogonek_Dot_Acute" output="Ę̇́"/>
+			<when state="Ogonek_Dot_Breve" output="Ę̇̆"/>
+			<when state="Ogonek_Grave" output="Ę̀"/>
+			<when state="Ogonek_Hook" output="Ę᷎"/>
+			<when state="Ogonek_Macron" output="Ę̄"/>
+			<when state="Ogonek_Macron_Acute" output="Ę̄́"/>
+			<when state="Ogonek_Macron_Breve" output="Ę̄̆"/>
+			<when state="Ring" output="E̊"/>
+			<when state="Ring_Acute" output="E̊́"/>
+			<when state="Ring_Breve" output="E̊̆"/>
+			<when state="Ring_Caron" output="E̊̌"/>
+			<when state="Ring_Circumflex" output="E̊̂"/>
+			<when state="Ring_Diaeresis" output="E̊̈"/>
+			<when state="Ring_Diaeresis_Acute" output="E̊̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="E̊̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="E̊̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="E̊̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="E̊̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="E̊̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="E̊̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="E̊̈̄̆"/>
+			<when state="Ring_Dot" output="E̊̇"/>
+			<when state="Ring_Dot_Acute" output="E̊̇́"/>
+			<when state="Ring_Dot_Breve" output="E̊̇̆"/>
+			<when state="Ring_Grave" output="E̊̀"/>
+			<when state="Ring_Hook" output="E̊͏᷎"/>
+			<when state="Ring_Macron" output="E̊̄"/>
+			<when state="Ring_Macron_Acute" output="E̊̄́"/>
+			<when state="Ring_Macron_Breve" output="E̊̄̆"/>
+			<when state="Ring_Ogonek" output="E̊͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="E̊͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="E̊͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="E̊͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="E̊͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="E̊͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="E̊͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="E̊͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="E̊͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="E̊͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="E̊͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="E̊͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="E̊͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="E̊͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="E̊͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="E̊͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="E̊͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="E̊͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="E̊͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="E̊͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="E̊͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="E̊͏̨̄̆"/>
+			<when state="Tilde" output="Ẽ"/>
+			<when state="Tilde_Acute" output="Ẽ́"/>
+			<when state="Tilde_Caron" output="Ẽ̌"/>
+			<when state="Tilde_Circumflex" output="Ẽ̂"/>
+			<when state="Tilde_Grave" output="Ẽ̀"/>
+			<when state="Tilde_Macron" output="Ẽ̄"/>
 		</action>
 		<action id="e">
 			<when state="none" output="e"/>
 			<when state="Acute" output="é"/>
+			<when state="Breve" output="ĕ"/>
+			<when state="Caron" output="ě"/>
+			<when state="Circumflex" output="ê"/>
 			<when state="Diaeresis" output="ë"/>
-			<when state="Diaeresis Acute" output="ë́"/>
-			<when state="Diaeresis Dot" output="ë̇"/>
-			<when state="Diaeresis Grave" output="ë̀"/>
-			<when state="Dot Above" output="ė"/>
+			<when state="Diaeresis_Acute" output="ë́"/>
+			<when state="Diaeresis_Breve" output="ë̆"/>
+			<when state="Diaeresis_Caron" output="ë"/>
+			<when state="Diaeresis_Circumflex" output="ë̂"/>
+			<when state="Diaeresis_Dot" output="ë̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ë̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ë̇̆"/>
+			<when state="Diaeresis_Grave" output="ë̀"/>
+			<when state="Diaeresis_Macron" output="ë̄"/>
+			<when state="Diaeresis_Macron_Acute" output="ë̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="ë̄̆"/>
+			<when state="Diaeresis_Tilde" output="ë̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ë̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ë̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ë̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ë̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ë̃̄"/>
+			<when state="Dot" output="ė"/>
+			<when state="Dot_Acute" output="ė́"/>
+			<when state="Dot_Breve" output="ė̆"/>
 			<when state="Grave" output="è"/>
-		</action>
-		<action id="Œ">
-			<when state="none" output="Œ"/>
-			<when state="Acute" output="Œ́"/>
-			<when state="Diaeresis" output="Œ̈"/>
-			<when state="Diaeresis Acute" output="Œ̈́"/>
-			<when state="Diaeresis Dot" output="Œ̈̇"/>
-			<when state="Diaeresis Grave" output="Œ̈̀"/>
-			<when state="Dot Above" output="Œ̇"/>
-			<when state="Grave" output="Œ̀"/>
-		</action>
-		<action id="œ">
-			<when state="none" output="œ"/>
-			<when state="Acute" output="œ́"/>
-			<when state="Diaeresis" output="œ̈"/>
-			<when state="Diaeresis Acute" output="œ̈́"/>
-			<when state="Diaeresis Dot" output="œ̈̇"/>
-			<when state="Diaeresis Grave" output="œ̈̀"/>
-			<when state="Dot Above" output="œ̇"/>
-			<when state="Grave" output="œ̀"/>
+			<when state="Hook" output="e᷎"/>
+			<when state="Macron" output="ē"/>
+			<when state="Macron_Acute" output="ḗ"/>
+			<when state="Macron_Breve" output="ē̆"/>
+			<when state="Ogonek" output="ę"/>
+			<when state="Ogonek_Acute" output="ę́"/>
+			<when state="Ogonek_Breve" output="ę̆"/>
+			<when state="Ogonek_Caron" output="ę̌"/>
+			<when state="Ogonek_Circumflex" output="ę̂"/>
+			<when state="Ogonek_Diaeresis" output="ę̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ę̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ę̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ę̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ę̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ę̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ę̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ę̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ę̈̄̆"/>
+			<when state="Ogonek_Dot" output="ę̇"/>
+			<when state="Ogonek_Dot_Acute" output="ę̇́"/>
+			<when state="Ogonek_Dot_Breve" output="ę̇̆"/>
+			<when state="Ogonek_Grave" output="ę̀"/>
+			<when state="Ogonek_Hook" output="ę᷎"/>
+			<when state="Ogonek_Macron" output="ę̄"/>
+			<when state="Ogonek_Macron_Acute" output="ę̄́"/>
+			<when state="Ogonek_Macron_Breve" output="ę̄̆"/>
+			<when state="Ring" output="e̊"/>
+			<when state="Ring_Acute" output="e̊́"/>
+			<when state="Ring_Breve" output="e̊̆"/>
+			<when state="Ring_Caron" output="e̊̌"/>
+			<when state="Ring_Circumflex" output="e̊̂"/>
+			<when state="Ring_Diaeresis" output="e̊̈"/>
+			<when state="Ring_Diaeresis_Acute" output="e̊̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="e̊̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="e̊̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="e̊̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="e̊̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="e̊̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="e̊̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="e̊̈̄̆"/>
+			<when state="Ring_Dot" output="e̊̇"/>
+			<when state="Ring_Dot_Acute" output="e̊̇́"/>
+			<when state="Ring_Dot_Breve" output="e̊̇̆"/>
+			<when state="Ring_Grave" output="e̊̀"/>
+			<when state="Ring_Hook" output="e̊͏᷎"/>
+			<when state="Ring_Macron" output="e̊̄"/>
+			<when state="Ring_Macron_Acute" output="e̊̄́"/>
+			<when state="Ring_Macron_Breve" output="e̊̄̆"/>
+			<when state="Ring_Ogonek" output="e̊͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="e̊͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="e̊͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="e̊͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="e̊͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="e̊͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="e̊͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="e̊͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="e̊͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="e̊͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="e̊͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="e̊͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="e̊͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="e̊͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="e̊͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="e̊͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="e̊͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="e̊͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="e̊͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="e̊͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="e̊͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="e̊͏̨̄̆"/>
+			<when state="Tilde" output="ẽ"/>
+			<when state="Tilde_Acute" output="ẽ́"/>
+			<when state="Tilde_Caron" output="ẽ̌"/>
+			<when state="Tilde_Circumflex" output="ẽ̂"/>
+			<when state="Tilde_Grave" output="ẽ̀"/>
+			<when state="Tilde_Macron" output="ẽ̄"/>
 		</action>
 		<action id="F">
 			<when state="none" output="F"/>
-			<when state="Dot Above" output="Ḟ"/>
+			<when state="Bar" output="F̍"/>
+			<when state="Caron" output="F̌"/>
+			<when state="Cedilla" output="F̧"/>
+			<when state="Dot" output="Ḟ"/>
+			<when state="Tilde" output="F̃"/>
+			<when state="Tilde_Bar" output="F̃̍"/>
+			<when state="Tilde_Underbar" output="F̃͏̩"/>
+			<when state="Underbar" output="F̩"/>
 		</action>
 		<action id="f">
 			<when state="none" output="f"/>
-			<when state="Dot Above" output="ḟ"/>
+			<when state="Bar" output="f̍"/>
+			<when state="Caron" output="f̌"/>
+			<when state="Cedilla" output="f̧"/>
+			<when state="Dot" output="ḟ"/>
+			<when state="Tilde" output="f̃"/>
+			<when state="Tilde_Bar" output="f̃̍"/>
+			<when state="Tilde_Underbar" output="f̃͏̩"/>
+			<when state="Underbar" output="f̩"/>
+		</action>
+		<action id="Ƒ">
+			<when state="none" output="Ƒ"/>
+			<when state="Caron" output="Ƒ̌"/>
+			<when state="Cedilla" output="Ƒ̧"/>
+			<when state="Dot" output="Ƒ̇"/>
+			<when state="Tilde" output="Ƒ̃"/>
+		</action>
+		<action id="ƒ">
+			<when state="none" output="ƒ"/>
+			<when state="Caron" output="ƒ̌"/>
+			<when state="Cedilla" output="ƒ̧"/>
+			<when state="Dot" output="ƒ̇"/>
+			<when state="Tilde" output="ƒ̃"/>
 		</action>
 		<action id="G">
 			<when state="none" output="G"/>
-			<when state="Dot Above" output="Ġ"/>
+			<when state="Bar" output="G̍"/>
+			<when state="Caron" output="Ǧ"/>
+			<when state="Cedilla" output="Ģ"/>
+			<when state="Dot" output="Ġ"/>
+			<when state="Tilde" output="G̃"/>
+			<when state="Tilde_Bar" output="G̃̍"/>
+			<when state="Tilde_Underbar" output="G̃͏̩"/>
+			<when state="Underbar" output="G̩"/>
 		</action>
 		<action id="g">
 			<when state="none" output="g"/>
-			<when state="Dot Above" output="ġ"/>
-		</action>
-		<action id="Ȝ">
-			<when state="none" output="Ȝ"/>
-			<when state="Acute" output="Ȝ́"/>
-			<when state="Diaeresis" output="Ȝ̈"/>
-			<when state="Diaeresis Acute" output="Ȝ̈́"/>
-			<when state="Diaeresis Dot" output="Ȝ̈̇"/>
-			<when state="Diaeresis Grave" output="Ȝ̈̀"/>
-			<when state="Dot Above" output="Ȝ̇"/>
-			<when state="Grave" output="Ȝ̀"/>
-		</action>
-		<action id="ȝ">
-			<when state="none" output="ȝ"/>
-			<when state="Acute" output="ȝ́"/>
-			<when state="Diaeresis" output="ȝ̈"/>
-			<when state="Diaeresis Acute" output="ȝ̈́"/>
-			<when state="Diaeresis Dot" output="ȝ̈̇"/>
-			<when state="Diaeresis Grave" output="ȝ̈̀"/>
-			<when state="Dot Above" output="ȝ̇"/>
-			<when state="Grave" output="ȝ̀"/>
+			<when state="Bar" output="g̍"/>
+			<when state="Caron" output="ǧ"/>
+			<when state="Cedilla" output="ģ"/>
+			<when state="Dot" output="ġ"/>
+			<when state="Tilde" output="g̃"/>
+			<when state="Tilde_Bar" output="g̃̍"/>
+			<when state="Tilde_Underbar" output="g̃͏̩"/>
+			<when state="Underbar" output="g̩"/>
 		</action>
 		<action id="H">
 			<when state="none" output="H"/>
-			<when state="Dot Above" output="Ḣ"/>
+			<when state="Bar" output="H̍"/>
+			<when state="Caron" output="Ȟ"/>
+			<when state="Cedilla" output="Ḩ"/>
+			<when state="Dot" output="Ḣ"/>
+			<when state="Tilde" output="H̃"/>
+			<when state="Tilde_Bar" output="H̃̍"/>
+			<when state="Tilde_Underbar" output="H̃͏̩"/>
+			<when state="Underbar" output="H̩"/>
 		</action>
 		<action id="h">
 			<when state="none" output="h"/>
-			<when state="Dot Above" output="ḣ"/>
-		</action>
-		<action id="Ƕ">
-			<when state="none" output="Ƕ"/>
-			<when state="Dot Above" output="Ƕ̇"/>
-		</action>
-		<action id="ƕ">
-			<when state="none" output="ƕ"/>
-			<when state="Dot Above" output="ƕ̇"/>
+			<when state="Bar" output="h̍"/>
+			<when state="Caron" output="ȟ"/>
+			<when state="Cedilla" output="ḩ"/>
+			<when state="Dot" output="ḣ"/>
+			<when state="Tilde" output="h̃"/>
+			<when state="Tilde_Bar" output="h̃̍"/>
+			<when state="Tilde_Underbar" output="h̃͏̩"/>
+			<when state="Underbar" output="h̩"/>
 		</action>
 		<action id="I">
 			<when state="none" output="I"/>
 			<when state="Acute" output="Í"/>
+			<when state="Breve" output="Ĭ"/>
+			<when state="Caron" output="Ǐ"/>
+			<when state="Circumflex" output="Î"/>
 			<when state="Diaeresis" output="Ï"/>
-			<when state="Diaeresis Acute" output="Ḯ"/>
-			<when state="Diaeresis Dot" output="Ï̇"/>
-			<when state="Diaeresis Grave" output="Ï̀"/>
-			<when state="Dot Above" output="İ"/>
+			<when state="Diaeresis_Acute" output="Ḯ"/>
+			<when state="Diaeresis_Breve" output="Ï̆"/>
+			<when state="Diaeresis_Caron" output="Ï"/>
+			<when state="Diaeresis_Circumflex" output="Ï̂"/>
+			<when state="Diaeresis_Dot" output="Ï̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ï̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ï̇̆"/>
+			<when state="Diaeresis_Grave" output="Ï̀"/>
+			<when state="Diaeresis_Macron" output="Ï̄"/>
+			<when state="Diaeresis_Macron_Acute" output="Ï̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ï̄̆"/>
+			<when state="Diaeresis_Tilde" output="Ï̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ï̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ï̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ï̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ï̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ï̃̄"/>
+			<when state="Dot" output="İ"/>
+			<when state="Dot_Acute" output="İ́"/>
+			<when state="Dot_Breve" output="İ̆"/>
 			<when state="Grave" output="Ì"/>
-		</action>
-		<action id="i">
-			<when state="none" output="i"/>
-			<when state="Acute" output="í"/>
-			<when state="Diaeresis" output="ï"/>
-			<when state="Diaeresis Acute" output="ḯ"/>
-			<when state="Diaeresis Grave" output="ï̀"/>
-			<when state="Grave" output="ì"/>
+			<when state="Hook" output="I᷎"/>
+			<when state="Macron" output="Ī"/>
+			<when state="Macron_Acute" output="Ī́"/>
+			<when state="Macron_Breve" output="Ī̆"/>
+			<when state="Ogonek" output="Į"/>
+			<when state="Ogonek_Acute" output="Į́"/>
+			<when state="Ogonek_Breve" output="Į̆"/>
+			<when state="Ogonek_Caron" output="Į̌"/>
+			<when state="Ogonek_Circumflex" output="Į̂"/>
+			<when state="Ogonek_Diaeresis" output="Į̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Į̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Į̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Į̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Į̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Į̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Į̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Į̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Į̈̄̆"/>
+			<when state="Ogonek_Dot" output="Į̇"/>
+			<when state="Ogonek_Dot_Acute" output="Į̇́"/>
+			<when state="Ogonek_Dot_Breve" output="Į̇̆"/>
+			<when state="Ogonek_Grave" output="Į̀"/>
+			<when state="Ogonek_Hook" output="Į᷎"/>
+			<when state="Ogonek_Macron" output="Į̄"/>
+			<when state="Ogonek_Macron_Acute" output="Į̄́"/>
+			<when state="Ogonek_Macron_Breve" output="Į̄̆"/>
+			<when state="Tilde" output="Ĩ"/>
+			<when state="Tilde_Acute" output="Ĩ́"/>
+			<when state="Tilde_Caron" output="Ĩ̌"/>
+			<when state="Tilde_Circumflex" output="Ĩ̂"/>
+			<when state="Tilde_Grave" output="Ĩ̀"/>
+			<when state="Tilde_Macron" output="Ĩ̄"/>
 		</action>
 		<action id="ı">
 			<when state="none" output="ı"/>
 			<when state="Acute" output="ı́"/>
+			<when state="Breve" output="ı̆"/>
+			<when state="Caron" output="ı̌"/>
+			<when state="Circumflex" output="ı̂"/>
 			<when state="Diaeresis" output="ı̈"/>
-			<when state="Diaeresis Acute" output="ı̈́"/>
-			<when state="Diaeresis Dot" output="ı̈̇"/>
-			<when state="Diaeresis Grave" output="ı̈̀"/>
-			<when state="Dot Above" output="ı̇"/>
+			<when state="Diaeresis_Acute" output="ı̈́"/>
+			<when state="Diaeresis_Breve" output="ı̈̆"/>
+			<when state="Diaeresis_Dot" output="ı̈̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ı̈̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ı̈̇̆"/>
+			<when state="Diaeresis_Macron" output="ı̈̄"/>
+			<when state="Diaeresis_Macron_Acute" output="ı̈̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="ı̈̄̆"/>
+			<when state="Dot" output="ı̇"/>
+			<when state="Dot_Acute" output="ı̇́"/>
+			<when state="Dot_Breve" output="ı̇̆"/>
 			<when state="Grave" output="ı̀"/>
+			<when state="Hook" output="ı᷎"/>
+			<when state="Macron" output="ı̄"/>
+			<when state="Macron_Acute" output="ı̄́"/>
+			<when state="Macron_Breve" output="ı̄̆"/>
+			<when state="Ogonek" output="ı̨"/>
+			<when state="Ogonek_Acute" output="ı̨́"/>
+			<when state="Ogonek_Breve" output="ı̨̆"/>
+			<when state="Ogonek_Caron" output="ı̨̌"/>
+			<when state="Ogonek_Circumflex" output="ı̨̂"/>
+			<when state="Ogonek_Diaeresis" output="ı̨̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ı̨̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ı̨̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ı̨̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ı̨̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ı̨̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ı̨̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ı̨̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ı̨̈̄̆"/>
+			<when state="Ogonek_Dot" output="ı̨̇"/>
+			<when state="Ogonek_Dot_Acute" output="ı̨̇́"/>
+			<when state="Ogonek_Dot_Breve" output="ı̨̇̆"/>
+			<when state="Ogonek_Grave" output="ı̨̀"/>
+			<when state="Ogonek_Hook" output="ı̨᷎"/>
+			<when state="Ogonek_Macron" output="ı̨̄"/>
+			<when state="Ogonek_Macron_Acute" output="ı̨̄́"/>
+			<when state="Ogonek_Macron_Breve" output="ı̨̄̆"/>
 		</action>
-		<action id="Æ">
-			<when state="none" output="Æ"/>
-			<when state="Acute" output="Ǽ"/>
-			<when state="Diaeresis" output="Æ̈"/>
-			<when state="Diaeresis Acute" output="Æ̈́"/>
-			<when state="Diaeresis Dot" output="Æ̈̇"/>
-			<when state="Diaeresis Grave" output="Æ̈̀"/>
-			<when state="Dot Above" output="Æ̇"/>
-			<when state="Grave" output="Æ̀"/>
-		</action>
-		<action id="æ">
-			<when state="none" output="æ"/>
-			<when state="Acute" output="ǽ"/>
-			<when state="Diaeresis" output="æ̈"/>
-			<when state="Diaeresis Acute" output="æ̈́"/>
-			<when state="Diaeresis Dot" output="æ̈̇"/>
-			<when state="Diaeresis Grave" output="æ̈̀"/>
-			<when state="Dot Above" output="æ̇"/>
-			<when state="Grave" output="æ̀"/>
+		<action id="i">
+			<when state="none" output="i"/>
+			<when state="Acute" output="í"/>
+			<when state="Breve" output="ĭ"/>
+			<when state="Caron" output="ǐ"/>
+			<when state="Circumflex" output="î"/>
+			<when state="Diaeresis" output="ï"/>
+			<when state="Diaeresis_Acute" output="ḯ"/>
+			<when state="Diaeresis_Breve" output="ï̆"/>
+			<when state="Diaeresis_Caron" output="ï"/>
+			<when state="Diaeresis_Circumflex" output="ï̂"/>
+			<when state="Diaeresis_Dot" output="ï̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ï̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ï̇̆"/>
+			<when state="Diaeresis_Grave" output="ï̀"/>
+			<when state="Diaeresis_Macron" output="ï̄"/>
+			<when state="Diaeresis_Macron_Acute" output="ï̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="ï̄̆"/>
+			<when state="Diaeresis_Tilde" output="ï̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ï̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ï̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ï̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ï̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ï̃̄"/>
+			<when state="Dot" output="i̇"/>
+			<when state="Dot_Acute" output="i̇́"/>
+			<when state="Dot_Breve" output="i̇̆"/>
+			<when state="Grave" output="ì"/>
+			<when state="Hook" output="i᷎"/>
+			<when state="Macron" output="ī"/>
+			<when state="Macron_Acute" output="ī́"/>
+			<when state="Macron_Breve" output="ī̆"/>
+			<when state="Ogonek" output="į"/>
+			<when state="Ogonek_Acute" output="į́"/>
+			<when state="Ogonek_Breve" output="į̆"/>
+			<when state="Ogonek_Caron" output="į̌"/>
+			<when state="Ogonek_Circumflex" output="į̂"/>
+			<when state="Ogonek_Diaeresis" output="į̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="į̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="į̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="į̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="į̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="į̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="į̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="į̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="į̈̄̆"/>
+			<when state="Ogonek_Dot" output="į̇"/>
+			<when state="Ogonek_Dot_Acute" output="į̇́"/>
+			<when state="Ogonek_Dot_Breve" output="į̇̆"/>
+			<when state="Ogonek_Grave" output="į̀"/>
+			<when state="Ogonek_Hook" output="į᷎"/>
+			<when state="Ogonek_Macron" output="į̄"/>
+			<when state="Ogonek_Macron_Acute" output="į̄́"/>
+			<when state="Ogonek_Macron_Breve" output="į̄̆"/>
+			<when state="Tilde" output="ĩ"/>
+			<when state="Tilde_Acute" output="ĩ́"/>
+			<when state="Tilde_Caron" output="ĩ̌"/>
+			<when state="Tilde_Circumflex" output="ĩ̂"/>
+			<when state="Tilde_Grave" output="ĩ̀"/>
+			<when state="Tilde_Macron" output="ĩ̄"/>
 		</action>
 		<action id="J">
 			<when state="none" output="J"/>
-			<when state="Acute" output="J́"/>
-			<when state="Diaeresis" output="J̈"/>
-			<when state="Diaeresis Acute" output="J̈́"/>
-			<when state="Diaeresis Dot" output="J̈̇"/>
-			<when state="Diaeresis Grave" output="J̈̀"/>
-			<when state="Dot Above" output="J̇"/>
-			<when state="Grave" output="J̀"/>
-		</action>
-		<action id="j">
-			<when state="none" output="j"/>
-			<when state="Acute" output="j́"/>
-			<when state="Diaeresis Acute" output="j̈́"/>
-			<when state="Diaeresis" output="j̈"/>
-			<when state="Diaeresis Grave" output="j̈̀"/>
-			<when state="Grave" output="j̀"/>
+			<when state="Bar" output="J̍"/>
+			<when state="Caron" output="J̌"/>
+			<when state="Cedilla" output="J̧"/>
+			<when state="Dot" output="J̇"/>
+			<when state="Ring" output="J̊"/>
+			<when state="Ring_Bar" output="J̊̍"/>
+			<when state="Ring_Underbar" output="J̊͏̩"/>
+			<when state="Tilde" output="J̃"/>
+			<when state="Tilde_Bar" output="J̃̍"/>
+			<when state="Tilde_Ring" output="J̃̊"/>
+			<when state="Tilde_Ring_Bar" output="J̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="J̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="J̃͏̩"/>
+			<when state="Tilde_Underring" output="J̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="J̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="J̃͏̥̩"/>
+			<when state="Underbar" output="J̩"/>
+			<when state="Underring" output="J̥"/>
+			<when state="Underring_Bar" output="J̥̍"/>
+			<when state="Underring_Underbar" output="J̥̩"/>
 		</action>
 		<action id="ȷ">
 			<when state="none" output="ȷ"/>
-			<when state="Acute" output="ȷ́"/>
-			<when state="Diaeresis" output="ȷ̈"/>
-			<when state="Diaeresis Acute" output="ȷ̈́"/>
-			<when state="Diaeresis Dot" output="ȷ̈̇"/>
-			<when state="Diaeresis Grave" output="ȷ̈̀"/>
-			<when state="Dot Above" output="ȷ̇"/>
-			<when state="Grave" output="ȷ̀"/>
+		</action>
+		<action id="j">
+			<when state="none" output="j"/>
+			<when state="Bar" output="j̍"/>
+			<when state="Caron" output="ǰ"/>
+			<when state="Cedilla" output="j̧"/>
+			<when state="Dot" output="j̇"/>
+			<when state="Ring" output="j̊"/>
+			<when state="Ring_Bar" output="j̊̍"/>
+			<when state="Ring_Underbar" output="j̊͏̩"/>
+			<when state="Tilde" output="j̃"/>
+			<when state="Tilde_Bar" output="j̃̍"/>
+			<when state="Tilde_Ring" output="j̃̊"/>
+			<when state="Tilde_Ring_Bar" output="j̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="j̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="j̃͏̩"/>
+			<when state="Tilde_Underring" output="j̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="j̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="j̃͏̥̩"/>
+			<when state="Underbar" output="j̩"/>
+			<when state="Underring" output="j̥"/>
+			<when state="Underring_Bar" output="j̥̍"/>
+			<when state="Underring_Underbar" output="j̥̩"/>
 		</action>
 		<action id="K">
 			<when state="none" output="K"/>
-			<when state="Dot Above" output="K̇"/>
+			<when state="Bar" output="K̍"/>
+			<when state="Caron" output="Ǩ"/>
+			<when state="Cedilla" output="Ķ"/>
+			<when state="Dot" output="K̇"/>
+			<when state="Tilde" output="K̃"/>
+			<when state="Tilde_Bar" output="K̃̍"/>
+			<when state="Tilde_Underbar" output="K̃͏̩"/>
+			<when state="Underbar" output="K̩"/>
 		</action>
 		<action id="k">
 			<when state="none" output="k"/>
-			<when state="Dot Above" output="k̇"/>
+			<when state="Bar" output="k̍"/>
+			<when state="Caron" output="ǩ"/>
+			<when state="Cedilla" output="ķ"/>
+			<when state="Dot" output="k̇"/>
+			<when state="Tilde" output="k̃"/>
+			<when state="Tilde_Bar" output="k̃̍"/>
+			<when state="Tilde_Underbar" output="k̃͏̩"/>
+			<when state="Underbar" output="k̩"/>
 		</action>
 		<action id="L">
 			<when state="none" output="L"/>
-			<when state="Acute" output="Ĺ"/>
+			<when state="Bar" output="L̍"/>
+			<when state="Caron" output="Ľ"/>
+			<when state="Cedilla" output="Ļ"/>
+			<when state="Circumflex" output="L̂"/>
 			<when state="Diaeresis" output="L̈"/>
-			<when state="Diaeresis Acute" output="L̈́"/>
-			<when state="Diaeresis Dot" output="L̈̇"/>
-			<when state="Diaeresis Grave" output="L̈̀"/>
-			<when state="Dot Above" output="L̇"/>
-			<when state="Grave" output="L̀"/>
+			<when state="Hook" output="L᷎"/>
+			<when state="Ogonek" output="L̨"/>
+			<when state="Ogonek_Caron" output="Ľ̨"/>
+			<when state="Ogonek_Circumflex" output="L̨̂"/>
+			<when state="Ogonek_Diaeresis" output="L̨̈"/>
+			<when state="Ogonek_Hook" output="L̨᷎"/>
+			<when state="Ring" output="L̊"/>
+			<when state="Ring_Bar" output="L̊̍"/>
+			<when state="Ring_Underbar" output="L̊͏̩"/>
+			<when state="Tilde" output="L̃"/>
+			<when state="Tilde_Bar" output="L̃̍"/>
+			<when state="Tilde_Ring" output="L̃̊"/>
+			<when state="Tilde_Ring_Bar" output="L̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="L̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="L̃͏̩"/>
+			<when state="Tilde_Underring" output="L̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="L̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="L̃͏̥̩"/>
+			<when state="Underbar" output="L̩"/>
+			<when state="Underring" output="L̥"/>
+			<when state="Underring_Bar" output="L̥̍"/>
+			<when state="Underring_Underbar" output="L̥̩"/>
 		</action>
 		<action id="l">
 			<when state="none" output="l"/>
-			<when state="Acute" output="ĺ"/>
+			<when state="Bar" output="l̍"/>
+			<when state="Caron" output="ľ"/>
+			<when state="Cedilla" output="ļ"/>
+			<when state="Circumflex" output="l̂"/>
 			<when state="Diaeresis" output="l̈"/>
-			<when state="Diaeresis Acute" output="l̈́"/>
-			<when state="Diaeresis Dot" output="l̈̇"/>
-			<when state="Diaeresis Grave" output="l̈̀"/>
-			<when state="Dot Above" output="l̇"/>
-			<when state="Grave" output="l̀"/>
+			<when state="Hook" output="l᷎"/>
+			<when state="Ogonek" output="l̨"/>
+			<when state="Ogonek_Caron" output="ľ̨"/>
+			<when state="Ogonek_Circumflex" output="l̨̂"/>
+			<when state="Ogonek_Diaeresis" output="l̨̈"/>
+			<when state="Ogonek_Hook" output="l̨᷎"/>
+			<when state="Ring" output="l̊"/>
+			<when state="Ring_Bar" output="l̊̍"/>
+			<when state="Ring_Underbar" output="l̊͏̩"/>
+			<when state="Tilde" output="l̃"/>
+			<when state="Tilde_Bar" output="l̃̍"/>
+			<when state="Tilde_Ring" output="l̃̊"/>
+			<when state="Tilde_Ring_Bar" output="l̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="l̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="l̃͏̩"/>
+			<when state="Tilde_Underring" output="l̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="l̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="l̃͏̥̩"/>
+			<when state="Underbar" output="l̩"/>
+			<when state="Underring" output="l̥"/>
+			<when state="Underring_Bar" output="l̥̍"/>
+			<when state="Underring_Underbar" output="l̥̩"/>
 		</action>
 		<action id="M">
 			<when state="none" output="M"/>
-			<when state="Acute" output="Ḿ"/>
+			<when state="Bar" output="M̍"/>
+			<when state="Caron" output="M̌"/>
+			<when state="Cedilla" output="M̧"/>
+			<when state="Circumflex" output="M̂"/>
 			<when state="Diaeresis" output="M̈"/>
-			<when state="Diaeresis Acute" output="M̈́"/>
-			<when state="Diaeresis Dot" output="M̈̇"/>
-			<when state="Diaeresis Grave" output="M̈̀"/>
-			<when state="Dot Above" output="Ṁ"/>
-			<when state="Grave" output="M̀"/>
+			<when state="Hook" output="M᷎"/>
+			<when state="Ogonek" output="M̨"/>
+			<when state="Ogonek_Caron" output="M̨̌"/>
+			<when state="Ogonek_Circumflex" output="M̨̂"/>
+			<when state="Ogonek_Diaeresis" output="M̨̈"/>
+			<when state="Ogonek_Hook" output="M̨᷎"/>
+			<when state="Ring" output="M̊"/>
+			<when state="Ring_Bar" output="M̊̍"/>
+			<when state="Ring_Underbar" output="M̊͏̩"/>
+			<when state="Tilde" output="M̃"/>
+			<when state="Underbar" output="M̩"/>
+			<when state="Underring" output="M̥"/>
+			<when state="Underring_Bar" output="M̥̍"/>
+			<when state="Underring_Underbar" output="M̥̩"/>
 		</action>
 		<action id="m">
 			<when state="none" output="m"/>
-			<when state="Acute" output="ḿ"/>
-			<when state="Diaeresis" output="m̈́"/>
-			<when state="Diaeresis Acute" output="m̈"/>
-			<when state="Diaeresis Dot" output="m̈̇"/>
-			<when state="Diaeresis Grave" output="m̈̀"/>
-			<when state="Dot Above" output="ṁ"/>
-			<when state="Grave" output="m̀"/>
+			<when state="Bar" output="m̍"/>
+			<when state="Caron" output="m̌"/>
+			<when state="Cedilla" output="m̧"/>
+			<when state="Circumflex" output="m̂"/>
+			<when state="Diaeresis" output="m̈"/>
+			<when state="Hook" output="m᷎"/>
+			<when state="Ogonek" output="m̨"/>
+			<when state="Ogonek_Caron" output="m̨̌"/>
+			<when state="Ogonek_Circumflex" output="m̨̂"/>
+			<when state="Ogonek_Diaeresis" output="m̨̈"/>
+			<when state="Ogonek_Hook" output="m̨᷎"/>
+			<when state="Ring" output="m̊"/>
+			<when state="Ring_Bar" output="m̊̍"/>
+			<when state="Ring_Underbar" output="m̊͏̩"/>
+			<when state="Tilde" output="m̃"/>
+			<when state="Underbar" output="m̩"/>
+			<when state="Underring" output="m̥"/>
+			<when state="Underring_Bar" output="m̥̍"/>
+			<when state="Underring_Underbar" output="m̥̩"/>
 		</action>
 		<action id="N">
 			<when state="none" output="N"/>
-			<when state="Acute" output="Ń"/>
+			<when state="Bar" output="N̍"/>
+			<when state="Caron" output="Ň"/>
+			<when state="Cedilla" output="Ņ"/>
+			<when state="Circumflex" output="N̂"/>
 			<when state="Diaeresis" output="N̈"/>
-			<when state="Diaeresis Acute" output="N̈́"/>
-			<when state="Diaeresis Dot" output="N̈̇"/>
-			<when state="Diaeresis Grave" output="N̈̀"/>
-			<when state="Dot Above" output="Ṅ"/>
-			<when state="Grave" output="Ǹ"/>
+			<when state="Hook" output="N᷎"/>
+			<when state="Ogonek" output="N̨"/>
+			<when state="Ogonek_Caron" output="Ň̨"/>
+			<when state="Ogonek_Circumflex" output="N̨̂"/>
+			<when state="Ogonek_Diaeresis" output="N̨̈"/>
+			<when state="Ogonek_Hook" output="N̨᷎"/>
+			<when state="Ring" output="N̊"/>
+			<when state="Ring_Bar" output="N̊̍"/>
+			<when state="Ring_Underbar" output="N̊͏̩"/>
+			<when state="Tilde" output="Ñ"/>
+			<when state="Underbar" output="N̩"/>
+			<when state="Underring" output="N̥"/>
+			<when state="Underring_Bar" output="N̥̍"/>
+			<when state="Underring_Underbar" output="N̥̩"/>
 		</action>
 		<action id="n">
 			<when state="none" output="n"/>
-			<when state="Acute" output="ń"/>
+			<when state="Bar" output="n̍"/>
+			<when state="Caron" output="ň"/>
+			<when state="Cedilla" output="ņ"/>
+			<when state="Circumflex" output="n̂"/>
 			<when state="Diaeresis" output="n̈"/>
-			<when state="Diaeresis Acute" output="n̈́"/>
-			<when state="Diaeresis Dot" output="n̈̇"/>
-			<when state="Diaeresis Grave" output="n̈̀"/>
-			<when state="Dot Above" output="ṅ"/>
-			<when state="Grave" output="ǹ"/>
+			<when state="Hook" output="n᷎"/>
+			<when state="Ogonek" output="n̨"/>
+			<when state="Ogonek_Caron" output="ň̨"/>
+			<when state="Ogonek_Circumflex" output="n̨̂"/>
+			<when state="Ogonek_Diaeresis" output="n̨̈"/>
+			<when state="Ogonek_Hook" output="n̨᷎"/>
+			<when state="Ring" output="n̊"/>
+			<when state="Ring_Bar" output="n̊̍"/>
+			<when state="Ring_Underbar" output="n̊͏̩"/>
+			<when state="Tilde" output="ñ"/>
+			<when state="Underbar" output="n̩"/>
+			<when state="Underring" output="n̥"/>
+			<when state="Underring_Bar" output="n̥̍"/>
+			<when state="Underring_Underbar" output="n̥̩"/>
 		</action>
 		<action id="Ŋ">
 			<when state="none" output="Ŋ"/>
-			<when state="Acute" output="Ŋ́"/>
+			<when state="Bar" output="Ŋ̍"/>
+			<when state="Caron" output="Ŋ̌"/>
+			<when state="Cedilla" output="Ŋ̧"/>
+			<when state="Circumflex" output="Ŋ̂"/>
 			<when state="Diaeresis" output="Ŋ̈"/>
-			<when state="Diaeresis Acute" output="Ŋ̈́"/>
-			<when state="Diaeresis Dot" output="Ŋ̈̇"/>
-			<when state="Diaeresis Grave" output="Ŋ̈̀"/>
-			<when state="Dot Above" output="Ŋ̇"/>
-			<when state="Grave" output="Ŋ̀"/>
+			<when state="Hook" output="Ŋ᷎"/>
+			<when state="Ogonek" output="Ŋ̨"/>
+			<when state="Ogonek_Caron" output="Ŋ̨̌"/>
+			<when state="Ogonek_Circumflex" output="Ŋ̨̂"/>
+			<when state="Ogonek_Diaeresis" output="Ŋ̨̈"/>
+			<when state="Ogonek_Hook" output="Ŋ̨᷎"/>
+			<when state="Ring" output="Ŋ̊"/>
+			<when state="Ring_Bar" output="Ŋ̊̍"/>
+			<when state="Ring_Underbar" output="Ŋ̊͏̩"/>
+			<when state="Tilde" output="Ŋ̃"/>
+			<when state="Underbar" output="Ŋ̩"/>
+			<when state="Underring" output="Ŋ̥"/>
+			<when state="Underring_Bar" output="Ŋ̥̍"/>
+			<when state="Underring_Underbar" output="Ŋ̥̩"/>
 		</action>
 		<action id="ŋ">
 			<when state="none" output="ŋ"/>
-			<when state="Acute" output="ŋ́"/>
+			<when state="Bar" output="ŋ̍"/>
+			<when state="Caron" output="ŋ̌"/>
+			<when state="Cedilla" output="ŋ̧"/>
+			<when state="Circumflex" output="ŋ̂"/>
 			<when state="Diaeresis" output="ŋ̈"/>
-			<when state="Diaeresis Acute" output="ŋ̈́"/>
-			<when state="Diaeresis Dot" output="ŋ̈̇"/>
-			<when state="Diaeresis Grave" output="ŋ̈̀"/>
-			<when state="Dot Above" output="ŋ̇"/>
-			<when state="Grave" output="ŋ̀"/>
+			<when state="Hook" output="ŋ᷎"/>
+			<when state="Ogonek" output="ŋ̨"/>
+			<when state="Ogonek_Caron" output="ŋ̨̌"/>
+			<when state="Ogonek_Circumflex" output="ŋ̨̂"/>
+			<when state="Ogonek_Diaeresis" output="ŋ̨̈"/>
+			<when state="Ogonek_Hook" output="ŋ̨᷎"/>
+			<when state="Ring" output="ŋ̊"/>
+			<when state="Ring_Bar" output="ŋ̊̍"/>
+			<when state="Ring_Underbar" output="ŋ̊͏̩"/>
+			<when state="Tilde" output="ŋ̃"/>
+			<when state="Tilde_Bar" output="ŋ̃̍"/>
+			<when state="Tilde_Ring" output="ŋ̃̊"/>
+			<when state="Tilde_Ring_Bar" output="ŋ̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="ŋ̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="ŋ̃͏̩"/>
+			<when state="Tilde_Underring" output="ŋ̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="ŋ̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="ŋ̃͏̥̩"/>
+			<when state="Underbar" output="ŋ̩"/>
+			<when state="Underring" output="ŋ̥"/>
+			<when state="Underring_Bar" output="ŋ̥̍"/>
+			<when state="Underring_Underbar" output="ŋ̥̩"/>
 		</action>
 		<action id="O">
 			<when state="none" output="O"/>
 			<when state="Acute" output="Ó"/>
+			<when state="Breve" output="Ŏ"/>
+			<when state="Caron" output="Ǒ"/>
+			<when state="Circumflex" output="Ô"/>
 			<when state="Diaeresis" output="Ö"/>
-			<when state="Diaeresis Acute" output="Ö́"/>
-			<when state="Diaeresis Dot" output="Ö̇"/>
-			<when state="Diaeresis Grave" output="Ö̀"/>
-			<when state="Dot Above" output="Ȯ"/>
+			<when state="Diaeresis_Acute" output="Ö́"/>
+			<when state="Diaeresis_Breve" output="Ö̆"/>
+			<when state="Diaeresis_Caron" output="Ö"/>
+			<when state="Diaeresis_Circumflex" output="Ö̂"/>
+			<when state="Diaeresis_Dot" output="Ö̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ö̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ö̇̆"/>
+			<when state="Diaeresis_Grave" output="Ö̀"/>
+			<when state="Diaeresis_Macron" output="Ȫ"/>
+			<when state="Diaeresis_Macron_Acute" output="Ȫ́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ȫ̆"/>
+			<when state="Diaeresis_Tilde" output="Ö̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ö̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ö̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ö̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ö̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ö̃̄"/>
+			<when state="Dot" output="Ȯ"/>
+			<when state="Dot_Acute" output="Ȯ́"/>
+			<when state="Dot_Breve" output="Ȯ̆"/>
 			<when state="Grave" output="Ò"/>
+			<when state="Hook" output="O᷎"/>
+			<when state="Macron" output="Ō"/>
+			<when state="Macron_Acute" output="Ṓ"/>
+			<when state="Macron_Breve" output="Ō̆"/>
+			<when state="Ogonek" output="Ǫ"/>
+			<when state="Ogonek_Acute" output="Ǫ́"/>
+			<when state="Ogonek_Breve" output="Ǫ̆"/>
+			<when state="Ogonek_Caron" output="Ǫ̌"/>
+			<when state="Ogonek_Circumflex" output="Ǫ̂"/>
+			<when state="Ogonek_Diaeresis" output="Ǫ̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ǫ̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ǫ̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ǫ̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ǫ̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ǫ̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ǫ̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ǫ̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ǫ̈̄̆"/>
+			<when state="Ogonek_Dot" output="Ǫ̇"/>
+			<when state="Ogonek_Dot_Acute" output="Ǫ̇́"/>
+			<when state="Ogonek_Dot_Breve" output="Ǫ̇̆"/>
+			<when state="Ogonek_Grave" output="Ǫ̀"/>
+			<when state="Ogonek_Hook" output="Ǫ᷎"/>
+			<when state="Ogonek_Macron" output="Ǭ"/>
+			<when state="Ogonek_Macron_Acute" output="Ǭ́"/>
+			<when state="Ogonek_Macron_Breve" output="Ǭ̆"/>
+			<when state="Tilde" output="Õ"/>
+			<when state="Tilde_Acute" output="Ṍ"/>
+			<when state="Tilde_Caron" output="Õ̌"/>
+			<when state="Tilde_Circumflex" output="Õ̂"/>
+			<when state="Tilde_Grave" output="Õ̀"/>
+			<when state="Tilde_Macron" output="Ȭ"/>
 		</action>
 		<action id="o">
 			<when state="none" output="o"/>
 			<when state="Acute" output="ó"/>
+			<when state="Breve" output="ŏ"/>
+			<when state="Caron" output="ǒ"/>
+			<when state="Circumflex" output="ô"/>
 			<when state="Diaeresis" output="ö"/>
-			<when state="Diaeresis Acute" output="ö́"/>
-			<when state="Diaeresis Dot" output="ö̇"/>
-			<when state="Diaeresis Grave" output="ö̀"/>
-			<when state="Dot Above" output="ȯ"/>
+			<when state="Diaeresis_Acute" output="ö́"/>
+			<when state="Diaeresis_Breve" output="ö̆"/>
+			<when state="Diaeresis_Caron" output="ö"/>
+			<when state="Diaeresis_Circumflex" output="ö̂"/>
+			<when state="Diaeresis_Dot" output="ö̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ö̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ö̇̆"/>
+			<when state="Diaeresis_Grave" output="ö̀"/>
+			<when state="Diaeresis_Macron" output="ȫ"/>
+			<when state="Diaeresis_Macron_Acute" output="ȫ́"/>
+			<when state="Diaeresis_Macron_Breve" output="ȫ̆"/>
+			<when state="Diaeresis_Tilde" output="ö̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ö̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ö̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ö̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ö̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ö̃̄"/>
+			<when state="Dot" output="ȯ"/>
+			<when state="Dot_Acute" output="ȯ́"/>
+			<when state="Dot_Breve" output="ȯ̆"/>
 			<when state="Grave" output="ò"/>
-		</action>
-		<action id="Ø">
-			<when state="none" output="Ø"/>
-			<when state="Acute" output="Ǿ"/>
-			<when state="Diaeresis" output="Ø̈"/>
-			<when state="Diaeresis Acute" output="Ø̈́"/>
-			<when state="Diaeresis Dot" output="Ø̈̇"/>
-			<when state="Diaeresis Grave" output="Ø̈̀"/>
-			<when state="Dot Above" output="Ø̇"/>
-			<when state="Grave" output="Ø̀"/>
-		</action>
-		<action id="ø">
-			<when state="none" output="ø"/>
-			<when state="Acute" output="ǿ"/>
-			<when state="Diaeresis" output="ø̈"/>
-			<when state="Diaeresis Acute" output="ø̈́"/>
-			<when state="Diaeresis Dot" output="ø̈̇"/>
-			<when state="Diaeresis Grave" output="ø̈̀"/>
-			<when state="Dot Above" output="ø̇"/>
-			<when state="Grave" output="ø̀"/>
+			<when state="Hook" output="o᷎"/>
+			<when state="Macron" output="ō"/>
+			<when state="Macron_Acute" output="ṓ"/>
+			<when state="Macron_Breve" output="ō̆"/>
+			<when state="Ogonek" output="ǫ"/>
+			<when state="Ogonek_Acute" output="ǫ́"/>
+			<when state="Ogonek_Breve" output="ǫ̆"/>
+			<when state="Ogonek_Caron" output="ǫ̌"/>
+			<when state="Ogonek_Circumflex" output="ǫ̂"/>
+			<when state="Ogonek_Diaeresis" output="ǫ̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ǫ̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ǫ̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ǫ̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ǫ̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ǫ̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ǫ̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ǫ̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ǫ̈̄̆"/>
+			<when state="Ogonek_Dot" output="ǫ̇"/>
+			<when state="Ogonek_Dot_Acute" output="ǫ̇́"/>
+			<when state="Ogonek_Dot_Breve" output="ǫ̇̆"/>
+			<when state="Ogonek_Grave" output="ǫ̀"/>
+			<when state="Ogonek_Hook" output="ǫ᷎"/>
+			<when state="Ogonek_Macron" output="ǭ"/>
+			<when state="Ogonek_Macron_Acute" output="ǭ́"/>
+			<when state="Ogonek_Macron_Breve" output="ǭ̆"/>
+			<when state="Tilde" output="õ"/>
+			<when state="Tilde_Acute" output="ṍ"/>
+			<when state="Tilde_Caron" output="õ̌"/>
+			<when state="Tilde_Circumflex" output="õ̂"/>
+			<when state="Tilde_Grave" output="õ̀"/>
+			<when state="Tilde_Macron" output="ȭ"/>
 		</action>
 		<action id="P">
 			<when state="none" output="P"/>
-			<when state="Dot Above" output="Ṗ"/>
+			<when state="Bar" output="P̍"/>
+			<when state="Caron" output="P̌"/>
+			<when state="Cedilla" output="P̧"/>
+			<when state="Dot" output="Ṗ"/>
+			<when state="Tilde" output="P̃"/>
+			<when state="Tilde_Bar" output="P̃̍"/>
+			<when state="Tilde_Underbar" output="P̃͏̩"/>
+			<when state="Underbar" output="P̩"/>
 		</action>
 		<action id="p">
 			<when state="none" output="p"/>
-			<when state="Dot Above" output="ṗ"/>
+			<when state="Bar" output="p̍"/>
+			<when state="Caron" output="p̌"/>
+			<when state="Cedilla" output="p̧"/>
+			<when state="Dot" output="ṗ"/>
+			<when state="Tilde" output="p̃"/>
+			<when state="Tilde_Bar" output="p̃̍"/>
+			<when state="Tilde_Underbar" output="p̃͏̩"/>
+			<when state="Underbar" output="p̩"/>
 		</action>
 		<action id="Q">
 			<when state="none" output="Q"/>
-			<when state="Dot Above" output="Q̇"/>
+			<when state="Bar" output="Q̍"/>
+			<when state="Caron" output="Q̌"/>
+			<when state="Cedilla" output="Q̧"/>
+			<when state="Dot" output="Q̇"/>
+			<when state="Tilde" output="Q̃"/>
+			<when state="Tilde_Bar" output="Q̃̍"/>
+			<when state="Tilde_Underbar" output="Q̃͏̩"/>
+			<when state="Underbar" output="Q̩"/>
 		</action>
 		<action id="q">
 			<when state="none" output="q"/>
-			<when state="Dot Above" output="q̇"/>
-		</action>
-		<action id="Ƣ">
-			<when state="none" output="Ƣ"/>
-			<when state="Dot Above" output="Ƣ̇"/>
-		</action>
-		<action id="ƣ">
-			<when state="none" output="ƣ"/>
-			<when state="Dot Above" output="ƣ̇"/>
+			<when state="Bar" output="q̍"/>
+			<when state="Caron" output="q̌"/>
+			<when state="Cedilla" output="q̧"/>
+			<when state="Dot" output="q̇"/>
+			<when state="Tilde" output="q̃"/>
+			<when state="Tilde_Bar" output="q̃̍"/>
+			<when state="Tilde_Underbar" output="q̃͏̩"/>
+			<when state="Underbar" output="q̩"/>
 		</action>
 		<action id="R">
 			<when state="none" output="R"/>
-			<when state="Acute" output="Ŕ"/>
+			<when state="Bar" output="R̍"/>
+			<when state="Caron" output="Ř"/>
+			<when state="Cedilla" output="Ŗ"/>
+			<when state="Circumflex" output="R̂"/>
 			<when state="Diaeresis" output="R̈"/>
-			<when state="Diaeresis Acute" output="R̈́"/>
-			<when state="Diaeresis Dot" output="R̈̇"/>
-			<when state="Diaeresis Grave" output="R̈̀"/>
-			<when state="Dot Above" output="Ṙ"/>
-			<when state="Grave" output="R̀"/>
+			<when state="Hook" output="R᷎"/>
+			<when state="Ogonek" output="R̨"/>
+			<when state="Ogonek_Caron" output="Ř̨"/>
+			<when state="Ogonek_Circumflex" output="R̨̂"/>
+			<when state="Ogonek_Diaeresis" output="R̨̈"/>
+			<when state="Ogonek_Hook" output="R̨᷎"/>
+			<when state="Ring" output="R̊"/>
+			<when state="Ring_Bar" output="R̊̍"/>
+			<when state="Ring_Underbar" output="R̊͏̩"/>
+			<when state="Tilde" output="R̃"/>
+			<when state="Tilde_Bar" output="R̃̍"/>
+			<when state="Tilde_Ring" output="R̃̊"/>
+			<when state="Tilde_Ring_Bar" output="R̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="R̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="R̃͏̩"/>
+			<when state="Tilde_Underring" output="R̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="R̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="R̃͏̥̩"/>
+			<when state="Underbar" output="R̩"/>
+			<when state="Underring" output="R̥"/>
+			<when state="Underring_Bar" output="R̥̍"/>
+			<when state="Underring_Underbar" output="R̥̩"/>
 		</action>
 		<action id="r">
 			<when state="none" output="r"/>
-			<when state="Acute" output="ŕ"/>
+			<when state="Bar" output="r̍"/>
+			<when state="Caron" output="ř"/>
+			<when state="Cedilla" output="ŗ"/>
+			<when state="Circumflex" output="r̂"/>
 			<when state="Diaeresis" output="r̈"/>
-			<when state="Diaeresis Acute" output="r̈́"/>
-			<when state="Diaeresis Dot" output="r̈̇"/>
-			<when state="Diaeresis Grave" output="r̈̀"/>
-			<when state="Dot Above" output="ṙ"/>
-			<when state="Grave" output="r̀"/>
+			<when state="Hook" output="r᷎"/>
+			<when state="Ogonek" output="r̨"/>
+			<when state="Ogonek_Caron" output="ř̨"/>
+			<when state="Ogonek_Circumflex" output="r̨̂"/>
+			<when state="Ogonek_Diaeresis" output="r̨̈"/>
+			<when state="Ogonek_Hook" output="r̨᷎"/>
+			<when state="Ring" output="r̊"/>
+			<when state="Ring_Bar" output="r̊̍"/>
+			<when state="Ring_Underbar" output="r̊͏̩"/>
+			<when state="Tilde" output="r̃"/>
+			<when state="Tilde_Bar" output="r̃̍"/>
+			<when state="Tilde_Ring" output="r̃̊"/>
+			<when state="Tilde_Ring_Bar" output="r̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="r̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="r̃͏̩"/>
+			<when state="Tilde_Underring" output="r̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="r̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="r̃͏̥̩"/>
+			<when state="Underbar" output="r̩"/>
+			<when state="Underring" output="r̥"/>
+			<when state="Underring_Bar" output="r̥̍"/>
+			<when state="Underring_Underbar" output="r̥̩"/>
 		</action>
 		<action id="S">
 			<when state="none" output="S"/>
-			<when state="Dot Above" output="Ṡ"/>
+			<when state="Bar" output="S̍"/>
+			<when state="Caron" output="Š"/>
+			<when state="Cedilla" output="Ş"/>
+			<when state="Dot" output="Ṡ"/>
+			<when state="Tilde" output="S̃"/>
+			<when state="Tilde_Bar" output="S̃̍"/>
+			<when state="Tilde_Underbar" output="S̃͏̩"/>
+			<when state="Underbar" output="S̩"/>
 		</action>
 		<action id="s">
 			<when state="none" output="s"/>
-			<when state="Dot Above" output="ṡ"/>
-		</action>
-		<action id="Ꟈ">
-			<when state="none" output="Ꟈ"/>
-			<when state="Dot Above" output="Ꟈ̇"/>
-		</action>
-		<action id="ꟈ">
-			<when state="none" output="ꟈ"/>
-			<when state="Dot Above" output="ꟈ̇"/>
-		</action>
-		<action id="Θ">
-			<when state="none" output="Θ"/>
-			<when state="Dot Above" output="Θ̇"/>
-		</action>
-		<action id="θ">
-			<when state="none" output="θ"/>
-			<when state="Dot Above" output="θ̇"/>
+			<when state="Bar" output="s̍"/>
+			<when state="Caron" output="š"/>
+			<when state="Cedilla" output="ş"/>
+			<when state="Dot" output="ṡ"/>
+			<when state="Tilde" output="s̃"/>
+			<when state="Tilde_Bar" output="s̃̍"/>
+			<when state="Tilde_Underbar" output="s̃͏̩"/>
+			<when state="Underbar" output="s̩"/>
 		</action>
 		<action id="T">
 			<when state="none" output="T"/>
-			<when state="Dot Above" output="Ṫ"/>
+			<when state="Bar" output="T̍"/>
+			<when state="Caron" output="Ť"/>
+			<when state="Cedilla" output="Ţ"/>
+			<when state="Dot" output="Ṫ"/>
+			<when state="Tilde" output="T̃"/>
+			<when state="Tilde_Bar" output="T̃̍"/>
+			<when state="Tilde_Underbar" output="T̃͏̩"/>
+			<when state="Underbar" output="T̩"/>
 		</action>
 		<action id="t">
 			<when state="none" output="t"/>
-			<when state="Dot Above" output="ṫ"/>
-		</action>
-		<action id="Þ">
-			<when state="none" output="Þ"/>
-			<when state="Dot Above" output="Þ̇"/>
-		</action>
-		<action id="þ">
-			<when state="none" output="þ"/>
-			<when state="Dot Above" output="þ̇"/>
+			<when state="Bar" output="t̍"/>
+			<when state="Caron" output="ť"/>
+			<when state="Cedilla" output="ţ"/>
+			<when state="Dot" output="ṫ"/>
+			<when state="Tilde" output="t̃"/>
+			<when state="Tilde_Bar" output="t̃̍"/>
+			<when state="Tilde_Underbar" output="t̃͏̩"/>
+			<when state="Underbar" output="t̩"/>
 		</action>
 		<action id="U">
 			<when state="none" output="U"/>
 			<when state="Acute" output="Ú"/>
+			<when state="Breve" output="Ŭ"/>
+			<when state="Caron" output="Ǔ"/>
+			<when state="Circumflex" output="Û"/>
 			<when state="Diaeresis" output="Ü"/>
-			<when state="Diaeresis Acute" output="Ǘ"/>
-			<when state="Diaeresis Dot" output="Ü̇"/>
-			<when state="Diaeresis Grave" output="Ǜ"/>
-			<when state="Dot Above" output="U̇"/>
+			<when state="Diaeresis_Acute" output="Ǘ"/>
+			<when state="Diaeresis_Breve" output="Ü̆"/>
+			<when state="Diaeresis_Caron" output="Ü"/>
+			<when state="Diaeresis_Circumflex" output="Ü̂"/>
+			<when state="Diaeresis_Dot" output="Ü̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ü̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ü̇̆"/>
+			<when state="Diaeresis_Grave" output="Ǜ"/>
+			<when state="Diaeresis_Macron" output="Ǖ"/>
+			<when state="Diaeresis_Macron_Acute" output="Ǖ́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ǖ̆"/>
+			<when state="Diaeresis_Tilde" output="Ü̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ü̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ü̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ü̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ü̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ü̃̄"/>
+			<when state="Dot" output="U̇"/>
+			<when state="Dot_Acute" output="U̇́"/>
+			<when state="Dot_Breve" output="U̇̆"/>
 			<when state="Grave" output="Ù"/>
+			<when state="Hook" output="U᷎"/>
+			<when state="Macron" output="Ū"/>
+			<when state="Macron_Acute" output="Ū́"/>
+			<when state="Macron_Breve" output="Ū̆"/>
+			<when state="Ogonek" output="Ų"/>
+			<when state="Ogonek_Acute" output="Ų́"/>
+			<when state="Ogonek_Breve" output="Ų̆"/>
+			<when state="Ogonek_Caron" output="Ų̌"/>
+			<when state="Ogonek_Circumflex" output="Ų̂"/>
+			<when state="Ogonek_Diaeresis" output="Ų̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ų̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ų̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ų̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ų̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ų̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ų̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ų̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ų̈̄̆"/>
+			<when state="Ogonek_Dot" output="Ų̇"/>
+			<when state="Ogonek_Dot_Acute" output="Ų̇́"/>
+			<when state="Ogonek_Dot_Breve" output="Ų̇̆"/>
+			<when state="Ogonek_Grave" output="Ų̀"/>
+			<when state="Ogonek_Hook" output="Ų᷎"/>
+			<when state="Ogonek_Macron" output="Ų̄"/>
+			<when state="Ogonek_Macron_Acute" output="Ų̄́"/>
+			<when state="Ogonek_Macron_Breve" output="Ų̄̆"/>
+			<when state="Ring" output="Ů"/>
+			<when state="Ring_Acute" output="Ů́"/>
+			<when state="Ring_Breve" output="Ů̆"/>
+			<when state="Ring_Caron" output="Ů̌"/>
+			<when state="Ring_Circumflex" output="Ů̂"/>
+			<when state="Ring_Diaeresis" output="Ů̈"/>
+			<when state="Ring_Diaeresis_Acute" output="Ů̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="Ů̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="Ů̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="Ů̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="Ů̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="Ů̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="Ů̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="Ů̈̄̆"/>
+			<when state="Ring_Dot" output="Ů̇"/>
+			<when state="Ring_Dot_Acute" output="Ů̇́"/>
+			<when state="Ring_Dot_Breve" output="Ů̇̆"/>
+			<when state="Ring_Grave" output="Ů̀"/>
+			<when state="Ring_Hook" output="Ů͏᷎"/>
+			<when state="Ring_Macron" output="Ů̄"/>
+			<when state="Ring_Macron_Acute" output="Ů̄́"/>
+			<when state="Ring_Macron_Breve" output="Ů̄̆"/>
+			<when state="Ring_Ogonek" output="Ů͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="Ů͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="Ů͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="Ů͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="Ů͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="Ů͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="Ů͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="Ů͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="Ů͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="Ů͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="Ů͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="Ů͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="Ů͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="Ů͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="Ů͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="Ů͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="Ů͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="Ů͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="Ů͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="Ů͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="Ů͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="Ů͏̨̄̆"/>
+			<when state="Tilde" output="Ũ"/>
+			<when state="Tilde_Acute" output="Ṹ"/>
+			<when state="Tilde_Caron" output="Ũ̌"/>
+			<when state="Tilde_Circumflex" output="Ũ̂"/>
+			<when state="Tilde_Grave" output="Ũ̀"/>
+			<when state="Tilde_Macron" output="Ũ̄"/>
 		</action>
 		<action id="u">
 			<when state="none" output="u"/>
 			<when state="Acute" output="ú"/>
+			<when state="Breve" output="ŭ"/>
+			<when state="Caron" output="ǔ"/>
+			<when state="Circumflex" output="û"/>
 			<when state="Diaeresis" output="ü"/>
-			<when state="Diaeresis Acute" output="ǘ"/>
-			<when state="Diaeresis Dot" output="ü̇"/>
-			<when state="Diaeresis Grave" output="ǜ"/>
-			<when state="Dot Above" output="u̇"/>
+			<when state="Diaeresis_Acute" output="ǘ"/>
+			<when state="Diaeresis_Breve" output="ü̆"/>
+			<when state="Diaeresis_Caron" output="ü"/>
+			<when state="Diaeresis_Circumflex" output="ü̂"/>
+			<when state="Diaeresis_Dot" output="ü̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ü̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ü̇̆"/>
+			<when state="Diaeresis_Grave" output="ǜ"/>
+			<when state="Diaeresis_Macron" output="ǖ"/>
+			<when state="Diaeresis_Macron_Acute" output="ǖ́"/>
+			<when state="Diaeresis_Macron_Breve" output="ǖ̆"/>
+			<when state="Diaeresis_Tilde" output="ü̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ü̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ü̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ü̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ü̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ü̃̄"/>
+			<when state="Dot" output="u̇"/>
+			<when state="Dot_Acute" output="u̇́"/>
+			<when state="Dot_Breve" output="u̇̆"/>
 			<when state="Grave" output="ù"/>
+			<when state="Hook" output="u᷎"/>
+			<when state="Macron" output="ū"/>
+			<when state="Macron_Acute" output="ū́"/>
+			<when state="Macron_Breve" output="ū̆"/>
+			<when state="Ogonek" output="ų"/>
+			<when state="Ogonek_Acute" output="ų́"/>
+			<when state="Ogonek_Breve" output="ų̆"/>
+			<when state="Ogonek_Caron" output="ų̌"/>
+			<when state="Ogonek_Circumflex" output="ų̂"/>
+			<when state="Ogonek_Diaeresis" output="ų̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ų̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ų̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ų̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ų̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ų̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ų̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ų̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ų̈̄̆"/>
+			<when state="Ogonek_Dot" output="ų̇"/>
+			<when state="Ogonek_Dot_Acute" output="ų̇́"/>
+			<when state="Ogonek_Dot_Breve" output="ų̇̆"/>
+			<when state="Ogonek_Grave" output="ų̀"/>
+			<when state="Ogonek_Hook" output="ų᷎"/>
+			<when state="Ogonek_Macron" output="ų̄"/>
+			<when state="Ogonek_Macron_Acute" output="ų̄́"/>
+			<when state="Ogonek_Macron_Breve" output="ų̄̆"/>
+			<when state="Ring" output="ů"/>
+			<when state="Ring_Acute" output="ů́"/>
+			<when state="Ring_Breve" output="ů̆"/>
+			<when state="Ring_Caron" output="ů̌"/>
+			<when state="Ring_Circumflex" output="ů̂"/>
+			<when state="Ring_Diaeresis" output="ů̈"/>
+			<when state="Ring_Diaeresis_Acute" output="ů̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="ů̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="ů̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="ů̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="ů̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="ů̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="ů̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="ů̈̄̆"/>
+			<when state="Ring_Dot" output="ů̇"/>
+			<when state="Ring_Dot_Acute" output="ů̇́"/>
+			<when state="Ring_Dot_Breve" output="ů̇̆"/>
+			<when state="Ring_Grave" output="ů̀"/>
+			<when state="Ring_Hook" output="ů͏᷎"/>
+			<when state="Ring_Macron" output="ů̄"/>
+			<when state="Ring_Macron_Acute" output="ů̄́"/>
+			<when state="Ring_Macron_Breve" output="ů̄̆"/>
+			<when state="Ring_Ogonek" output="ů͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="ů͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="ů͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="ů͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="ů͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="ů͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="ů͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="ů͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="ů͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="ů͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="ů͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="ů͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="ů͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="ů͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="ů͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="ů͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="ů͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="ů͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="ů͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="ů͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="ů͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="ů͏̨̄̆"/>
+			<when state="Tilde" output="ũ"/>
+			<when state="Tilde_Acute" output="ṹ"/>
+			<when state="Tilde_Caron" output="ũ̌"/>
+			<when state="Tilde_Circumflex" output="ũ̂"/>
+			<when state="Tilde_Grave" output="ũ̀"/>
+			<when state="Tilde_Macron" output="ũ̄"/>
 		</action>
 		<action id="V">
 			<when state="none" output="V"/>
-			<when state="Dot Above" output="V̇"/>
+			<when state="Bar" output="V̍"/>
+			<when state="Caron" output="V̌"/>
+			<when state="Cedilla" output="V̧"/>
+			<when state="Dot" output="V̇"/>
+			<when state="Tilde" output="Ṽ"/>
+			<when state="Tilde_Bar" output="Ṽ̍"/>
+			<when state="Tilde_Underbar" output="Ṽ͏̩"/>
+			<when state="Underbar" output="V̩"/>
 		</action>
 		<action id="v">
 			<when state="none" output="v"/>
-			<when state="Dot Above" output="v̇"/>
+			<when state="Bar" output="v̍"/>
+			<when state="Caron" output="v̌"/>
+			<when state="Cedilla" output="v̧"/>
+			<when state="Dot" output="v̇"/>
+			<when state="Tilde" output="ṽ"/>
+			<when state="Tilde_Bar" output="ṽ̍"/>
+			<when state="Tilde_Underbar" output="ṽ͏̩"/>
+			<when state="Underbar" output="v̩"/>
 		</action>
 		<action id="W">
 			<when state="none" output="W"/>
 			<when state="Acute" output="Ẃ"/>
+			<when state="Bar" output="W̍"/>
+			<when state="Breve" output="W̆"/>
+			<when state="Caron" output="W̌"/>
+			<when state="Cedilla" output="W̧"/>
+			<when state="Circumflex" output="Ŵ"/>
 			<when state="Diaeresis" output="Ẅ"/>
-			<when state="Diaeresis Acute" output="Ẅ́"/>
-			<when state="Diaeresis Dot" output="Ẅ̇"/>
-			<when state="Diaeresis Grave" output="Ẅ̀"/>
-			<when state="Dot Above" output="Ẇ"/>
+			<when state="Diaeresis_Acute" output="Ẅ́"/>
+			<when state="Diaeresis_Breve" output="Ẅ̆"/>
+			<when state="Diaeresis_Caron" output="Ẅ"/>
+			<when state="Diaeresis_Circumflex" output="Ẅ̂"/>
+			<when state="Diaeresis_Dot" output="Ẅ̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ẅ̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ẅ̇̆"/>
+			<when state="Diaeresis_Grave" output="Ẅ̀"/>
+			<when state="Diaeresis_Macron" output="Ẅ̄"/>
+			<when state="Diaeresis_Macron_Acute" output="Ẅ̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ẅ̄̆"/>
+			<when state="Diaeresis_Tilde" output="Ẅ̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ẅ̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ẅ̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ẅ̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ẅ̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ẅ̃̄"/>
+			<when state="Dot" output="Ẇ"/>
+			<when state="Dot_Acute" output="Ẇ́"/>
+			<when state="Dot_Breve" output="Ẇ̆"/>
 			<when state="Grave" output="Ẁ"/>
+			<when state="Hook" output="W᷎"/>
+			<when state="Macron" output="W̄"/>
+			<when state="Macron_Acute" output="W̄́"/>
+			<when state="Macron_Breve" output="W̄̆"/>
+			<when state="Ogonek" output="W̨"/>
+			<when state="Ogonek_Acute" output="Ẃ̨"/>
+			<when state="Ogonek_Breve" output="W̨̆"/>
+			<when state="Ogonek_Caron" output="W̨̌"/>
+			<when state="Ogonek_Circumflex" output="Ŵ̨"/>
+			<when state="Ogonek_Diaeresis" output="Ẅ̨"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ẅ̨́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ẅ̨̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ẅ̨̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ẅ̨̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ẅ̨̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ẅ̨̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ẅ̨̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ẅ̨̄̆"/>
+			<when state="Ogonek_Dot" output="Ẇ̨"/>
+			<when state="Ogonek_Dot_Acute" output="Ẇ̨́"/>
+			<when state="Ogonek_Dot_Breve" output="Ẇ̨̆"/>
+			<when state="Ogonek_Grave" output="Ẁ̨"/>
+			<when state="Ogonek_Hook" output="W̨᷎"/>
+			<when state="Ogonek_Macron" output="W̨̄"/>
+			<when state="Ogonek_Macron_Acute" output="W̨̄́"/>
+			<when state="Ogonek_Macron_Breve" output="W̨̄̆"/>
+			<when state="Ring" output="W̊"/>
+			<when state="Ring_Acute" output="W̊́"/>
+			<when state="Ring_Bar" output="W̊̍"/>
+			<when state="Ring_Breve" output="W̊̆"/>
+			<when state="Ring_Caron" output="W̊̌"/>
+			<when state="Ring_Circumflex" output="W̊̂"/>
+			<when state="Ring_Diaeresis" output="W̊̈"/>
+			<when state="Ring_Diaeresis_Acute" output="W̊̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="W̊̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="W̊̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="W̊̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="W̊̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="W̊̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="W̊̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="W̊̈̄̆"/>
+			<when state="Ring_Dot" output="W̊̇"/>
+			<when state="Ring_Dot_Acute" output="W̊̇́"/>
+			<when state="Ring_Dot_Breve" output="W̊̇̆"/>
+			<when state="Ring_Grave" output="W̊̀"/>
+			<when state="Ring_Hook" output="W̊͏᷎"/>
+			<when state="Ring_Macron" output="W̊̄"/>
+			<when state="Ring_Macron_Acute" output="W̊̄́"/>
+			<when state="Ring_Macron_Breve" output="W̊̄̆"/>
+			<when state="Ring_Ogonek" output="W̊͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="W̊͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="W̊͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="W̊͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="W̊͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="W̊͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="W̊͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="W̊͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="W̊͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="W̊͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="W̊͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="W̊͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="W̊͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="W̊͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="W̊͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="W̊͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="W̊͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="W̊͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="W̊͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="W̊͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="W̊͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="W̊͏̨̄̆"/>
+			<when state="Ring_Underbar" output="W̊͏̩"/>
+			<when state="Tilde" output="W̃"/>
+			<when state="Tilde_Acute" output="W̃́"/>
+			<when state="Tilde_Caron" output="W̃̌"/>
+			<when state="Tilde_Circumflex" output="W̃̂"/>
+			<when state="Tilde_Bar" output="W̃̍"/>
+			<when state="Tilde_Grave" output="W̃̀"/>
+			<when state="Tilde_Macron" output="W̃̄"/>
+			<when state="Tilde_Ring" output="W̃̊"/>
+			<when state="Tilde_Ring_Bar" output="W̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="W̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="W̃͏̩"/>
+			<when state="Tilde_Underring" output="W̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="W̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="W̃͏̥̩"/>
+			<when state="Underbar" output="W̩"/>
+			<when state="Underring" output="W̥"/>
+			<when state="Underring_Bar" output="W̥̍"/>
+			<when state="Underring_Underbar" output="W̥̩"/>
 		</action>
 		<action id="w">
 			<when state="none" output="w"/>
 			<when state="Acute" output="ẃ"/>
+			<when state="Bar" output="w̍"/>
+			<when state="Breve" output="w̆"/>
+			<when state="Caron" output="w̌"/>
+			<when state="Cedilla" output="w̧"/>
+			<when state="Circumflex" output="ŵ"/>
 			<when state="Diaeresis" output="ẅ"/>
-			<when state="Diaeresis Acute" output="ẅ́"/>
-			<when state="Diaeresis Dot" output="ẅ̇"/>
-			<when state="Diaeresis Grave" output="ẅ̀"/>
-			<when state="Dot Above" output="ẇ"/>
+			<when state="Diaeresis_Acute" output="ẅ́"/>
+			<when state="Diaeresis_Breve" output="ẅ̆"/>
+			<when state="Diaeresis_Caron" output="ẅ"/>
+			<when state="Diaeresis_Circumflex" output="ẅ̂"/>
+			<when state="Diaeresis_Dot" output="ẅ̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ẅ̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ẅ̇̆"/>
+			<when state="Diaeresis_Grave" output="ẅ̀"/>
+			<when state="Diaeresis_Macron" output="ẅ̄"/>
+			<when state="Diaeresis_Macron_Acute" output="ẅ̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="ẅ̄̆"/>
+			<when state="Diaeresis_Tilde" output="ẅ̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ẅ̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ẅ̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ẅ̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ẅ̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ẅ̃̄"/>
+			<when state="Dot" output="ẇ"/>
+			<when state="Dot_Acute" output="ẇ́"/>
+			<when state="Dot_Breve" output="ẇ̆"/>
 			<when state="Grave" output="ẁ"/>
+			<when state="Hook" output="w᷎"/>
+			<when state="Macron" output="w̄"/>
+			<when state="Macron_Acute" output="w̄́"/>
+			<when state="Macron_Breve" output="w̄̆"/>
+			<when state="Ogonek" output="w̨"/>
+			<when state="Ogonek_Acute" output="ẃ̨"/>
+			<when state="Ogonek_Breve" output="w̨̆"/>
+			<when state="Ogonek_Caron" output="w̨̌"/>
+			<when state="Ogonek_Circumflex" output="ŵ̨"/>
+			<when state="Ogonek_Diaeresis" output="ẅ̨"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ẅ̨́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ẅ̨̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ẅ̨̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ẅ̨̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ẅ̨̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ẅ̨̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ẅ̨̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ẅ̨̄̆"/>
+			<when state="Ogonek_Dot" output="ẇ̨"/>
+			<when state="Ogonek_Dot_Acute" output="ẇ̨́"/>
+			<when state="Ogonek_Dot_Breve" output="ẇ̨̆"/>
+			<when state="Ogonek_Grave" output="ẁ̨"/>
+			<when state="Ogonek_Hook" output="w̨᷎"/>
+			<when state="Ogonek_Macron" output="w̨̄"/>
+			<when state="Ogonek_Macron_Acute" output="w̨̄́"/>
+			<when state="Ogonek_Macron_Breve" output="w̨̄̆"/>
+			<when state="Ring" output="ẘ"/>
+			<when state="Ring_Acute" output="ẘ́"/>
+			<when state="Ring_Bar" output="ẘ̍"/>
+			<when state="Ring_Breve" output="ẘ̆"/>
+			<when state="Ring_Caron" output="ẘ̌"/>
+			<when state="Ring_Circumflex" output="ẘ̂"/>
+			<when state="Ring_Diaeresis" output="ẘ̈"/>
+			<when state="Ring_Diaeresis_Acute" output="ẘ̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="ẘ̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="ẘ̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="ẘ̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="ẘ̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="ẘ̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="ẘ̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="ẘ̈̄̆"/>
+			<when state="Ring_Dot" output="ẘ̇"/>
+			<when state="Ring_Dot_Acute" output="ẘ̇́"/>
+			<when state="Ring_Dot_Breve" output="ẘ̇̆"/>
+			<when state="Ring_Grave" output="ẘ̀"/>
+			<when state="Ring_Hook" output="ẘ͏᷎"/>
+			<when state="Ring_Macron" output="ẘ̄"/>
+			<when state="Ring_Macron_Acute" output="ẘ̄́"/>
+			<when state="Ring_Macron_Breve" output="ẘ̄̆"/>
+			<when state="Ring_Ogonek" output="ẘ͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="ẘ͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="ẘ͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="ẘ͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="ẘ͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="ẘ͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="ẘ͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="ẘ͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="ẘ͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="ẘ͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="ẘ͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="ẘ͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="ẘ͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="ẘ͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="ẘ͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="ẘ͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="ẘ͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="ẘ͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="ẘ͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="ẘ͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="ẘ͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="ẘ͏̨̄̆"/>
+			<when state="Ring_Underbar" output="ẘ͏̩"/>
+			<when state="Tilde" output="w̃"/>
+			<when state="Tilde_Acute" output="w̃́"/>
+			<when state="Tilde_Caron" output="w̃̌"/>
+			<when state="Tilde_Circumflex" output="w̃̂"/>
+			<when state="Tilde_Bar" output="w̃̍"/>
+			<when state="Tilde_Grave" output="w̃̀"/>
+			<when state="Tilde_Macron" output="w̃̄"/>
+			<when state="Tilde_Ring" output="w̃̊"/>
+			<when state="Tilde_Ring_Bar" output="w̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="w̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="w̃͏̩"/>
+			<when state="Tilde_Underring" output="w̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="w̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="w̃͏̥̩"/>
+			<when state="Underbar" output="w̩"/>
+			<when state="Underring" output="w̥"/>
+			<when state="Underring_Bar" output="w̥̍"/>
+			<when state="Underring_Underbar" output="w̥̩"/>
 		</action>
 		<action id="X">
 			<when state="none" output="X"/>
-			<when state="Dot Above" output="Ẋ"/>
+			<when state="Bar" output="X̍"/>
+			<when state="Caron" output="X̌"/>
+			<when state="Cedilla" output="X̧"/>
+			<when state="Dot" output="Ẋ"/>
+			<when state="Tilde" output="X̃"/>
+			<when state="Tilde_Bar" output="X̃̍"/>
+			<when state="Tilde_Underbar" output="X̃͏̩"/>
+			<when state="Underbar" output="X̩"/>
 		</action>
 		<action id="x">
 			<when state="none" output="x"/>
-			<when state="Dot Above" output="ẋ"/>
+			<when state="Bar" output="x̍"/>
+			<when state="Caron" output="x̌"/>
+			<when state="Cedilla" output="x̧"/>
+			<when state="Dot" output="ẋ"/>
+			<when state="Tilde" output="x̃"/>
+			<when state="Tilde_Bar" output="x̃̍"/>
+			<when state="Tilde_Underbar" output="x̃͏̩"/>
+			<when state="Underbar" output="x̩"/>
 		</action>
 		<action id="Y">
 			<when state="none" output="Y"/>
 			<when state="Acute" output="Ý"/>
+			<when state="Bar" output="Y̍"/>
+			<when state="Breve" output="Y̆"/>
+			<when state="Caron" output="Y̌"/>
+			<when state="Cedilla" output="Y̧"/>
+			<when state="Circumflex" output="Ŷ"/>
 			<when state="Diaeresis" output="Ÿ"/>
-			<when state="Diaeresis Acute" output="Ÿ́"/>
-			<when state="Diaeresis Dot" output="Ÿ̇"/>
-			<when state="Diaeresis Grave" output="Ÿ̀"/>
-			<when state="Dot Above" output="Ẏ"/>
+			<when state="Diaeresis_Acute" output="Ÿ́"/>
+			<when state="Diaeresis_Breve" output="Ÿ̆"/>
+			<when state="Diaeresis_Caron" output="Ÿ"/>
+			<when state="Diaeresis_Circumflex" output="Ÿ̂"/>
+			<when state="Diaeresis_Dot" output="Ÿ̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ÿ̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ÿ̇̆"/>
+			<when state="Diaeresis_Grave" output="Ÿ̀"/>
+			<when state="Diaeresis_Macron" output="Ÿ̄"/>
+			<when state="Diaeresis_Macron_Acute" output="Ÿ̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ÿ̄̆"/>
+			<when state="Diaeresis_Tilde" output="Ÿ̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ÿ̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ÿ̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ÿ̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ÿ̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ÿ̃̄"/>
+			<when state="Dot" output="Ẏ"/>
+			<when state="Dot_Acute" output="Ẏ́"/>
+			<when state="Dot_Breve" output="Ẏ̆"/>
 			<when state="Grave" output="Ỳ"/>
+			<when state="Hook" output="Y᷎"/>
+			<when state="Macron" output="Ȳ"/>
+			<when state="Macron_Acute" output="Ȳ́"/>
+			<when state="Macron_Breve" output="Ȳ̆"/>
+			<when state="Ogonek" output="Y̨"/>
+			<when state="Ogonek_Acute" output="Ý̨"/>
+			<when state="Ogonek_Breve" output="Y̨̆"/>
+			<when state="Ogonek_Caron" output="Y̨̌"/>
+			<when state="Ogonek_Circumflex" output="Ŷ̨"/>
+			<when state="Ogonek_Diaeresis" output="Ÿ̨"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ÿ̨́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ÿ̨̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ÿ̨̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ÿ̨̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ÿ̨̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ÿ̨̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ÿ̨̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ÿ̨̄̆"/>
+			<when state="Ogonek_Dot" output="Ẏ̨"/>
+			<when state="Ogonek_Dot_Acute" output="Ẏ̨́"/>
+			<when state="Ogonek_Dot_Breve" output="Ẏ̨̆"/>
+			<when state="Ogonek_Grave" output="Ỳ̨"/>
+			<when state="Ogonek_Hook" output="Y̨᷎"/>
+			<when state="Ogonek_Macron" output="Ȳ̨"/>
+			<when state="Ogonek_Macron_Acute" output="Ȳ̨́"/>
+			<when state="Ogonek_Macron_Breve" output="Ȳ̨̆"/>
+			<when state="Ring" output="Y̊"/>
+			<when state="Ring_Acute" output="Y̊́"/>
+			<when state="Ring_Bar" output="Y̊̍"/>
+			<when state="Ring_Breve" output="Y̊̆"/>
+			<when state="Ring_Caron" output="Y̊̌"/>
+			<when state="Ring_Circumflex" output="Y̊̂"/>
+			<when state="Ring_Diaeresis" output="Y̊̈"/>
+			<when state="Ring_Diaeresis_Acute" output="Y̊̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="Y̊̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="Y̊̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="Y̊̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="Y̊̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="Y̊̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="Y̊̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="Y̊̈̄̆"/>
+			<when state="Ring_Dot" output="Y̊̇"/>
+			<when state="Ring_Dot_Acute" output="Y̊̇́"/>
+			<when state="Ring_Dot_Breve" output="Y̊̇̆"/>
+			<when state="Ring_Grave" output="Y̊̀"/>
+			<when state="Ring_Hook" output="Y̊͏᷎"/>
+			<when state="Ring_Macron" output="Y̊̄"/>
+			<when state="Ring_Macron_Acute" output="Y̊̄́"/>
+			<when state="Ring_Macron_Breve" output="Y̊̄̆"/>
+			<when state="Ring_Ogonek" output="Y̊͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="Y̊͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="Y̊͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="Y̊͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="Y̊͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="Y̊͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="Y̊͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="Y̊͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="Y̊͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="Y̊͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="Y̊͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="Y̊͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="Y̊͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="Y̊͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="Y̊͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="Y̊͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="Y̊͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="Y̊͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="Y̊͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="Y̊͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="Y̊͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="Y̊͏̨̄̆"/>
+			<when state="Ring_Underbar" output="Y̊͏̩"/>
+			<when state="Tilde" output="Ỹ"/>
+			<when state="Tilde_Acute" output="Ỹ́"/>
+			<when state="Tilde_Caron" output="Ỹ̌"/>
+			<when state="Tilde_Circumflex" output="Ỹ̂"/>
+			<when state="Tilde_Bar" output="Ỹ̍"/>
+			<when state="Tilde_Grave" output="Ỹ̀"/>
+			<when state="Tilde_Macron" output="Ỹ̄"/>
+			<when state="Tilde_Ring" output="Ỹ̊"/>
+			<when state="Tilde_Ring_Bar" output="Ỹ̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="Ỹ̊͏̩"/>
+			<when state="Tilde_Underbar" output="Ỹ͏̩"/>
+			<when state="Tilde_Underring" output="Ỹ͏̥"/>
+			<when state="Tilde_Underring_Bar" output="Ỹ͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="Ỹ͏̥̩"/>
+			<when state="Underbar" output="Y̩"/>
+			<when state="Underring" output="Y̥"/>
+			<when state="Underring_Bar" output="Y̥̍"/>
+			<when state="Underring_Underbar" output="Y̥̩"/>
 		</action>
 		<action id="y">
 			<when state="none" output="y"/>
 			<when state="Acute" output="ý"/>
+			<when state="Bar" output="y̍"/>
+			<when state="Breve" output="y̆"/>
+			<when state="Caron" output="y̌"/>
+			<when state="Cedilla" output="y̧"/>
+			<when state="Circumflex" output="ŷ"/>
 			<when state="Diaeresis" output="ÿ"/>
-			<when state="Diaeresis Acute" output="ÿ́"/>
-			<when state="Diaeresis Dot" output="ÿ̇"/>
-			<when state="Diaeresis Grave" output="ÿ̀"/>
-			<when state="Dot Above" output="ẏ"/>
+			<when state="Diaeresis_Acute" output="ÿ́"/>
+			<when state="Diaeresis_Breve" output="ÿ̆"/>
+			<when state="Diaeresis_Caron" output="ÿ"/>
+			<when state="Diaeresis_Circumflex" output="ÿ̂"/>
+			<when state="Diaeresis_Dot" output="ÿ̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ÿ̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ÿ̇̆"/>
+			<when state="Diaeresis_Grave" output="ÿ̀"/>
+			<when state="Diaeresis_Macron" output="ÿ̄"/>
+			<when state="Diaeresis_Macron_Acute" output="ÿ̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="ÿ̄̆"/>
+			<when state="Diaeresis_Tilde" output="ÿ̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ÿ̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ÿ̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ÿ̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ÿ̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ÿ̃̄"/>
+			<when state="Dot" output="ẏ"/>
+			<when state="Dot_Acute" output="ẏ́"/>
+			<when state="Dot_Breve" output="ẏ̆"/>
 			<when state="Grave" output="ỳ"/>
+			<when state="Hook" output="y᷎"/>
+			<when state="Macron" output="ȳ"/>
+			<when state="Macron_Acute" output="ȳ́"/>
+			<when state="Macron_Breve" output="ȳ̆"/>
+			<when state="Ogonek" output="y̨"/>
+			<when state="Ogonek_Acute" output="ý̨"/>
+			<when state="Ogonek_Breve" output="y̨̆"/>
+			<when state="Ogonek_Caron" output="y̨̌"/>
+			<when state="Ogonek_Circumflex" output="ŷ̨"/>
+			<when state="Ogonek_Diaeresis" output="ÿ̨"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ÿ̨́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ÿ̨̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ÿ̨̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ÿ̨̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ÿ̨̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ÿ̨̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ÿ̨̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ÿ̨̄̆"/>
+			<when state="Ogonek_Dot" output="ẏ̨"/>
+			<when state="Ogonek_Dot_Acute" output="ẏ̨́"/>
+			<when state="Ogonek_Dot_Breve" output="ẏ̨̆"/>
+			<when state="Ogonek_Grave" output="ỳ̨"/>
+			<when state="Ogonek_Hook" output="y̨᷎"/>
+			<when state="Ogonek_Macron" output="ȳ̨"/>
+			<when state="Ogonek_Macron_Acute" output="ȳ̨́"/>
+			<when state="Ogonek_Macron_Breve" output="ȳ̨̆"/>
+			<when state="Ring" output="ẙ"/>
+			<when state="Ring_Acute" output="ẙ́"/>
+			<when state="Ring_Bar" output="ẙ̍"/>
+			<when state="Ring_Breve" output="ẙ̆"/>
+			<when state="Ring_Caron" output="ẙ̌"/>
+			<when state="Ring_Circumflex" output="ẙ̂"/>
+			<when state="Ring_Diaeresis" output="ẙ̈"/>
+			<when state="Ring_Diaeresis_Acute" output="ẙ̈́"/>
+			<when state="Ring_Diaeresis_Breve" output="ẙ̈̆"/>
+			<when state="Ring_Diaeresis_Dot" output="ẙ̈̇"/>
+			<when state="Ring_Diaeresis_Dot_Acute" output="ẙ̈̇́"/>
+			<when state="Ring_Diaeresis_Dot_Breve" output="ẙ̈̇̆"/>
+			<when state="Ring_Diaeresis_Macron" output="ẙ̈̄"/>
+			<when state="Ring_Diaeresis_Macron_Acute" output="ẙ̈̄́"/>
+			<when state="Ring_Diaeresis_Macron_Breve" output="ẙ̈̄̆"/>
+			<when state="Ring_Dot" output="ẙ̇"/>
+			<when state="Ring_Dot_Acute" output="ẙ̇́"/>
+			<when state="Ring_Dot_Breve" output="ẙ̇̆"/>
+			<when state="Ring_Grave" output="ẙ̀"/>
+			<when state="Ring_Hook" output="ẙ͏᷎"/>
+			<when state="Ring_Macron" output="ẙ̄"/>
+			<when state="Ring_Macron_Acute" output="ẙ̄́"/>
+			<when state="Ring_Macron_Breve" output="ẙ̄̆"/>
+			<when state="Ring_Ogonek" output="ẙ͏̨"/>
+			<when state="Ring_Ogonek_Acute" output="ẙ͏̨́"/>
+			<when state="Ring_Ogonek_Breve" output="ẙ͏̨̆"/>
+			<when state="Ring_Ogonek_Caron" output="ẙ͏̨̌"/>
+			<when state="Ring_Ogonek_Circumflex" output="ẙ͏̨̂"/>
+			<when state="Ring_Ogonek_Diaeresis" output="ẙ͏̨̈"/>
+			<when state="Ring_Ogonek_Diaeresis_Acute" output="ẙ͏̨̈́"/>
+			<when state="Ring_Ogonek_Diaeresis_Breve" output="ẙ͏̨̈̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot" output="ẙ͏̨̈̇"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="ẙ͏̨̈̇́"/>
+			<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="ẙ͏̨̈̇̆"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron" output="ẙ͏̨̈̄"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="ẙ͏̨̈̄́"/>
+			<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="ẙ͏̨̈̄̆"/>
+			<when state="Ring_Ogonek_Dot" output="ẙ͏̨̇"/>
+			<when state="Ring_Ogonek_Dot_Acute" output="ẙ͏̨̇́"/>
+			<when state="Ring_Ogonek_Dot_Breve" output="ẙ͏̨̇̆"/>
+			<when state="Ring_Ogonek_Grave" output="ẙ͏̨̀"/>
+			<when state="Ring_Ogonek_Hook" output="ẙ͏̨᷎"/>
+			<when state="Ring_Ogonek_Macron" output="ẙ͏̨̄"/>
+			<when state="Ring_Ogonek_Macron_Acute" output="ẙ͏̨̄́"/>
+			<when state="Ring_Ogonek_Macron_Breve" output="ẙ͏̨̄̆"/>
+			<when state="Ring_Underbar" output="ẙ͏̩"/>
+			<when state="Tilde" output="ỹ"/>
+			<when state="Tilde_Acute" output="ỹ́"/>
+			<when state="Tilde_Caron" output="ỹ̌"/>
+			<when state="Tilde_Circumflex" output="ỹ̂"/>
+			<when state="Tilde_Bar" output="ỹ̍"/>
+			<when state="Tilde_Grave" output="ỹ̀"/>
+			<when state="Tilde_Macron" output="ỹ̄"/>
+			<when state="Tilde_Ring" output="ỹ̊"/>
+			<when state="Tilde_Ring_Bar" output="ỹ̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="ỹ̊͏̩"/>
+			<when state="Tilde_Underbar" output="ỹ͏̩"/>
+			<when state="Tilde_Underring" output="ỹ͏̥"/>
+			<when state="Tilde_Underring_Bar" output="ỹ͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="ỹ͏̥̩"/>
+			<when state="Underbar" output="y̩"/>
+			<when state="Underring" output="y̥"/>
+			<when state="Underring_Bar" output="y̥̍"/>
+			<when state="Underring_Underbar" output="y̥̩"/>
 		</action>
 		<action id="Z">
 			<when state="none" output="Z"/>
-			<when state="Dot Above" output="Ż"/>
+			<when state="Bar" output="Z̍"/>
+			<when state="Caron" output="Ž"/>
+			<when state="Cedilla" output="Z̧"/>
+			<when state="Dot" output="Ż"/>
+			<when state="Tilde" output="Z̃"/>
+			<when state="Tilde_Bar" output="Z̃̍"/>
+			<when state="Tilde_Underbar" output="Z̃͏̩"/>
+			<when state="Underbar" output="Z̩"/>
 		</action>
 		<action id="z">
 			<when state="none" output="z"/>
-			<when state="Dot Above" output="ż"/>
+			<when state="Bar" output="z̍"/>
+			<when state="Caron" output="ž"/>
+			<when state="Cedilla" output="z̧"/>
+			<when state="Dot" output="ż"/>
+			<when state="Tilde" output="z̃"/>
+			<when state="Tilde_Bar" output="z̃̍"/>
+			<when state="Tilde_Underbar" output="z̃͏̩"/>
+			<when state="Underbar" output="z̩"/>
+		</action>
+		<action id="Þ">
+			<when state="none" output="Þ"/>
+			<when state="Bar" output="Þ̍"/>
+			<when state="Caron" output="Þ̌"/>
+			<when state="Cedilla" output="Þ̧"/>
+			<when state="Dot" output="Þ̇"/>
+			<when state="Tilde" output="Þ̃"/>
+			<when state="Tilde_Bar" output="Þ̃̍"/>
+			<when state="Tilde_Underbar" output="Þ̃͏̩"/>
+			<when state="Underbar" output="Þ̩"/>
+		</action>
+		<action id="þ">
+			<when state="none" output="þ"/>
+			<when state="Bar" output="þ̍"/>
+			<when state="Caron" output="þ̌"/>
+			<when state="Cedilla" output="þ̧"/>
+			<when state="Dot" output="þ̇"/>
+			<when state="Tilde" output="þ̃"/>
+			<when state="Tilde_Bar" output="þ̃̍"/>
+			<when state="Tilde_Underbar" output="þ̃͏̩"/>
+			<when state="Underbar" output="þ̩"/>
+		</action>
+		<action id="Ø">
+			<when state="none" output="Ø"/>
+			<when state="Acute" output="Ǿ"/>
+			<when state="Breve" output="Ø̆"/>
+			<when state="Caron" output="Ø̌"/>
+			<when state="Circumflex" output="Ø̂"/>
+			<when state="Diaeresis" output="Ø̈"/>
+			<when state="Diaeresis_Acute" output="Ø̈́"/>
+			<when state="Diaeresis_Breve" output="Ø̈̆"/>
+			<when state="Diaeresis_Caron" output="Ø̈"/>
+			<when state="Diaeresis_Circumflex" output="Ø̈̂"/>
+			<when state="Diaeresis_Dot" output="Ø̈̇"/>
+			<when state="Diaeresis_Dot_Acute" output="Ø̈̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="Ø̈̇̆"/>
+			<when state="Diaeresis_Grave" output="Ø̈̀"/>
+			<when state="Diaeresis_Macron" output="Ø̈̄"/>
+			<when state="Diaeresis_Macron_Acute" output="Ø̈̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="Ø̈̄̆"/>
+			<when state="Diaeresis_Tilde" output="Ø̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="Ø̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="Ø̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="Ø̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="Ø̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="Ø̈̃̄"/>
+			<when state="Dot" output="Ø̇"/>
+			<when state="Dot_Acute" output="Ø̇́"/>
+			<when state="Dot_Breve" output="Ø̇̆"/>
+			<when state="Grave" output="Ø̀"/>
+			<when state="Hook" output="Ø᷎"/>
+			<when state="Macron" output="Ø̄"/>
+			<when state="Macron_Acute" output="Ø̄́"/>
+			<when state="Macron_Breve" output="Ø̄̆"/>
+			<when state="Ogonek" output="Ø̨"/>
+			<when state="Ogonek_Acute" output="Ǿ̨"/>
+			<when state="Ogonek_Breve" output="Ø̨̆"/>
+			<when state="Ogonek_Caron" output="Ø̨̌"/>
+			<when state="Ogonek_Circumflex" output="Ø̨̂"/>
+			<when state="Ogonek_Diaeresis" output="Ø̨̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="Ø̨̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="Ø̨̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="Ø̨̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="Ø̨̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="Ø̨̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="Ø̨̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="Ø̨̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="Ø̨̈̄̆"/>
+			<when state="Ogonek_Dot" output="Ø̨̇"/>
+			<when state="Ogonek_Dot_Acute" output="Ø̨̇́"/>
+			<when state="Ogonek_Dot_Breve" output="Ø̨̇̆"/>
+			<when state="Ogonek_Grave" output="Ø̨̀"/>
+			<when state="Ogonek_Hook" output="Ø̨᷎"/>
+			<when state="Ogonek_Macron" output="Ø̨̄"/>
+			<when state="Ogonek_Macron_Acute" output="Ø̨̄́"/>
+			<when state="Ogonek_Macron_Breve" output="Ø̨̄̆"/>
+			<when state="Tilde" output="Ø̃"/>
+			<when state="Tilde_Acute" output="Ø̃́"/>
+			<when state="Tilde_Caron" output="Ø̃̌"/>
+			<when state="Tilde_Circumflex" output="Ø̃̂"/>
+			<when state="Tilde_Grave" output="Ø̃̀"/>
+			<when state="Tilde_Macron" output="Ø̃̄"/>
+		</action>
+		<action id="ø">
+			<when state="none" output="ø"/>
+			<when state="Acute" output="ǿ"/>
+			<when state="Breve" output="ø̆"/>
+			<when state="Caron" output="ø̌"/>
+			<when state="Circumflex" output="ø̂"/>
+			<when state="Diaeresis" output="ø̈"/>
+			<when state="Diaeresis_Acute" output="ø̈́"/>
+			<when state="Diaeresis_Breve" output="ø̈̆"/>
+			<when state="Diaeresis_Caron" output="ø̈"/>
+			<when state="Diaeresis_Circumflex" output="ø̈̂"/>
+			<when state="Diaeresis_Dot" output="ø̈̇"/>
+			<when state="Diaeresis_Dot_Acute" output="ø̈̇́"/>
+			<when state="Diaeresis_Dot_Breve" output="ø̈̇̆"/>
+			<when state="Diaeresis_Grave" output="ø̈̀"/>
+			<when state="Diaeresis_Macron" output="ø̈̄"/>
+			<when state="Diaeresis_Macron_Acute" output="ø̈̄́"/>
+			<when state="Diaeresis_Macron_Breve" output="ø̈̄̆"/>
+			<when state="Diaeresis_Tilde" output="ø̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ø̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ø̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ø̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ø̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ø̈̃̄"/>
+			<when state="Dot" output="ø̇"/>
+			<when state="Dot_Acute" output="ø̇́"/>
+			<when state="Dot_Breve" output="ø̇̆"/>
+			<when state="Grave" output="ø̀"/>
+			<when state="Hook" output="ø᷎"/>
+			<when state="Macron" output="ø̄"/>
+			<when state="Macron_Acute" output="ø̄́"/>
+			<when state="Macron_Breve" output="ø̄̆"/>
+			<when state="Ogonek" output="ø̨"/>
+			<when state="Ogonek_Acute" output="ǿ̨"/>
+			<when state="Ogonek_Breve" output="ø̨̆"/>
+			<when state="Ogonek_Caron" output="ø̨̌"/>
+			<when state="Ogonek_Circumflex" output="ø̨̂"/>
+			<when state="Ogonek_Diaeresis" output="ø̨̈"/>
+			<when state="Ogonek_Diaeresis_Acute" output="ø̨̈́"/>
+			<when state="Ogonek_Diaeresis_Breve" output="ø̨̈̆"/>
+			<when state="Ogonek_Diaeresis_Dot" output="ø̨̈̇"/>
+			<when state="Ogonek_Diaeresis_Dot_Acute" output="ø̨̈̇́"/>
+			<when state="Ogonek_Diaeresis_Dot_Breve" output="ø̨̈̇̆"/>
+			<when state="Ogonek_Diaeresis_Macron" output="ø̨̈̄"/>
+			<when state="Ogonek_Diaeresis_Macron_Acute" output="ø̨̈̄́"/>
+			<when state="Ogonek_Diaeresis_Macron_Breve" output="ø̨̈̄̆"/>
+			<when state="Ogonek_Dot" output="ø̨̇"/>
+			<when state="Ogonek_Dot_Acute" output="ø̨̇́"/>
+			<when state="Ogonek_Dot_Breve" output="ø̨̇̆"/>
+			<when state="Ogonek_Grave" output="ø̨̀"/>
+			<when state="Ogonek_Hook" output="ø̨᷎"/>
+			<when state="Ogonek_Macron" output="ø̨̄"/>
+			<when state="Ogonek_Macron_Acute" output="ø̨̄́"/>
+			<when state="Ogonek_Macron_Breve" output="ø̨̄̆"/>
+			<when state="Tilde" output="ø̃"/>
+			<when state="Tilde_Acute" output="ø̃́"/>
+			<when state="Tilde_Caron" output="ø̃̌"/>
+			<when state="Tilde_Circumflex" output="ø̃̂"/>
+			<when state="Tilde_Grave" output="ø̃̀"/>
+			<when state="Tilde_Macron" output="ø̃̄"/>
+		</action>
+		<action id="æ">
+			<when state="none" output="æ"/>
+			<when state="Acute" output="ǽ"/>
+			<when state="Caron" output="æ̌"/>
+			<when state="Circumflex" output="æ̂"/>
+			<when state="Diaeresis" output="æ̈"/>
+			<when state="Diaeresis_Acute" output="æ̈́"/>
+			<when state="Diaeresis_Caron" output="æ̈"/>
+			<when state="Diaeresis_Circumflex" output="æ̈̂"/>
+			<when state="Diaeresis_Grave" output="æ̈̀"/>
+			<when state="Diaeresis_Macron" output="æ̈̄"/>
+			<when state="Diaeresis_Tilde" output="æ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="æ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="æ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="æ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="æ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="æ̈̃̄"/>
+			<when state="Grave" output="æ̀"/>
+			<when state="Macron" output="ǣ"/>
+			<when state="Tilde" output="æ̃"/>
+			<when state="Tilde_Acute" output="æ̃́"/>
+			<when state="Tilde_Caron" output="æ̃̌"/>
+			<when state="Tilde_Circumflex" output="æ̃̂"/>
+			<when state="Tilde_Grave" output="æ̃̀"/>
+			<when state="Tilde_Macron" output="æ̃̄"/>
+		</action>
+		<action id="ɑ">
+			<when state="none" output="ɑ"/>
+			<when state="Acute" output="ɑ́"/>
+			<when state="Caron" output="ɑ̌"/>
+			<when state="Circumflex" output="ɑ̂"/>
+			<when state="Diaeresis" output="ɑ̈"/>
+			<when state="Diaeresis_Acute" output="ɑ̈́"/>
+			<when state="Diaeresis_Caron" output="ɑ̈"/>
+			<when state="Diaeresis_Circumflex" output="ɑ̈̂"/>
+			<when state="Diaeresis_Grave" output="ɑ̈̀"/>
+			<when state="Diaeresis_Macron" output="ɑ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ɑ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ɑ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ɑ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ɑ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ɑ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ɑ̈̃̄"/>
+			<when state="Grave" output="ɑ̀"/>
+			<when state="Macron" output="ɑ̄"/>
+			<when state="Tilde" output="ɑ̃"/>
+			<when state="Tilde_Acute" output="ɑ̃́"/>
+			<when state="Tilde_Caron" output="ɑ̃̌"/>
+			<when state="Tilde_Circumflex" output="ɑ̃̂"/>
+			<when state="Tilde_Grave" output="ɑ̃̀"/>
+			<when state="Tilde_Macron" output="ɑ̃̄"/>
+		</action>
+		<action id="ɒ">
+			<when state="none" output="ɒ"/>
+			<when state="Acute" output="ɒ́"/>
+			<when state="Caron" output="ɒ̌"/>
+			<when state="Circumflex" output="ɒ̂"/>
+			<when state="Diaeresis" output="ɒ̈"/>
+			<when state="Diaeresis_Acute" output="ɒ̈́"/>
+			<when state="Diaeresis_Caron" output="ɒ̈"/>
+			<when state="Diaeresis_Circumflex" output="ɒ̈̂"/>
+			<when state="Diaeresis_Grave" output="ɒ̈̀"/>
+			<when state="Diaeresis_Macron" output="ɒ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ɒ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ɒ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ɒ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ɒ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ɒ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ɒ̈̃̄"/>
+			<when state="Grave" output="ɒ̀"/>
+			<when state="Macron" output="ɒ̄"/>
+			<when state="Tilde" output="ɒ̃"/>
+			<when state="Tilde_Acute" output="ɒ̃́"/>
+			<when state="Tilde_Caron" output="ɒ̃̌"/>
+			<when state="Tilde_Circumflex" output="ɒ̃̂"/>
+			<when state="Tilde_Grave" output="ɒ̃̀"/>
+			<when state="Tilde_Macron" output="ɒ̃̄"/>
+		</action>
+		<action id="ɔ">
+			<when state="none" output="ɔ"/>
+			<when state="Acute" output="ɔ́"/>
+			<when state="Caron" output="ɔ̌"/>
+			<when state="Circumflex" output="ɔ̂"/>
+			<when state="Diaeresis" output="ɔ̈"/>
+			<when state="Diaeresis_Acute" output="ɔ̈́"/>
+			<when state="Diaeresis_Caron" output="ɔ̈"/>
+			<when state="Diaeresis_Circumflex" output="ɔ̈̂"/>
+			<when state="Diaeresis_Grave" output="ɔ̈̀"/>
+			<when state="Diaeresis_Macron" output="ɔ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ɔ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ɔ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ɔ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ɔ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ɔ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ɔ̈̃̄"/>
+			<when state="Grave" output="ɔ̀"/>
+			<when state="Macron" output="ɔ̄"/>
+			<when state="Tilde" output="ɔ̃"/>
+			<when state="Tilde_Acute" output="ɔ̃́"/>
+			<when state="Tilde_Caron" output="ɔ̃̌"/>
+			<when state="Tilde_Circumflex" output="ɔ̃̂"/>
+			<when state="Tilde_Grave" output="ɔ̃̀"/>
+			<when state="Tilde_Macron" output="ɔ̃̄"/>
+		</action>
+		<action id="ə">
+			<when state="none" output="ə"/>
+			<when state="Acute" output="ə́"/>
+			<when state="Caron" output="ə̌"/>
+			<when state="Circumflex" output="ə̂"/>
+			<when state="Diaeresis" output="ə̈"/>
+			<when state="Diaeresis_Acute" output="ə̈́"/>
+			<when state="Diaeresis_Caron" output="ə̈"/>
+			<when state="Diaeresis_Circumflex" output="ə̈̂"/>
+			<when state="Diaeresis_Grave" output="ə̈̀"/>
+			<when state="Diaeresis_Macron" output="ə̈̄"/>
+			<when state="Diaeresis_Tilde" output="ə̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ə̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ə̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ə̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ə̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ə̈̃̄"/>
+			<when state="Grave" output="ə̀"/>
+			<when state="Macron" output="ə̄"/>
+			<when state="Tilde" output="ə̃"/>
+			<when state="Tilde_Acute" output="ə̃́"/>
+			<when state="Tilde_Caron" output="ə̃̌"/>
+			<when state="Tilde_Circumflex" output="ə̃̂"/>
+			<when state="Tilde_Grave" output="ə̃̀"/>
+			<when state="Tilde_Macron" output="ə̃̄"/>
+		</action>
+		<action id="ɛ">
+			<when state="none" output="ɛ"/>
+			<when state="Acute" output="ɛ́"/>
+			<when state="Caron" output="ɛ̌"/>
+			<when state="Circumflex" output="ɛ̂"/>
+			<when state="Diaeresis" output="ɛ̈"/>
+			<when state="Diaeresis_Acute" output="ɛ̈́"/>
+			<when state="Diaeresis_Caron" output="ɛ̈"/>
+			<when state="Diaeresis_Circumflex" output="ɛ̈̂"/>
+			<when state="Diaeresis_Grave" output="ɛ̈̀"/>
+			<when state="Diaeresis_Macron" output="ɛ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ɛ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ɛ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ɛ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ɛ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ɛ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ɛ̈̃̄"/>
+			<when state="Grave" output="ɛ̀"/>
+			<when state="Macron" output="ɛ̄"/>
+			<when state="Tilde" output="ɛ̃"/>
+			<when state="Tilde_Acute" output="ɛ̃́"/>
+			<when state="Tilde_Caron" output="ɛ̃̌"/>
+			<when state="Tilde_Circumflex" output="ɛ̃̂"/>
+			<when state="Tilde_Grave" output="ɛ̃̀"/>
+			<when state="Tilde_Macron" output="ɛ̃̄"/>
+		</action>
+		<action id="ᴈ">
+			<when state="none" output="ᴈ"/>
+			<when state="Acute" output="ᴈ́"/>
+			<when state="Caron" output="ᴈ̌"/>
+			<when state="Circumflex" output="ᴈ̂"/>
+			<when state="Diaeresis" output="ᴈ̈"/>
+			<when state="Diaeresis_Acute" output="ᴈ̈́"/>
+			<when state="Diaeresis_Caron" output="ᴈ̈"/>
+			<when state="Diaeresis_Circumflex" output="ᴈ̈̂"/>
+			<when state="Diaeresis_Grave" output="ᴈ̈̀"/>
+			<when state="Diaeresis_Macron" output="ᴈ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ᴈ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ᴈ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ᴈ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ᴈ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ᴈ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ᴈ̈̃̄"/>
+			<when state="Grave" output="ᴈ̀"/>
+			<when state="Macron" output="ᴈ̄"/>
+			<when state="Tilde" output="ᴈ̃"/>
+			<when state="Tilde_Acute" output="ᴈ̃́"/>
+			<when state="Tilde_Caron" output="ᴈ̃̌"/>
+			<when state="Tilde_Circumflex" output="ᴈ̃̂"/>
+			<when state="Tilde_Grave" output="ᴈ̃̀"/>
+			<when state="Tilde_Macron" output="ᴈ̃̄"/>
+		</action>
+		<action id="ɪ">
+			<when state="none" output="ɪ"/>
+			<when state="Acute" output="ɪ́"/>
+			<when state="Caron" output="ɪ̌"/>
+			<when state="Circumflex" output="ɪ̂"/>
+			<when state="Diaeresis" output="ɪ̈"/>
+			<when state="Diaeresis_Acute" output="ɪ̈́"/>
+			<when state="Diaeresis_Caron" output="ɪ̈"/>
+			<when state="Diaeresis_Circumflex" output="ɪ̈̂"/>
+			<when state="Diaeresis_Grave" output="ɪ̈̀"/>
+			<when state="Diaeresis_Macron" output="ɪ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ɪ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ɪ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ɪ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ɪ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ɪ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ɪ̈̃̄"/>
+			<when state="Grave" output="ɪ̀"/>
+			<when state="Macron" output="ɪ̄"/>
+			<when state="Tilde" output="ɪ̃"/>
+			<when state="Tilde_Acute" output="ɪ̃́"/>
+			<when state="Tilde_Caron" output="ɪ̃̌"/>
+			<when state="Tilde_Circumflex" output="ɪ̃̂"/>
+			<when state="Tilde_Grave" output="ɪ̃̀"/>
+			<when state="Tilde_Macron" output="ɪ̃̄"/>
+		</action>
+		<action id="ʊ">
+			<when state="none" output="ʊ"/>
+			<when state="Acute" output="ʊ́"/>
+			<when state="Caron" output="ʊ̌"/>
+			<when state="Circumflex" output="ʊ̂"/>
+			<when state="Diaeresis" output="ʊ̈"/>
+			<when state="Diaeresis_Acute" output="ʊ̈́"/>
+			<when state="Diaeresis_Caron" output="ʊ̈"/>
+			<when state="Diaeresis_Circumflex" output="ʊ̈̂"/>
+			<when state="Diaeresis_Grave" output="ʊ̈̀"/>
+			<when state="Diaeresis_Macron" output="ʊ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ʊ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ʊ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ʊ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ʊ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ʊ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ʊ̈̃̄"/>
+			<when state="Grave" output="ʊ̀"/>
+			<when state="Macron" output="ʊ̄"/>
+			<when state="Tilde" output="ʊ̃"/>
+			<when state="Tilde_Acute" output="ʊ̃́"/>
+			<when state="Tilde_Caron" output="ʊ̃̌"/>
+			<when state="Tilde_Circumflex" output="ʊ̃̂"/>
+			<when state="Tilde_Grave" output="ʊ̃̀"/>
+			<when state="Tilde_Macron" output="ʊ̃̄"/>
+		</action>
+		<action id="ʌ">
+			<when state="none" output="ʌ"/>
+			<when state="Acute" output="ʌ́"/>
+			<when state="Caron" output="ʌ̌"/>
+			<when state="Circumflex" output="ʌ̂"/>
+			<when state="Diaeresis" output="ʌ̈"/>
+			<when state="Diaeresis_Acute" output="ʌ̈́"/>
+			<when state="Diaeresis_Caron" output="ʌ̈"/>
+			<when state="Diaeresis_Circumflex" output="ʌ̈̂"/>
+			<when state="Diaeresis_Grave" output="ʌ̈̀"/>
+			<when state="Diaeresis_Macron" output="ʌ̈̄"/>
+			<when state="Diaeresis_Tilde" output="ʌ̈̃"/>
+			<when state="Diaeresis_Tilde_Acute" output="ʌ̈̃́"/>
+			<when state="Diaeresis_Tilde_Caron" output="ʌ̈̃̌"/>
+			<when state="Diaeresis_Tilde_Circumflex" output="ʌ̈̃̂"/>
+			<when state="Diaeresis_Tilde_Grave" output="ʌ̈̃̀"/>
+			<when state="Diaeresis_Tilde_Macron" output="ʌ̈̃̄"/>
+			<when state="Grave" output="ʌ̀"/>
+			<when state="Macron" output="ʌ̄"/>
+			<when state="Tilde" output="ʌ̃"/>
+			<when state="Tilde_Acute" output="ʌ̃́"/>
+			<when state="Tilde_Caron" output="ʌ̃̌"/>
+			<when state="Tilde_Circumflex" output="ʌ̃̂"/>
+			<when state="Tilde_Grave" output="ʌ̃̀"/>
+			<when state="Tilde_Macron" output="ʌ̃̄"/>
+		</action>
+		<action id="ʍ">
+			<when state="none" output="ʍ"/>
+			<when state="Bar" output="ʍ̍"/>
+			<when state="Ring" output="ʍ̊"/>
+			<when state="Ring_Bar" output="ʍ̊̍"/>
+			<when state="Ring_Underbar" output="ʍ̊͏̩"/>
+			<when state="Tilde" output="ʍ̃"/>
+			<when state="Tilde_Bar" output="ʍ̃̍"/>
+			<when state="Tilde_Ring" output="ʍ̃̊"/>
+			<when state="Tilde_Ring_Bar" output="ʍ̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="ʍ̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="ʍ̃͏̩"/>
+			<when state="Tilde_Underring" output="ʍ̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="ʍ̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="ʍ̃͏̥̩"/>
+			<when state="Underbar" output="ʍ̩"/>
+			<when state="Underring" output="ʍ̥"/>
+			<when state="Underring_Bar" output="ʍ̥̍"/>
+			<when state="Underring_Underbar" output="ʍ̥̩"/>
+		</action>
+		<action id="ɾ">
+			<when state="none" output="ɾ"/>
+			<when state="Bar" output="ɾ̍"/>
+			<when state="Ring" output="ɾ̊"/>
+			<when state="Ring_Bar" output="ɾ̊̍"/>
+			<when state="Ring_Underbar" output="ɾ̊͏̩"/>
+			<when state="Tilde" output="ɾ̃"/>
+			<when state="Tilde_Bar" output="ɾ̃̍"/>
+			<when state="Tilde_Ring" output="ɾ̃̊"/>
+			<when state="Tilde_Ring_Bar" output="ɾ̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="ɾ̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="ɾ̃͏̩"/>
+			<when state="Tilde_Underring" output="ɾ̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="ɾ̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="ɾ̃͏̥̩"/>
+			<when state="Underbar" output="ɾ̩"/>
+			<when state="Underring" output="ɾ̥"/>
+			<when state="Underring_Bar" output="ɾ̥̍"/>
+			<when state="Underring_Underbar" output="ɾ̥̩"/>
+		</action>
+		<action id="ɫ">
+			<when state="none" output="ɫ"/>
+			<when state="Bar" output="ɫ̍"/>
+			<when state="Ring" output="ɫ̊"/>
+			<when state="Ring_Bar" output="ɫ̊̍"/>
+			<when state="Ring_Underbar" output="ɫ̊͏̩"/>
+			<when state="Tilde" output="ɫ̃"/>
+			<when state="Tilde_Bar" output="ɫ̃̍"/>
+			<when state="Tilde_Ring" output="ɫ̃̊"/>
+			<when state="Tilde_Ring_Bar" output="ɫ̃̊̍"/>
+			<when state="Tilde_Ring_Underbar" output="ɫ̃̊͏̩"/>
+			<when state="Tilde_Underbar" output="ɫ̃͏̩"/>
+			<when state="Tilde_Underring" output="ɫ̃͏̥"/>
+			<when state="Tilde_Underring_Bar" output="ɫ̃͏̥̍"/>
+			<when state="Tilde_Underring_Underbar" output="ɫ̃͏̥̩"/>
+			<when state="Underbar" output="ɫ̩"/>
+			<when state="Underring" output="ɫ̥"/>
+			<when state="Underring_Bar" output="ɫ̥̍"/>
+			<when state="Underring_Underbar" output="ɫ̥̩"/>
+		</action>
+		<action id="ʃ">
+			<when state="none" output="ʃ"/>
+			<when state="Bar" output="ʃ̍"/>
+			<when state="Tilde" output="ʃ̃"/>
+			<when state="Tilde_Bar" output="ʃ̃̍"/>
+			<when state="Tilde_Underbar" output="ʃ̃͏̩"/>
+			<when state="Underbar" output="ʃ̩"/>
+		</action>
+		<action id="θ">
+			<when state="none" output="θ"/>
+			<when state="Bar" output="θ̍"/>
+			<when state="Tilde" output="θ̃"/>
+			<when state="Tilde_Bar" output="θ̃̍"/>
+			<when state="Tilde_Underbar" output="θ̃͏̩"/>
+			<when state="Underbar" output="θ̩"/>
+		</action>
+		<action id="ʒ">
+			<when state="none" output="ʒ"/>
+			<when state="Bar" output="ʒ̍"/>
+			<when state="Tilde" output="ʒ̃"/>
+			<when state="Tilde_Bar" output="ʒ̃̍"/>
+			<when state="Tilde_Underbar" output="ʒ̃͏̩"/>
+			<when state="Underbar" output="ʒ̩"/>
 		</action>
 	</actions>
 	<terminators>
 		<when state="Acute" output="´"/>
+		<when state="Bar" output="ˈ"/>
+		<when state="Breve" output="˘"/>
+		<when state="Caron" output="ˇ"/>
+		<when state="Cedilla" output="¸"/>
+		<when state="Cedilla_Bar" output="¸̍"/>
+		<when state="Cedilla_Underbar" output="¸̩"/>
+		<when state="Circumflex" output="^"/>
 		<when state="Diaeresis" output="¨"/>
-		<when state="Diaeresis Acute" output="΅"/>
-		<when state="Diaeresis Dot" output="¨̇"/>
-		<when state="Diaeresis Grave" output="῭"/>
-		<when state="Dot Above" output="˙"/>
+		<when state="Diaeresis_Acute" output="΅"/>
+		<when state="Diaeresis_Breve" output="¨̆"/>
+		<when state="Diaeresis_Caron" output="¨̌"/>
+		<when state="Diaeresis_Circumflex" output="¨̂"/>
+		<when state="Diaeresis_Dot" output="¨̇"/>
+		<when state="Diaeresis_Dot_Acute" output="¨̇́"/>
+		<when state="Diaeresis_Dot_Breve" output="¨̇̆"/>
+		<when state="Diaeresis_Grave" output="῭"/>
+		<when state="Diaeresis_Macron" output="¨̄"/>
+		<when state="Diaeresis_Macron_Acute" output="¨̄́"/>
+		<when state="Diaeresis_Macron_Breve" output="¨̄̆"/>
+		<when state="Diaeresis_Tilde" output="¨̃"/>
+		<when state="Diaeresis_Tilde_Acute" output="¨̃́"/>
+		<when state="Diaeresis_Tilde_Caron" output="¨̃̌"/>
+		<when state="Diaeresis_Tilde_Circumflex" output="¨̃̂"/>
+		<when state="Diaeresis_Tilde_Grave" output="¨̃̀"/>
+		<when state="Diaeresis_Tilde_Macron" output="¨̃̄"/>
+		<when state="Dot" output="˙"/>
+		<when state="Dot_Acute" output="˙́"/>
+		<when state="Dot_Breve" output="˙̆"/>
 		<when state="Grave" output="`"/>
+		<when state="Hook" output=" ᷎"/>
+		<when state="Macron" output="¯"/>
+		<when state="Macron_Acute" output="¯́"/>
+		<when state="Macron_Breve" output="¯̆"/>
+		<when state="Ogonek" output="˛"/>
+		<when state="Ogonek_Acute" output="˛́"/>
+		<when state="Ogonek_Breve" output="˛̆"/>
+		<when state="Ogonek_Caron" output="˛̌"/>
+		<when state="Ogonek_Circumflex" output="˛̂"/>
+		<when state="Ogonek_Diaeresis" output="˛̈"/>
+		<when state="Ogonek_Diaeresis_Acute" output="˛̈́"/>
+		<when state="Ogonek_Diaeresis_Breve" output="˛̈̆"/>
+		<when state="Ogonek_Diaeresis_Dot" output="˛̈̇"/>
+		<when state="Ogonek_Diaeresis_Dot_Acute" output="˛̈̇́"/>
+		<when state="Ogonek_Diaeresis_Dot_Breve" output="˛̈̇̆"/>
+		<when state="Ogonek_Diaeresis_Macron" output="˛̈̄"/>
+		<when state="Ogonek_Diaeresis_Macron_Acute" output="˛̈̄́"/>
+		<when state="Ogonek_Diaeresis_Macron_Breve" output="˛̈̄̆"/>
+		<when state="Ogonek_Dot" output="˛̇"/>
+		<when state="Ogonek_Dot_Acute" output="˛̇́"/>
+		<when state="Ogonek_Dot_Breve" output="˛̇̆"/>
+		<when state="Ogonek_Grave" output="˛̀"/>
+		<when state="Ogonek_Hook" output="˛᷎"/>
+		<when state="Ogonek_Macron" output="˛̄"/>
+		<when state="Ogonek_Macron_Acute" output="˛̄́"/>
+		<when state="Ogonek_Macron_Breve" output="˛̄̆"/>
+		<when state="Ring" output="˚"/>
+		<when state="Ring_Acute" output="˚́"/>
+		<when state="Ring_Bar" output="˚̍"/>
+		<when state="Ring_Breve" output="˚̆"/>
+		<when state="Ring_Caron" output="˚̌"/>
+		<when state="Ring_Circumflex" output="˚̂"/>
+		<when state="Ring_Diaeresis" output="˚̈"/>
+		<when state="Ring_Diaeresis_Acute" output="˚̈́"/>
+		<when state="Ring_Diaeresis_Breve" output="˚̈̆"/>
+		<when state="Ring_Diaeresis_Dot" output="˚̈̇"/>
+		<when state="Ring_Diaeresis_Dot_Acute" output="˚̈̇́"/>
+		<when state="Ring_Diaeresis_Dot_Breve" output="˚̈̇̆"/>
+		<when state="Ring_Diaeresis_Macron" output="˚̈̄"/>
+		<when state="Ring_Diaeresis_Macron_Acute" output="˚̈̄́"/>
+		<when state="Ring_Diaeresis_Macron_Breve" output="˚̈̄̆"/>
+		<when state="Ring_Dot" output="˚̇"/>
+		<when state="Ring_Dot_Acute" output="˚̇́"/>
+		<when state="Ring_Dot_Breve" output="˚̇̆"/>
+		<when state="Ring_Grave" output="˚̀"/>
+		<when state="Ring_Hook" output="˚͏᷎"/>
+		<when state="Ring_Macron" output="˚̄"/>
+		<when state="Ring_Macron_Acute" output="˚̄́"/>
+		<when state="Ring_Macron_Breve" output="˚̄̆"/>
+		<when state="Ring_Ogonek" output="˚͏̨"/>
+		<when state="Ring_Ogonek_Acute" output="˚͏̨́"/>
+		<when state="Ring_Ogonek_Breve" output="˚͏̨̆"/>
+		<when state="Ring_Ogonek_Caron" output="˚͏̨̌"/>
+		<when state="Ring_Ogonek_Circumflex" output="˚͏̨̂"/>
+		<when state="Ring_Ogonek_Diaeresis" output="˚͏̨̈"/>
+		<when state="Ring_Ogonek_Diaeresis_Acute" output="˚͏̨̈́"/>
+		<when state="Ring_Ogonek_Diaeresis_Breve" output="˚͏̨̈̆"/>
+		<when state="Ring_Ogonek_Diaeresis_Dot" output="˚͏̨̈̇"/>
+		<when state="Ring_Ogonek_Diaeresis_Dot_Acute" output="˚͏̨̈̇́"/>
+		<when state="Ring_Ogonek_Diaeresis_Dot_Breve" output="˚͏̨̈̇̆"/>
+		<when state="Ring_Ogonek_Diaeresis_Macron" output="˚͏̨̈̄"/>
+		<when state="Ring_Ogonek_Diaeresis_Macron_Acute" output="˚͏̨̈̄́"/>
+		<when state="Ring_Ogonek_Diaeresis_Macron_Breve" output="˚͏̨̈̄̆"/>
+		<when state="Ring_Ogonek_Dot" output="˚͏̨̇"/>
+		<when state="Ring_Ogonek_Dot_Acute" output="˚͏̨̇́"/>
+		<when state="Ring_Ogonek_Dot_Breve" output="˚͏̨̇̆"/>
+		<when state="Ring_Ogonek_Grave" output="˚͏̨̀"/>
+		<when state="Ring_Ogonek_Hook" output="˚͏̨᷎"/>
+		<when state="Ring_Ogonek_Macron" output="˚͏̨̄"/>
+		<when state="Ring_Ogonek_Macron_Acute" output="˚͏̨̄́"/>
+		<when state="Ring_Ogonek_Macron_Breve" output="˚͏̨̄̆"/>
+		<when state="Ring_Underbar" output="˚͏̩"/>
+		<when state="Tilde" output="˜"/>
+		<when state="Tilde_Acute" output="˜́"/>
+		<when state="Tilde_Bar" output="˜̍"/>
+		<when state="Tilde_Caron" output="˜̌"/>
+		<when state="Tilde_Circumflex" output="˜̂"/>
+		<when state="Tilde_Grave" output="˜̀"/>
+		<when state="Tilde_Macron" output="˜̄"/>
+		<when state="Tilde_Ring" output="˜̊"/>
+		<when state="Tilde_Ring_Bar" output="˜̊̍"/>
+		<when state="Tilde_Ring_Underbar" output="˜̊͏̩"/>
+		<when state="Tilde_Underbar" output="˜͏̩"/>
+		<when state="Tilde_Underring" output="˜͏̥"/>
+		<when state="Tilde_Underring_Bar" output="˜͏̥̍"/>
+		<when state="Tilde_Underring_Underbar" output="˜͏̥̩"/>
+		<when state="Underbar" output="ˌ"/>
+		<when state="Underring" output="˳"/>
+		<when state="Underring_Bar" output="˳̍"/>
+		<when state="Underring_Underbar" output="˳̩"/>
 	</terminators>
 </keyboard>

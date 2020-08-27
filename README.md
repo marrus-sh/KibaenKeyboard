@@ -27,14 +27,17 @@ Additional runic characters are located at the beginning and end of the number r
 
 + The keyboard is the same as a typical US keyboard layout when Caps Lock is active and the Option key is held down.
 
-+ The four dead keys are located at Shift+`5` (for diæresis), Shift+`6` (for dot), Alt+`‘` (for grave), and Alt+`’` (for acute).
-To output a standalone (spacing) diacritics, type the corresponding dead key and press space.
++ To output a standalone (spacing) diacritics, type the corresponding dead key and press space.
 
 + Option+Space produces a nonbreaking thin space, for use when padding punctuation.
 Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
 
 ## Changelog
+
++ **3.0:**
+New updated Kibben keyboard layout, with a great deal many more diacritics and fewer obscure Latin characters.
+More complete IPA support and repositioning of symbols.
 
 + **2.2:**
 Fixes tilde behaviour.
