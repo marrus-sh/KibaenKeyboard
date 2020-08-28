@@ -380,7 +380,7 @@
 			<key code="21" output="√"/>
 			<key code="22" output="•"/>
 			<key code="23" output="∼"/>
-			<key code="24" output="\"/>
+			<key code="24" output="_"/>
 			<key code="25" output="{"/>
 			<key code="26" output="◊"/>
 			<key code="27" output="⸡"/>
@@ -484,7 +484,7 @@
 			<key code="21" output="+"/>
 			<key code="22" output="*"/>
 			<key code="23" output="−"/>
-			<key code="24" output="∅"/>
+			<key code="24" output="⦰"/>
 			<key code="25" output="("/>
 			<key code="26" output="#"/>
 			<key code="27" output="]"/>
@@ -556,7 +556,7 @@
 			<key code="3" action="Ƒ"/>
 			<key code="4" output="☞"/>
 			<key code="5" output="Ŋ"/>
-			<key code="6" output="_"/>
+			<key code="6" output="℥"/>
 			<key code="7" action="Bar_Action"/>
 			<key code="8" action="Cedilla_Action"/>
 			<key code="9" action="Caron_Action"/>
@@ -573,7 +573,7 @@
 			<key code="21" output="×"/>
 			<key code="22" output="⁺"/>
 			<key code="23" output="÷"/>
-			<key code="24" output="⦰"/>
+			<key code="24" output="\"/>
 			<key code="25" output="⟨"/>
 			<key code="26" output="£"/>
 			<key code="27" output="⸣"/>

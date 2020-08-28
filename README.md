@@ -35,6 +35,10 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **3.1:**
+Replaced forward‐emptyset with ounce sign, usable as an indicator of dozenal numbers.
+This is not a maths layout and reverse‐emptyset is more suitable for Kibben.
+
 + **3.0:**
 New updated Kibben keyboard layout, with a great deal many more diacritics and fewer obscure Latin characters.
 More complete IPA support and repositioning of symbols.
