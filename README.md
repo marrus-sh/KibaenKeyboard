@@ -35,8 +35,13 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **3.2:**
+Adds missing numpad period.
+Swaps single anglequotes and quotation dash.
+Numbers are now shifted, with 0 appearing at QWERTY 1, and some rearrangement of special characters to match.
+
 + **3.1:**
-Replaced forward‐emptyset with ounce sign, usable as an indicator of dozenal numbers.
+Replaces forward‐emptyset with ounce sign, usable as an indicator of dozenal numbers.
 This is not a maths layout and reverse‐emptyset is more suitable for Kibben.
 
 + **3.0:**
