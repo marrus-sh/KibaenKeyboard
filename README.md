@@ -35,6 +35,11 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **3.3:**
+Fixes missing underbar.
+Rearranges number row symbols for ease of use.
+Removes bars with quill, and adds registered and copyright signs instead.
+
 + **3.2:**
 Adds missing numpad period.
 Swaps single anglequotes and quotation dash.

@@ -7,7 +7,7 @@
 	<key>CFBundleName</key>
 	<string>Kibben</string>
 	<key>CFBundleVersion</key>
-	<string>3.2</string>
+	<string>3.3</string>
 	<key>KLInfo_Kibben</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
