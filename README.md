@@ -35,6 +35,9 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **3.4:**
+Adds dagger as the Latin equivalent of Runic cross.
+
 + **3.3:**
 Fixes missing underbar.
 Rearranges number row symbols for ease of use.

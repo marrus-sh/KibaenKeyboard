@@ -770,7 +770,7 @@
 			<key code="18" output="ø"/>
 			<key code="19" output="å"/>
 			<key code="20" output="ƒ"/>
-			<key code="21" output=";"/>
+			<key code="21" output="†"/>
 			<key code="22" output="·"/>
 			<key code="23" output=":"/>
 			<key code="24" output="]"/>
@@ -791,7 +791,7 @@
 			<key code="39" output=" "/>
 			<key code="40" output="k"/>
 			<key code="41" output="―"/>
-			<key code="42" output="_"/>
+			<key code="42" output=";"/>
 			<key code="43" output="?"/>
 			<key code="44" output="~"/>
 			<key code="45" output="n"/>
