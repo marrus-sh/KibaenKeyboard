@@ -35,6 +35,9 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **3.6:**
+Replaces duplicate pound sign with missing double vertical bar.
+
 + **3.5:**
 Replaces duplicate reverse empty set with missing dotted cross.
 
