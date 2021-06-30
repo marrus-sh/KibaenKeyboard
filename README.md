@@ -55,6 +55,9 @@ So, be sure to release Option if your intent is to type a breaking interword spa
 
 ## Changelog
 
++ **4.2:**
+Swaps double hyphen/lozenge (previously option) and equals/comparable (previously shift+option) to make typing things such as `a != -1` easier.
+
 + **4.1:**
 Adds double hyphen.
 
