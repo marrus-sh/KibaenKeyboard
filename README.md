@@ -2,11 +2,13 @@
 
 This repository contains a handwritten macOS Keyboard Bundle for the input of English text, with support for a wide variety of special characters and diacritics.
 
+
 ## Installation
 
 01. Clone this repository, or download it as a ZIP and unzip its contents.
 
 02. In Finder, click `Go > Go to Folder…` and type `~/Library`, then press Return to navigate to your user library folder.
+Alternatively, type `/Library` to install the keyboard layout globally (for all users).
 
 03. Create the `Keyboard Layouts` directory if it doesn't already exist in this location.
 
@@ -14,11 +16,28 @@ This repository contains a handwritten macOS Keyboard Bundle for the input of En
 
 05. Restart your computer.
 
+
 ## Usage
 
 Open System Preferences, click on Keyboard, and then Input Sources.
 Use the + button to add a new input source.
 The Kibben keyboard will be available (as “Kybn”) under the English category.
+
+
+## Uninstalling
+
+01. Remove “Kybn” from your list of input sources in System Preferences, if present.
+
+02. Delete `Kibben.bundle` from the directory you installed it into (as above).
+
+03. Restart your computer.
+
+
+## Updating
+
+Uninstall, then install again.
+You probably will need to restart your computer inbetween uninstalling and reinstalling.
+
 
 ## Notes
 
@@ -33,7 +52,11 @@ Alphabetic characters are replaced with Greek, numbers are replaced with countin
 Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
 
+
 ## Changelog
+
++ **4.1:**
+Adds double hyphen.
 
 + **4.0:**
 Removes most IPA letters, as well as Runic characters (which never got much use).
