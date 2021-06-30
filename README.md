@@ -1,6 +1,6 @@
 # Kibben Keyboard for macOS
 
-This repository contains a handwritten macOS Keyboard Bundle for the input of English text using the [Kibben Orthography](https://go.KIBI.family/Documents/kibben.xhtml).
+This repository contains a handwritten macOS Keyboard Bundle for the input of English text, with support for a wide variety of special characters and diacritics.
 
 ## Installation
 
@@ -22,8 +22,8 @@ The Kibben keyboard will be available (as “Kybn”) under the English category
 
 ## Notes
 
-+ Caps Lock switches the keyboard into Runic input.
-Additional runic characters are located at the beginning and end of the number row.
++ Caps Lock switches the keyboard into numeral input.
+Alphabetic characters are replaced with Greek, numbers are replaced with counting rod numerals, and other punctuation is replaced with Roman numerals.
 
 + The keyboard is the same as a typical US keyboard layout when Caps Lock is active and the Option key is held down.
 
@@ -34,6 +34,10 @@ Shift+Option+Space produces an ordinary nonbreaking space.
 So, be sure to release Option if your intent is to type a breaking interword space.
 
 ## Changelog
+
++ **4.0:**
+Removes most IPA letters, as well as Runic characters (which never got much use).
+Adds additional symbols and numerals (including Greek) in their place.
 
 + **3.6:**
 Replaces duplicate pound sign with missing double vertical bar.
