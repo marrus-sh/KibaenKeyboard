@@ -668,27 +668,27 @@
 			<key code="21" output="𝍢"/>
 			<key code="22" output="𝍤"/>
 			<key code="23" output="𝍣"/>
-			<key code="24" output="v"/>
+			<key code="24" output="ⅴ"/>
 			<key code="25" output="𝍧"/>
 			<key code="26" output="𝍥"/>
-			<key code="27" output="i"/>
+			<key code="27" output="ⅰ"/>
 			<key code="28" output="𝍦"/>
 			<key code="29" output="𝍨"/>
-			<key code="30" output="l"/>
+			<key code="30" output="ⅼ"/>
 			<key code="31" output="ο"/>
 			<key code="32" output="θ"/>
-			<key code="33" output="x"/>
+			<key code="33" output="ⅹ"/>
 			<key code="34" output="ι"/>
 			<key code="35" output="π"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="λ"/>
 			<key code="38" output="ξ"/>
-			<key code="39" output="c"/>
+			<key code="39" output="ⅽ"/>
 			<key code="40" output="κ"/>
 			<key code="41" output="ϡ"/>
-			<key code="42" output="ↄ"/>
+			<key code="42" output="ⅾ"/>
 			<key code="43" output="‐"/>
-			<key code="44" output="n"/>
+			<key code="44" output="ⅿ"/>
 			<key code="45" output="ν"/>
 			<key code="46" output="μ"/>
 			<key code="47" output="·"/>
@@ -773,27 +773,27 @@
 			<key code="21" output="𝍫"/>
 			<key code="22" output="𝍭"/>
 			<key code="23" output="𝍬"/>
-			<key code="24" output="V"/>
+			<key code="24" output="Ⅴ"/>
 			<key code="25" output="𝍰"/>
 			<key code="26" output="𝍮"/>
-			<key code="27" output="I"/>
+			<key code="27" output="Ⅰ"/>
 			<key code="28" output="𝍯"/>
 			<key code="29" output="𝍱"/>
-			<key code="30" output="L"/>
+			<key code="30" output="Ⅼ"/>
 			<key code="31" output="Ο"/>
 			<key code="32" output="Θ"/>
-			<key code="33" output="X"/>
+			<key code="33" output="Ⅹ"/>
 			<key code="34" output="Ι"/>
 			<key code="35" output="Π"/>
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="Λ"/>
 			<key code="38" output="Ξ"/>
-			<key code="39" output="C"/>
+			<key code="39" output="Ⅽ"/>
 			<key code="40" output="Κ"/>
 			<key code="41" output="Ϡ"/>
-			<key code="42" output="Ↄ"/>
+			<key code="42" output="Ⅾ"/>
 			<key code="43" output=","/>
-			<key code="44" output="N"/>
+			<key code="44" output="Ⅿ"/>
 			<key code="45" output="Ν"/>
 			<key code="46" output="Μ"/>
 			<key code="47" output="."/>
